@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist@2.19.0/plotly.min.js"></script>
+    <title>Admin - Scraping Data</title>
+  </head>
+  <body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h4 class="text-center">Admin Panel</h4>
+      <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
+      <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a>
+      <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
+      <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
+      <a href="/open_data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_uji" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin - Analisa Sentimen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Scraping Form -->
+      <div class="container-fluid mt-5">
+        <!-- Plotly Graph for Sentiment Frequency -->
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h1 class="text-center mb-4">Hasil Analisa</h1>
+                  <div class="text-right">
+                    <button class="btn btn-primary btn-sm" id="predictButton">Prediksi Ulang</button>  
+                  </div>
+                  <br>
+                  <!-- Table Container with Parallax Scrolling -->
+                  <div class="table-container"> 
+                    <table class="table custom-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Komentar</th>
+                          <th scope="col">Prediksi Sentimen</th>
+                        </tr>
+                      </thead>
+                      <tbody id="data_scraping">
+                        <!-- Data from API will be injected here -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-center">Sentiment Frequency</h3>
+                  <div id="sentimentChart"></div>
+                </div>
+              </div>
+              <br>
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-center">SVM Hyperplane</h3>
+                  <img src="{{ url_for('static', filename='graph/train_svm_manual.png') }}" alt="" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        <div id="responseMessage" class="mt-4"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+    $.ajax({
+        url: '/show_classification_results',  // Your API endpoint
+        type: 'GET',
+        success: function(response) {
+            // Initialize an object to hold sentiment frequencies
+            const sentimentFrequency = {
+                positif: 0,
+                negatif: 0,
+                netral: 0
+            };
+
+            console.log(response);
+
+            // Populate table with API data
+            const tableBody = $('#data_scraping');
+            response.data_result.forEach((item, index) => {
+                const prediksiSentimen = item.prediksi_sentimen;  // No need to check for NaN anymore
+
+                const row = `
+                    <tr>
+                        <th scope="row">${index + 1}</th>
+                        <td>${item.komentar}</td>
+                        <td>${prediksiSentimen}</td>
+                    </tr>
+                `;
+                tableBody.append(row);
+
+                // Count sentiment frequency
+                if (prediksiSentimen === 'positif') {
+                    sentimentFrequency.positif++;
+                } else if (prediksiSentimen === 'negatif') {
+                    sentimentFrequency.negatif++;
+                } 
+            });
+
+            // Render Plotly chart for sentiment frequency
+            const sentimentData = {
+                x: ['Positive', 'Negative'], // Sentiment labels
+                y: [sentimentFrequency.positif, sentimentFrequency.negatif, sentimentFrequency.netral], // Frequency of each sentiment
+                type: 'bar', // Bar chart type
+                marker: {
+                    color: ['#28a745', '#dc3545', '#ffc107'] // Colors for each bar
+                }
+            };
+
+            const layout = {
+                title: 'Sentiment Frequency Distribution',
+                height: 500,
+                xaxis: {
+                    title: 'Sentiment'
+                },
+                yaxis: {
+                    title: 'Frequency'
+                }
+            };
+
+            Plotly.newPlot('sentimentChart', [sentimentData], layout);
+        },
+        error: function(error) {
+            console.error('Error fetching data:', error);
+            $('#responseMessage').html('<div class="alert alert-danger">Failed to load data.</div>');
+        }
+    });
+});
+
+
+    </script>
+
+  </body>
+</html>

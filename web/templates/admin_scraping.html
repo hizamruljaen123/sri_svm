@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Admin - Scraping Data</title>
+  </head>
+  <body>
+
+    <style>
+      /* Loading Screen Style */
+#loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's above other content */
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border-width: 0.25em;
+}
+
+.spinner-border text-light {
+  color: white;
+}
+
+#loadingScreen p {
+  color: white;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+    </style>
+
+<div id="loadingScreen" style="display: none;">
+  
+  <p>Mengambil Review....</p>
+</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h4 class="text-center">Admin Panel</h4>
+      <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
+      <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a>
+      <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
+      <a href="/open_data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_uji" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
+    </div>
+
+    <!-- Content Area -->
+    <div class="content">
+      <!-- Loading Screen (Spinner) -->
+
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Admin - Scraping Data</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Scraping Form -->
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center mb-4">Scraping Data</h1>
+                <br>
+                <div id="responseMessage" class="mt-4"></div>
+                <form id="scrapeForm">
+                  <div class="form-group">
+                    <label for="playstoreUrl">Play Store URL</label>
+                    <input type="url" class="form-control" id="playstoreUrl" placeholder="Masukkan URL aplikasi dari Play Store" required>
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="numReviews">Jumlah Ulasan</label>
+                    <input type="number" class="form-control" id="numReviews" placeholder="Masukkan jumlah ulasan yang ingin di-scrape" value="100" required>
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="lang">Bahasa</label>
+                    <input type="text" class="form-control" id="lang" placeholder="Masukkan kode bahasa (misal: id untuk Indonesia)" value="id" required>
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="country">Negara</label>
+                    <input type="text" class="form-control" id="country" placeholder="Masukkan kode negara (misal: id untuk Indonesia)" value="id" required>
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="dataType">Jenis Data</label>
+                    <select class="form-control" id="dataType" required>
+                      <option value="latih">Data Latih</option>
+                      <option value="uji">Data Uji</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-block">Mulai Scraping</button>
+
+                  <!-- Button to delete 'latih' file -->
+                  <button class="btn btn-danger btn-block" onclick="deleteDataLatih()">Hapus Data Latih</button>
+
+                  <!-- Button to delete 'uji' file -->
+                  <button class="btn btn-danger btn-block" onclick="deleteDataUji()">Hapus Data Uji</button>
+
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center mb-4">Hasil Scrapping</h1>
+                <div class="text-right">
+                  <button class="btn btn-primary" id="saveButton" style="display:none;">Simpan</button>
+                </div>
+                <table class="table custom-table" id="scrapedDataTable">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">User</th>
+                      <th scope="col">Komentar</th>
+                      <th scope="col">Rating</th>
+                      <th scope="col" id="labelColumn" style="display:none;">Label</th>
+                    </tr>
+                  </thead>
+                  <tbody id="data_scarpping"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('scrapeForm').addEventListener('submit', async function(event) {
+        event.preventDefault();
+    
+        const playstoreUrl = document.getElementById('playstoreUrl').value;
+        const numReviews = document.getElementById('numReviews').value;
+        const lang = document.getElementById('lang').value;
+        const country = document.getElementById('country').value;
+        const dataType = document.getElementById('dataType').value;
+    
+        const requestData = {
+          playstore_url: playstoreUrl,
+          num_reviews: parseInt(numReviews),
+          lang: lang,
+          country: country,
+          data_type: dataType
+        };
+    
+        // Show loading screen
+        document.getElementById('loadingScreen').style.display = 'block';
+    
+        try {
+          const response = await fetch('/scrape_reviews', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(requestData),
+          });
+    
+          const result = await response.json();
+          const responseDiv = document.getElementById('responseMessage');
+    
+          // Hide loading screen
+          document.getElementById('loadingScreen').style.display = 'none';
+    
+          if (response.status === 200) {
+            responseDiv.innerHTML = `<div class="alert alert-success">${result.message}</div>`;
+    
+            // Display scraped data in table
+            const tableBody = document.getElementById('data_scarpping');
+            tableBody.innerHTML = '';  // Clear previous rows
+    
+            result.head_data.forEach((row, index) => {
+              const tableRow = document.createElement('tr');
+              tableRow.innerHTML = `
+                <th scope="row">${index + 1}</th>
+                <td>${row.user}</td>
+                <td>${row.komentar}</td>
+                <td>${row.rating}</td>
+                ${dataType === 'latih' ? `<td>${row.label}</td>` : ''}
+              `;
+              tableBody.appendChild(tableRow);
+            });
+    
+            // Show or hide "Label" column and Save button based on data type
+            document.getElementById('labelColumn').style.display = (dataType === 'latih') ? '' : 'none';
+            document.getElementById('saveButton').style.display = 'inline-block';
+          } else {
+            responseDiv.innerHTML = `<div class="alert alert-danger">Error: ${result.message}</div>`;
+          }
+        } catch (error) {
+          // Hide loading screen if an error occurs
+          document.getElementById('loadingScreen').style.display = 'none';
+          document.getElementById('responseMessage').innerHTML = `<div class="alert alert-danger">Terjadi kesalahan: ${error.message}</div>`;
+        }
+      });
+
+      async function deleteDataLatih() {
+    try {
+      const response = await fetch('/delete_data_latih', {
+        method: 'GET'
+      });
+
+      const result = await response.json();
+
+      if (response.status === 200) {
+        // Show alert and refresh the page
+        alert(result.message);
+        location.reload();  // Refresh the page
+      } else {
+        // Show error alert
+        alert(result.message);
+      }
+    } catch (error) {
+      alert('Terjadi kesalahan: ' + error.message);
+    }
+  }
+
+  // Function to delete the "uji" file
+  async function deleteDataUji() {
+    try {
+      const response = await fetch('/delete_data_uji', {
+        method: 'GET'
+      });
+
+      const result = await response.json();
+
+      if (response.status === 200) {
+        // Show alert and refresh the page
+        alert(result.message);
+        location.reload();  // Refresh the page
+      } else {
+        // Show error alert
+        alert(result.message);
+      }
+    } catch (error) {
+      alert('Terjadi kesalahan: ' + error.message);
+    }
+  }
+    </script>
+    
+  </body>
+</html>
