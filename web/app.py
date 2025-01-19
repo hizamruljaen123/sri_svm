@@ -20,6 +20,8 @@ from flask_cors import CORS
 from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
 import subprocess
+from sklearn.svm import SVC
+
 
 app = Flask(__name__)
 CORS(app)
@@ -271,7 +273,7 @@ def route_predict_svm():
     """
     Endpoint untuk melakukan prediksi pada data uji (data_uji_test.xlsx) 
     menggunakan model SVM yang sudah disimpan (svm_model.pkl & vectorizer.pkl).
-    Hanya menampilkan hasil analisis sentimen (positif atau negatif).
+    Menyimpan hasil analisis sentimen (positif atau negatif) ke dalam file 'classification_results.xlsx'.
     """
     # Load the data from the uploaded file
     data_test = pd.read_excel("data_uji_test.xlsx")  # Data uji tanpa label
@@ -303,17 +305,15 @@ def route_predict_svm():
     label_map_reverse = {1: "positif", -1: "negatif"}
     data_test["prediksi_sentimen"] = data_test["prediksi_label"].map(label_map_reverse)
 
-    # Create summary
-    sentiment_counts = data_test["prediksi_sentimen"].value_counts().to_dict()
-    predictions_data = data_test[["komentar", "prediksi_sentimen"]].to_dict(orient='records')
+    # Save the results to 'classification_results.xlsx'
+    data_test[['komentar', 'prediksi_sentimen']].to_excel("classification_results.xlsx", index=False)
 
-    response = {
+    # Return the response with a message indicating successful operation
+    return jsonify({
         "status": "success",
-        "message": "Prediksi dengan SVM (pickle) selesai.",
-        "sentiment_distribution": sentiment_counts,
-        "predictions": predictions_data
-    }
-    return jsonify(response)
+        "message": "Prediksi dengan SVM (pickle) selesai dan hasil disimpan di 'classification_results.xlsx'."
+    })
+
 
 def extract_app_id(playstore_url):
     parsed_url = urlparse(playstore_url)

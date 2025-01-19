@@ -84,7 +84,14 @@
               <div class="card">
                 <div class="card-body">
                   <h3 class="text-center">SVM Hyperplane</h3>
-                  <img src="{{ url_for('static', filename='graph/train_svm_manual.png') }}" alt="" width="100%">
+                  <div class="text-right">
+                    <button class="btn btn-primary btn-sm" id="trainingModel">Training Model</button>  
+                  </div>
+
+                  <div class="modelGraph">
+                    <img src="{{ url_for('static', filename='graph/train_svm_manual.png') }}" alt="" width="100%">
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -98,72 +105,127 @@
 
     <script>
       $(document).ready(function() {
-    $.ajax({
-        url: '/show_classification_results',  // Your API endpoint
-        type: 'GET',
-        success: function(response) {
-            // Initialize an object to hold sentiment frequencies
-            const sentimentFrequency = {
-                positif: 0,
-                negatif: 0,
-                netral: 0
-            };
 
-            console.log(response);
+        // Event listener for the "Training Model" button
+        $(document).ready(function() {
+        // Event listener for the "Training Model" button
+        $('#trainingModel').click(function() {
+            // Show a loading message
+            $('#responseMessage').html('<div class="alert alert-info">Training model sedang berjalan...</div>');
 
-            // Populate table with API data
-            const tableBody = $('#data_scraping');
-            response.data_result.forEach((item, index) => {
-                const prediksiSentimen = item.prediksi_sentimen;  // No need to check for NaN anymore
+            // Send an AJAX request to the /train_svm_manual route
+            $.ajax({
+                url: '/train_svm_manual',  // Endpoint for training the model
+                type: 'GET',
+                success: function(response) {
+                    // Display the success message
+                    $('#responseMessage').html('<div class="alert alert-success">Training model selesai!</div>');
 
-                const row = `
-                    <tr>
-                        <th scope="row">${index + 1}</th>
-                        <td>${item.komentar}</td>
-                        <td>${prediksiSentimen}</td>
-                    </tr>
-                `;
-                tableBody.append(row);
+                    // Update the modelGraph div with the new graph path
+                    $('.modelGraph').html('<img src="' + response.graph_path + '" alt="SVM Hyperplane Graph" width="100%">');
 
-                // Count sentiment frequency
-                if (prediksiSentimen === 'positif') {
-                    sentimentFrequency.positif++;
-                } else if (prediksiSentimen === 'negatif') {
-                    sentimentFrequency.negatif++;
-                } 
-            });
-
-            // Render Plotly chart for sentiment frequency
-            const sentimentData = {
-                x: ['Positive', 'Negative'], // Sentiment labels
-                y: [sentimentFrequency.positif, sentimentFrequency.negatif, sentimentFrequency.netral], // Frequency of each sentiment
-                type: 'bar', // Bar chart type
-                marker: {
-                    color: ['#28a745', '#dc3545', '#ffc107'] // Colors for each bar
-                }
-            };
-
-            const layout = {
-                title: 'Sentiment Frequency Distribution',
-                height: 500,
-                xaxis: {
-                    title: 'Sentiment'
+                    // Reload the page after 2 seconds to reflect changes
+                    setTimeout(function() {
+                        location.reload();  // Reload the page
+                    }, 2000); // 2 seconds delay before reloading
                 },
-                yaxis: {
-                    title: 'Frequency'
+                error: function(error) {
+                    // Show error message if the training fails
+                    console.error('Error during training:', error);
+                    $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat training model.</div>');
                 }
-            };
-
-            Plotly.newPlot('sentimentChart', [sentimentData], layout);
-        },
-        error: function(error) {
-            console.error('Error fetching data:', error);
-            $('#responseMessage').html('<div class="alert alert-danger">Failed to load data.</div>');
-        }
+            });
+        });
     });
-});
 
+        // Fetch and display data on page load
+        function loadData() {
+          $.ajax({
+            url: '/show_classification_results',  // Your API endpoint
+            type: 'GET',
+            success: function(response) {
+                // Initialize an object to hold sentiment frequencies
+                const sentimentFrequency = {
+                    positif: 0,
+                    negatif: 0,
+                    netral: 0
+                };
 
+                console.log(response);
+
+                // Populate table with API data
+                const tableBody = $('#data_scraping');
+                tableBody.empty(); // Clear previous data
+                response.data_result.forEach((item, index) => {
+                    const prediksiSentimen = item.prediksi_sentimen;
+
+                    const row = `
+                        <tr>
+                            <th scope="row">${index + 1}</th>
+                            <td>${item.komentar}</td>
+                            <td>${prediksiSentimen}</td>
+                        </tr>
+                    `;
+                    tableBody.append(row);
+
+                    // Count sentiment frequency
+                    if (prediksiSentimen === 'positif') {
+                        sentimentFrequency.positif++;
+                    } else if (prediksiSentimen === 'negatif') {
+                        sentimentFrequency.negatif++;
+                    } 
+                });
+
+                // Render Plotly chart for sentiment frequency
+                const sentimentData = {
+                    x: ['Positive', 'Negative'], // Sentiment labels
+                    y: [sentimentFrequency.positif, sentimentFrequency.negatif, sentimentFrequency.netral], // Frequency of each sentiment
+                    type: 'bar', // Bar chart type
+                    marker: {
+                        color: ['#28a745', '#dc3545', '#ffc107'] // Colors for each bar
+                    }
+                };
+
+                const layout = {
+                    title: 'Sentiment Frequency Distribution',
+                    height: 500,
+                    xaxis: {
+                        title: 'Sentiment'
+                    },
+                    yaxis: {
+                        title: 'Frequency'
+                    }
+                };
+
+                Plotly.newPlot('sentimentChart', [sentimentData], layout);
+            },
+            error: function(error) {
+                console.error('Error fetching data:', error);
+                $('#responseMessage').html('<div class="alert alert-danger">Failed to load data.</div>');
+            }
+          });
+        }
+
+        // Initial load
+        loadData();
+
+        // On click of 'Prediksi Ulang' button
+        $('#predictButton').click(function() {
+          $.ajax({
+            url: '/predict_svm',  // Trigger prediction
+            type: 'GET',
+            success: function(response) {
+                // Reload page after prediction is done
+                $('#responseMessage').html('<div class="alert alert-success">Prediksi ulang berhasil!</div>');
+                loadData(); // Reload the table and chart with new data
+            },
+            error: function(error) {
+                console.error('Error during prediction:', error);
+                $('#responseMessage').html('<div class="alert alert-danger">Error during prediction.</div>');
+            }
+          });
+        });
+      });
     </script>
 
   </body>
