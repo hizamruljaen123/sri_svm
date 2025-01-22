@@ -21,6 +21,8 @@ from sklearn.manifold import TSNE
 from sklearn.preprocessing import StandardScaler
 import subprocess
 from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+import seaborn as sns
 
 
 app = Flask(__name__)
@@ -65,6 +67,63 @@ def predict_svm_manual(X, weights, bias):
     linear_output = np.dot(X, weights) - bias
     return np.sign(linear_output)
 
+
+
+def evaluate_model(X_train, y_train, X_test, y_test, model):
+    
+    # Predictions for both training and testing data
+    y_train_pred = model.predict(X_train)
+    y_test_pred = model.predict(X_test)
+
+    # Calculating evaluation metrics for multiclass
+    accuracy_train = accuracy_score(y_train, y_train_pred)
+    precision_train = precision_score(y_train, y_train_pred, average='weighted')
+    recall_train = recall_score(y_train, y_train_pred, average='weighted')
+    f1_train = f1_score(y_train, y_train_pred, average='weighted')
+
+    accuracy_test = accuracy_score(y_test, y_test_pred)
+    precision_test = precision_score(y_test, y_test_pred, average='weighted')
+    recall_test = recall_score(y_test, y_test_pred, average='weighted')
+    f1_test = f1_score(y_test, y_test_pred, average='weighted')
+
+    # Confusion matrices
+    cm_train = confusion_matrix(y_train, y_train_pred)
+    cm_test = confusion_matrix(y_test, y_test_pred)
+
+    # Plotting confusion matrix for training data
+    plt.figure(figsize=(6, 6))
+    sns.heatmap(cm_train, annot=True, fmt='d', cmap='Blues', xticklabels=['Negatif', 'Netral', 'Positif'], yticklabels=['Negatif', 'Netral', 'Positif'])
+    plt.title('Confusion Matrix - Training Data')
+    plt.xlabel('Predictions')
+    plt.ylabel('Actual')
+    cm_train_img_path = 'static/graph/confusion_matrix_train.png'
+    plt.savefig(cm_train_img_path)
+    plt.close()
+
+    # Plotting confusion matrix for testing data
+    plt.figure(figsize=(6, 6))
+    sns.heatmap(cm_test, annot=True, fmt='d', cmap='Blues', xticklabels=['Negatif', 'Netral', 'Positif'], yticklabels=['Negatif', 'Netral', 'Positif'])
+    plt.title('Confusion Matrix - Testing Data')
+    plt.xlabel('Predictions')
+    plt.ylabel('Actual')
+    cm_test_img_path = 'static/graph/confusion_matrix_test.png'
+    plt.savefig(cm_test_img_path)
+    plt.close()
+
+    # Returning evaluation metrics and confusion matrix image paths for both datasets
+    return {
+        "accuracy_train": accuracy_train,
+        "precision_train": precision_train,
+        "recall_train": recall_train,
+        "f1_train": f1_train,
+        "accuracy_test": accuracy_test,
+        "precision_test": precision_test,
+        "recall_test": recall_test,
+        "f1_test": f1_test,
+        "confusion_matrix_train_path": cm_train_img_path,
+        "confusion_matrix_test_path": cm_test_img_path
+    }
+
 def fig_to_base64(fig):
     """
     Mengubah figure matplotlib menjadi string base64
@@ -97,6 +156,70 @@ def show_data_latih():
     if "komentar" in df.columns:
         df["processed_komentar"] = df["komentar"].apply(preprocess_comment)
     return jsonify(df.to_dict(orient='records'))
+
+@app.route('/evaluate_model', methods=['GET'])
+def evaluate_model_route():
+    """
+    Endpoint for evaluating the SVM model with both training and test data
+    and generating evaluation metrics and confusion matrix images for both datasets.
+    """
+    # Load training and test data
+    data_train = pd.read_excel("data_latih_labeled.xlsx")
+    data_test = pd.read_excel("data_uji_test.xlsx")
+
+    # Preprocessing the training and test data
+    X_train = data_train["komentar"].apply(preprocess_comment)
+    X_test = data_test["komentar"].apply(preprocess_comment)
+
+    # Load the vectorizer used during training
+    with open("vectorizer.pkl", "rb") as f_vec:
+        vectorizer = pickle.load(f_vec)
+
+    # Vectorize the training and test data using the same vectorizer
+    X_train_vec = vectorizer.transform(X_train).toarray()
+    X_test_vec = vectorizer.transform(X_test).toarray()
+
+    # Labels for training data
+    y_train = data_train["label"].map({"positif": 1, "negatif": -1})
+    
+    # For test data, map ratings to sentiment labels
+    def map_rating_to_sentiment(rating):
+        if rating in [1, 2]:
+            return "negatif"
+        elif rating == 3:
+            return "netral"
+        elif rating in [4, 5]:
+            return "positif"
+
+    data_test["sentimen"] = data_test["rating"].apply(map_rating_to_sentiment)
+    y_test = data_test["sentimen"].map({"positif": 1, "negatif": -1})
+
+    # Handle NaN values by replacing them with 0 (or another value as needed)
+    y_train = y_train.fillna(0)
+    y_test = y_test.fillna(0)
+
+    # Load the pre-trained SVM model
+    with open("svm_model.pkl", "rb") as f_model:
+        svm_model = pickle.load(f_model)
+
+    # Evaluate the model
+    evaluation_results = evaluate_model(X_train_vec, y_train, X_test_vec, y_test, svm_model)
+    
+    # Return evaluation results and confusion matrix image paths
+    return jsonify({
+        "status": "success",
+        "accuracy_train": evaluation_results["accuracy_train"],
+        "precision_train": evaluation_results["precision_train"],
+        "recall_train": evaluation_results["recall_train"],
+        "f1_train": evaluation_results["f1_train"],
+        "accuracy_test": evaluation_results["accuracy_test"],
+        "precision_test": evaluation_results["precision_test"],
+        "recall_test": evaluation_results["recall_test"],
+        "f1_test": evaluation_results["f1_test"],
+        "confusion_matrix_train_path": evaluation_results["confusion_matrix_train_path"],
+        "confusion_matrix_test_path": evaluation_results["confusion_matrix_test_path"]
+    })
+
 
 
 # ---------------------

@@ -18,30 +18,14 @@
       <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
       <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a>
       <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
-      <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
-      <a href="/open_data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
-      <a href="/open_data_uji" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
+      <a href="/data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Data Latih</a>
+      <a href="/open_data_latih" target="_blank"  class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_uji" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
     </div>
 
     <!-- Content Area -->
     <div class="content">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Admin - Analisa Sentimen</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      
 
       <!-- Scraping Form -->
       <div class="container-fluid mt-5">
@@ -98,13 +82,58 @@
           </div>
         <div id="responseMessage" class="mt-4"></div>
       </div>
-    </div>
+      <br>
+      <div class="container-fluid mt-5">
+        <div class="text-right">
+          <button class="btn btn-danger btn-sm" onclick="reloadEvaluation()">Reload Evaluation</button>
+        </div>
+        <div class="row">
+            <!-- Training Data Table -->
+            <div class="col-md-6">
+                <h3>Training Data Evaluation</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="trainMetrics">
+                        <!-- Training data metrics will be added here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Test Data Table -->
+            <div class="col-md-6">
+                <h3>Test Data Evaluation</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Metric</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody id="testMetrics">
+                        <!-- Test data metrics will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+        <br>
+        <!-- Confusion Matrices -->
+        <div class="row mt-4" id="confusionMatrices">
+          <!-- Confusion matrices will be appended here -->
+      </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
       $(document).ready(function() {
+        
 
         // Event listener for the "Training Model" button
         $(document).ready(function() {
@@ -137,6 +166,8 @@
             });
         });
     });
+
+    
 
         // Fetch and display data on page load
         function loadData() {
@@ -208,6 +239,8 @@
 
         // Initial load
         loadData();
+        fetchEvaluationResults();
+        
 
         // On click of 'Prediksi Ulang' button
         $('#predictButton').click(function() {
@@ -226,6 +259,98 @@
           });
         });
       });
+       // Function to fetch data from the evaluation API and display it in tables
+       function fetchEvaluationResults() {
+            // Replace with your API endpoint
+            const apiEndpoint = "/evaluate_model"; 
+
+            fetch(apiEndpoint)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === "success") {
+                        displayMetrics(data);
+                    } else {
+                        console.error('Failed to fetch data');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Function to display the metrics in Bootstrap 4 tables
+        function displayMetrics(data) {
+            const trainMetricsContainer = document.getElementById('trainMetrics');
+            const testMetricsContainer = document.getElementById('testMetrics');
+
+            // Create rows for Training Data Table
+            const trainMetrics = [
+                { label: "Accuracy", value: data.accuracy_train },
+                { label: "Precision", value: data.precision_train },
+                { label: "Recall", value: data.recall_train },
+                { label: "F1 Score", value: data.f1_train }
+            ];
+
+            // Append rows for Training Data
+            trainMetrics.forEach(metric => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${metric.label}</td>
+                    <td>${metric.value.toFixed(4)}</td>
+                `;
+                trainMetricsContainer.appendChild(row);
+            });
+
+            // Create rows for Test Data Table
+            const testMetrics = [
+                { label: "Accuracy", value: data.accuracy_test },
+                { label: "Precision", value: data.precision_test },
+                { label: "Recall", value: data.recall_test },
+                { label: "F1 Score", value: data.f1_test }
+            ];
+
+            // Append rows for Test Data
+            testMetrics.forEach(metric => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${metric.label}</td>
+                    <td>${metric.value.toFixed(4)}</td>
+                `;
+                testMetricsContainer.appendChild(row);
+            });
+
+            // Add confusion matrix images
+            const confusionMatricesContainer = document.getElementById('confusionMatrices');
+            const imageContainerTrain = document.createElement('div');
+            imageContainerTrain.classList.add('col-md-6', 'mb-4');
+            imageContainerTrain.innerHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Confusion Matrix (Train)</h5>
+                        <img src="${data.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
+                    </div>
+                </div>
+            `;
+            confusionMatricesContainer.appendChild(imageContainerTrain);
+
+            const imageContainerTest = document.createElement('div');
+            imageContainerTest.classList.add('col-md-6', 'mb-4');
+            imageContainerTest.innerHTML = `
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Confusion Matrix (Test)</h5>
+                        <img src="${data.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
+                    </div>
+                </div>
+            `;
+            confusionMatricesContainer.appendChild(imageContainerTest);
+        }
+
+        function reloadEvaluation() {
+        // Call the function to fetch evaluation results
+        fetchEvaluationResults();
+
+        // Show alert after calling fetchEvaluationResults
+        alert('Reload Berhasil');
+    }
     </script>
 
   </body>
