@@ -3,14 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-
-    <title>Admin - Scraping Data</title>
+    <title>Admin - TF-IDF Results</title>
   </head>
   <body>
-
     <!-- Sidebar -->
     <div class="sidebar">
       <h4 class="text-center">Admin Panel</h4>
@@ -22,68 +19,50 @@
       <a href="/open_data_latih" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
       <a href="/open_data_uji" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
     </div>
-
     <!-- Content Area -->
     <div class="content">
-      
-
-      <!-- Scraping Form -->
+      <!-- TF-IDF Results -->
       <div class="container-fluid mt-5">
         <div class="row">
-          
           <div class="col-md-12">
             <div class="card">
               <div class="card-body">
-                <h1 class="text-center mb-4">Data Uji</h1>
-                <div class="text-right">
-                  <button class="btn btn-primary">Simpan</button>
+                <h1 class="text-center mb-4">Hasil TF-IDF</h1>
+                <div class="row">
+                  <!-- Text Area for Training Data -->
+                  <div class="col-md-6">
+                    <h4>Data Latih (TF-IDF)</h4>
+                    <textarea id="tfidf-train" class="form-control" rows="35" readonly></textarea>
+                  </div>
+                  <!-- Text Area for Test Data -->
+                  <div class="col-md-6">
+                    <h4>Data Uji (TF-IDF)</h4>
+                    <textarea id="tfidf-test" class="form-control" rows="35" readonly></textarea>
+                  </div>
                 </div>
-                <table class="table custom-table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">User</th>
-                      <th scope="col">Komentar</th>
-                      <th scope="col">Rating</th>
-                      
-                    </tr>
-                  </thead>
-                  <tbody id="data_scraping">
-                    <!-- Data from API will be injected here -->
-                  </tbody>
-                </table>
               </div>
             </div>
           </div>
         </div>
-        <div id="responseMessage" class="mt-4"></div>
       </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
     <script>
-      // Fetching data from /show_data_uji API
+      // Fetch and display TF-IDF results from the server
       window.onload = async function() {
         try {
-          const response = await fetch('/show_data_uji');
-          const data = await response.json();
+          // Fetch TF-IDF training data
+          const trainResponse = await fetch('/static/tfidf_train.txt');
+          const trainText = await trainResponse.text();
+          document.getElementById('tfidf-train').value = trainText;
 
-          // Populate table with API data
-          const tableBody = document.getElementById('data_scraping');
-          data.forEach((item, index) => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-              <th scope="row">${index + 1}</th>
-              <td>${item.user}</td>
-              <td>${item.komentar}</td>
-              <td>${item.rating}</td>
-            `;
-            tableBody.appendChild(row);
-          });
+          // Fetch TF-IDF test data
+          const testResponse = await fetch('/static/tfidf_test.txt');
+          const testText = await testResponse.text();
+          document.getElementById('tfidf-test').value = testText;
         } catch (error) {
-          console.error('Error fetching data:', error);
+          console.error('Error fetching TF-IDF data:', error);
         }
       };
     </script>

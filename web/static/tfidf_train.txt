@@ -1,0 +1,4696 @@
+Dokumen 0:
+- buka: 0.3764
+- ngga: 0.7363
+- perbarui: 0.5623
+
+Dokumen 1:
+- aja: 0.3107
+- banget: 0.3141
+- dlonlot: 0.4516
+- gimana: 0.3449
+- lhat: 0.4516
+- susah: 0.3394
+- tube: 0.2842
+- you: 0.2864
+
+Dokumen 2:
+- bantuannya: 0.3342
+- buka: 0.1709
+- dn: 0.3021
+- gk: 0.4551
+- kebuka: 0.2761
+- kenpa: 0.3154
+- mohon: 0.2700
+- perbaiki: 0.2645
+- tolong: 0.2103
+- udah: 0.2552
+- upate: 0.3342
+- youtube: 0.1457
+
+Dokumen 3:
+- aplikasi: 0.5872
+- instal: 0.8095
+
+Dokumen 4:
+- susah: 1.0000
+
+Dokumen 5:
+- aplikasi: 0.2460
+- diperbaharui: 0.3873
+- hpku: 0.4103
+- muncul: 0.3873
+- obyekv: 0.4103
+- sll: 0.4103
+- tube: 0.2583
+- you: 0.2603
+
+Dokumen 6:
+- youtube: 1.0000
+
+Dokumen 7:
+- akurat: 0.5795
+- cepat: 0.5360
+- informasinya: 0.6140
+
+Dokumen 8:
+
+Dokumen 9:
+- ilmu: 0.6491
+- senang: 0.5678
+- yg: 0.5062
+
+Dokumen 10:
+- coba: 0.6178
+- deh: 0.6178
+- puas: 0.4865
+
+Dokumen 11:
+- bhka: 0.4034
+- f5: 0.4034
+- ga: 0.2668
+- oppo: 0.4034
+- parahh: 0.4034
+- udh: 0.3646
+- ytb: 0.3807
+
+Dokumen 12:
+
+Dokumen 13:
+- mantap: 1.0000
+
+Dokumen 14:
+- fpsnya: 0.7071
+- stabil: 0.7071
+
+Dokumen 15:
+- buka: 0.3923
+- ga: 0.5075
+- youtobenya: 0.7672
+
+Dokumen 16:
+- buka: 0.1833
+- eror: 0.2738
+- gak: 0.1976
+- kadang: 0.3039
+- karna: 0.2896
+- menarik: 0.3241
+- sayang: 0.3241
+- senang: 0.2738
+- youtube: 0.6254
+
+Dokumen 17:
+- uj: 1.0000
+
+Dokumen 18:
+- diputar: 0.4950
+- galaxi: 0.4950
+- j5: 0.4950
+- samsung: 0.4672
+- youtube: 0.2159
+
+Dokumen 19:
+- usaha: 1.0000
+
+Dokumen 20:
+- puas: 1.0000
+
+Dokumen 21:
+- iklan: 0.2852
+- insetal: 0.3905
+- kalo: 0.6068
+- macet: 0.3685
+- nonton: 0.5120
+
+Dokumen 22:
+- aja: 0.2008
+- bahasa: 0.2754
+- berubah: 0.1459
+- bug: 0.1179
+- cece: 0.1459
+- data: 0.1319
+- edit: 0.1459
+- gak: 0.2412
+- gw: 0.1274
+- hapus: 0.1319
+- indo: 0.1459
+- indonesia: 0.1377
+- inggris: 0.2918
+- khusus: 0.1377
+- komentar: 0.3711
+- maret: 0.1459
+- meluangkan: 0.1459
+- menonton: 0.1319
+- nonton: 0.0957
+- penyimpanan: 0.1459
+- suka: 0.0905
+- terganggu: 0.1459
+- terjemahkan: 0.2918
+- tetep: 0.1377
+- translate: 0.1459
+- tube: 0.0918
+- udh: 0.2638
+- update: 0.0864
+- video: 0.2008
+- waktuku: 0.1459
+- yg: 0.0993
+- you: 0.0925
+- youtube: 0.0636
+
+Dokumen 23:
+- aja: 0.2433
+- blokirin: 0.3536
+- iklan: 0.2582
+- judi: 0.3536
+- judol: 0.3337
+- live: 0.3337
+- meresahkan: 0.3536
+- nya: 0.1999
+- online: 0.3337
+- tampilkan: 0.3536
+
+Dokumen 24:
+- bagus: 0.4448
+- bermanfaat: 0.8956
+
+Dokumen 25:
+- amazing: 1.0000
+
+Dokumen 26:
+- bagus: 1.0000
+
+Dokumen 27:
+- bagus: 1.0000
+
+Dokumen 28:
+- bagus: 0.2208
+- dinikmati: 0.5915
+- enak: 0.5015
+- utk: 0.5915
+
+Dokumen 29:
+- bgt: 0.8246
+- suka: 0.5657
+
+Dokumen 30:
+- instal: 0.6588
+- yotube: 0.7524
+
+Dokumen 31:
+- baguss: 1.0000
+
+Dokumen 32:
+- sitihawa: 1.0000
+
+Dokumen 33:
+- hbo: 1.0000
+
+Dokumen 34:
+- seru: 1.0000
+
+Dokumen 35:
+- bagus: 1.0000
+
+Dokumen 36:
+- bantuan: 0.4991
+- buka: 0.2704
+- ga: 0.3498
+- ny: 0.4780
+- perbarui: 0.4038
+- tolong: 0.3328
+- youtube: 0.2306
+
+Dokumen 37:
+- ad: 0.3644
+- dkala: 0.4175
+- keperluan: 0.4175
+- lgi: 0.3940
+- membutuhkan: 0.3940
+- tolong: 0.2627
+- tube: 0.2627
+- you: 0.2648
+
+Dokumen 38:
+- bagus: 1.0000
+
+Dokumen 39:
+- gak: 0.2924
+- komentar: 0.4497
+- lucu: 0.5006
+- short: 0.4795
+- update: 0.3140
+- video: 0.3649
+
+Dokumen 40:
+- ok: 1.0000
+
+Dokumen 41:
+- bermanfaat: 1.0000
+
+Dokumen 42:
+- bgus: 1.0000
+
+Dokumen 43:
+- buruk: 0.7196
+- perbarui: 0.6944
+
+Dokumen 44:
+- aktif: 0.3637
+- aplikasi: 0.2412
+- messenger: 0.4024
+- sms: 0.4024
+- tlp: 0.4024
+- vidiocol: 0.4024
+- whatsapp: 0.4024
+
+Dokumen 45:
+- mantap: 1.0000
+
+Dokumen 46:
+- cari: 0.7309
+- informasi: 0.6825
+
+Dokumen 47:
+- good: 0.5812
+- very: 0.8137
+
+Dokumen 48:
+- trans: 1.0000
+
+Dokumen 49:
+- bagus: 1.0000
+
+Dokumen 50:
+- oofygekfelay: 0.5070
+- sagatbafus: 0.5070
+- yes: 0.4785
+- ģut: 0.5070
+
+Dokumen 51:
+- buka: 0.6801
+- gak: 0.7331
+
+Dokumen 52:
+
+Dokumen 53:
+- suka: 1.0000
+
+Dokumen 54:
+
+Dokumen 55:
+- sekolah: 1.0000
+
+Dokumen 56:
+- mukbang: 1.0000
+
+Dokumen 57:
+- buka: 0.4200
+- tube: 0.5170
+- usang: 0.5339
+- you: 0.5210
+
+Dokumen 58:
+- berlaku: 0.5756
+- gak: 0.3361
+- ku: 0.4738
+- perangkat: 0.5756
+
+Dokumen 59:
+- nitt: 1.0000
+
+Dokumen 60:
+- good: 1.0000
+
+Dokumen 61:
+- ok: 1.0000
+
+Dokumen 62:
+- ok: 1.0000
+
+Dokumen 63:
+- manusia: 0.5551
+- merakasih: 0.5882
+- yaudah: 0.5882
+
+Dokumen 64:
+- bagus: 1.0000
+
+Dokumen 65:
+- dibuka: 0.7018
+- susah: 0.7123
+
+Dokumen 66:
+- bagus: 0.4117
+- mudah: 0.9113
+
+Dokumen 67:
+- betoken: 0.5882
+- terbaik: 0.5551
+- yb: 0.5882
+
+Dokumen 68:
+- kuis: 0.7071
+- pemenang: 0.7071
+
+Dokumen 69:
+
+Dokumen 70:
+- koo: 1.0000
+
+Dokumen 71:
+- bngt: 0.8808
+- ok: 0.4734
+
+Dokumen 72:
+- bu: 0.7418
+- iya: 0.6706
+
+Dokumen 73:
+- aplikasi: 0.1829
+- buks: 0.2880
+- dgn: 0.2880
+- jija: 0.3052
+- memaksa: 0.3052
+- memory: 0.3052
+- penuh: 0.3052
+- tdk: 0.5044
+- update: 0.3613
+- yg: 0.2078
+
+Dokumen 74:
+- bray: 0.7628
+- mantab: 0.6466
+
+Dokumen 75:
+- ok: 1.0000
+
+Dokumen 76:
+- terimakasih: 1.0000
+
+Dokumen 77:
+- hiburan: 1.0000
+
+Dokumen 78:
+- buatbhiburanbgabut: 1.0000
+
+Dokumen 79:
+- gooooood: 0.8918
+- ok: 0.4524
+
+Dokumen 80:
+- bagus: 0.3498
+- siiip: 0.9368
+
+Dokumen 81:
+- okk: 1.0000
+
+Dokumen 82:
+
+Dokumen 83:
+- ok: 1.0000
+
+Dokumen 84:
+
+Dokumen 85:
+- donlod: 0.8266
+- gk: 0.5628
+
+Dokumen 86:
+
+Dokumen 87:
+- bermasalah: 1.0000
+
+Dokumen 88:
+- cek: 1.0000
+
+Dokumen 89:
+- aplikasi: 0.4396
+- bgus: 0.6060
+- ny: 0.6629
+
+Dokumen 90:
+- atif: 0.6452
+- tubek: 0.6452
+- you: 0.4092
+
+Dokumen 91:
+- buka: 0.7608
+- youtube: 0.6489
+
+Dokumen 92:
+- disuruh: 0.4388
+- enak: 0.4115
+- login: 0.4388
+- sihh: 0.4582
+- teruss: 0.4854
+
+Dokumen 93:
+- buka: 0.3881
+- tdak: 0.7164
+- yutube: 0.5797
+
+Dokumen 94:
+- kitu: 0.7071
+- we: 0.7071
+
+Dokumen 95:
+- ad: 0.3199
+- aj: 0.3665
+- ap: 0.3665
+- bgs: 0.3665
+- cri: 0.3665
+- informasi: 0.2901
+- lengkap: 0.3199
+- mantap: 0.1991
+- mmbantu: 0.3665
+
+Dokumen 96:
+- yandek: 1.0000
+
+Dokumen 97:
+
+Dokumen 98:
+- bagus: 1.0000
+
+Dokumen 99:
+- bagus: 1.0000
+
+Dokumen 100:
+- katro: 1.0000
+
+Dokumen 101:
+- agdyd: 0.7071
+- dvfg: 0.7071
+
+Dokumen 102:
+- mantap: 1.0000
+
+Dokumen 103:
+- aplikasi: 0.4646
+- puas: 0.5517
+- tube: 0.4879
+- you: 0.4916
+
+Dokumen 104:
+- aplikasi: 0.1527
+- app: 0.2303
+- bahasa: 0.4810
+- english: 0.2548
+- indonesia: 0.2405
+- komentar: 0.2160
+- otomatis: 0.2303
+- pilihan: 0.2548
+- skrg: 0.2548
+- terjemahan: 0.5096
+- video: 0.1753
+- youtube: 0.2222
+
+Dokumen 105:
+
+Dokumen 106:
+- ok: 1.0000
+
+Dokumen 107:
+- aplikasi: 0.5773
+- masuk: 0.8165
+
+Dokumen 108:
+- membantu: 1.0000
+
+Dokumen 109:
+- haris: 0.7071
+- mahendra: 0.7071
+
+Dokumen 110:
+- senang: 0.8684
+- youtube: 0.4958
+
+Dokumen 111:
+- mantap: 1.0000
+
+Dokumen 112:
+- agogo: 0.7071
+- piolin: 0.7071
+
+Dokumen 113:
+- android: 0.3615
+- apk: 0.3885
+- eror: 0.7345
+- gimana: 0.3673
+- youtube: 0.2097
+
+Dokumen 114:
+- bagus: 1.0000
+
+Dokumen 115:
+- tube: 0.7044
+- you: 0.7098
+
+Dokumen 116:
+- ok: 1.0000
+
+Dokumen 117:
+- bagus: 0.2949
+- media: 0.7898
+- yg: 0.5378
+
+Dokumen 118:
+- berlaku: 0.4818
+- buka: 0.2610
+- gak: 0.5627
+- gua: 0.4614
+- yg: 0.3475
+- youtube: 0.2226
+
+Dokumen 119:
+- aplikasi: 0.4272
+- memuaskan: 0.6042
+- sungguh: 0.6726
+
+Dokumen 120:
+- bgus: 1.0000
+
+Dokumen 121:
+- aplikasinya: 0.9044
+- bagus: 0.4266
+
+Dokumen 122:
+- matadewa: 1.0000
+
+Dokumen 123:
+- bukak: 1.0000
+
+Dokumen 124:
+- akurat: 1.0000
+
+Dokumen 125:
+- bagus: 0.1386
+- gk: 0.2528
+- kesini: 0.3505
+- ko: 0.3242
+- nya: 0.4199
+- pindah: 0.3713
+- suruh: 0.3357
+- web: 0.3357
+- ya: 0.2434
+- yg: 0.2528
+- youtube: 0.1619
+
+Dokumen 126:
+- lumayan: 1.0000
+
+Dokumen 127:
+- wow: 1.0000
+
+Dokumen 128:
+- apk: 0.3802
+- buka: 0.2406
+- hak: 0.4706
+- jelek: 0.3392
+- mi: 0.4706
+- ram2: 0.4442
+- youtube: 0.2052
+
+Dokumen 129:
+- bagus: 1.0000
+
+Dokumen 130:
+- siip: 1.0000
+
+Dokumen 131:
+- suka: 1.0000
+
+Dokumen 132:
+- upgradenya: 1.0000
+
+Dokumen 133:
+- aplikasi: 0.4115
+- bagusss: 0.5994
+- yangg: 0.6866
+
+Dokumen 134:
+
+Dokumen 135:
+- pangkas: 0.7071
+- rambut: 0.7071
+
+Dokumen 136:
+- aq: 0.6759
+- buka: 0.3456
+- gk: 0.4602
+- hp: 0.4602
+
+Dokumen 137:
+- buka: 0.3287
+- membuka: 0.5612
+- tolong: 0.4046
+- yuutub: 0.6429
+
+Dokumen 138:
+- ok: 1.0000
+
+Dokumen 139:
+- dikit: 0.5366
+- keren: 0.3692
+- masin: 0.5366
+- mines: 0.5366
+
+Dokumen 140:
+- bokep: 0.7071
+- xnxxcom: 0.7071
+
+Dokumen 141:
+- bagus: 1.0000
+
+Dokumen 142:
+- puas: 1.0000
+
+Dokumen 143:
+- good: 1.0000
+
+Dokumen 144:
+- good: 1.0000
+
+Dokumen 145:
+- aplikasi: 0.6681
+- membantu: 0.7441
+
+Dokumen 146:
+- dipakai: 0.8758
+- gak: 0.4827
+
+Dokumen 147:
+- rodj: 1.0000
+
+Dokumen 148:
+- aplikasinya: 0.9044
+- bagus: 0.4266
+
+Dokumen 149:
+- cocok: 1.0000
+
+Dokumen 150:
+- bukayou: 0.5426
+- driv: 0.5426
+- meet: 0.5426
+- tube: 0.3415
+
+Dokumen 151:
+- buka: 0.6115
+- ga: 0.7912
+
+Dokumen 152:
+- oke: 1.0000
+
+Dokumen 153:
+- mantappp: 1.0000
+
+Dokumen 154:
+- berhenti: 0.3116
+- crash: 0.3116
+- february: 0.3301
+- history: 0.3116
+- mencari: 0.2799
+- mencoba: 0.3301
+- mengakses: 0.3301
+- tonton: 0.3116
+- video: 0.4543
+
+Dokumen 155:
+- menerus: 0.8605
+- update: 0.5094
+
+Dokumen 156:
+- mantap: 1.0000
+
+Dokumen 157:
+- aplikasi: 0.5131
+- udah: 0.6537
+- usang: 0.5563
+
+Dokumen 158:
+- orang: 0.7071
+- sukses: 0.7071
+
+Dokumen 159:
+
+Dokumen 160:
+- masuk: 1.0000
+
+Dokumen 161:
+- good: 1.0000
+
+Dokumen 162:
+- ok: 1.0000
+
+Dokumen 163:
+- 123: 0.5774
+- niri: 0.5774
+- sahrul: 0.5774
+
+Dokumen 164:
+- aplikasi: 0.4122
+- bagus: 0.2567
+- buka: 0.3516
+- ngak: 0.6491
+- yg: 0.4682
+
+Dokumen 165:
+- kerja: 1.0000
+
+Dokumen 166:
+- aja: 0.2541
+- akun: 0.1669
+- bug: 0.2983
+- gak: 0.2035
+- gimana: 0.1410
+- ilangin: 0.3485
+- kalo: 0.2869
+- kayak: 0.1743
+- log: 0.1846
+- mending: 0.3485
+- ngefreeze: 0.1846
+- niat: 0.3693
+- out: 0.1846
+- suka: 0.1145
+- udah: 0.2820
+- update: 0.2186
+- video: 0.1270
+- youtube: 0.0805
+
+Dokumen 167:
+- ok: 1.0000
+
+Dokumen 168:
+- lancar: 1.0000
+
+Dokumen 169:
+- kopi: 1.0000
+
+Dokumen 170:
+- antap: 1.0000
+
+Dokumen 171:
+- bagus: 1.0000
+
+Dokumen 172:
+- apdet: 0.6810
+- bagus: 0.2694
+- ngk: 0.6810
+
+Dokumen 173:
+- puas: 1.0000
+
+Dokumen 174:
+- oke: 1.0000
+
+Dokumen 175:
+- ok: 1.0000
+
+Dokumen 176:
+- mantap: 1.0000
+
+Dokumen 177:
+- bagus: 1.0000
+
+Dokumen 178:
+- gandos: 0.6656
+- jos: 0.6656
+- ok: 0.3376
+
+Dokumen 179:
+- hmmm: 0.7994
+- susah: 0.6009
+
+Dokumen 180:
+- ok: 1.0000
+
+Dokumen 181:
+- bagus: 1.0000
+
+Dokumen 182:
+- keren: 1.0000
+
+Dokumen 183:
+- uh: 1.0000
+
+Dokumen 184:
+- biisa: 0.8904
+- buka: 0.4552
+
+Dokumen 185:
+- ok: 1.0000
+
+Dokumen 186:
+- download: 0.6917
+- nggak: 0.7222
+
+Dokumen 187:
+- ok: 1.0000
+
+Dokumen 188:
+
+Dokumen 189:
+- membantu: 1.0000
+
+Dokumen 190:
+- bru: 0.3933
+- bs: 0.3444
+- login: 0.7534
+- susah: 0.3133
+- update: 0.2467
+
+Dokumen 191:
+- jaringannya: 0.8112
+- jelek: 0.5847
+
+Dokumen 192:
+- bantu: 0.2867
+- ges: 0.3381
+- jam: 0.3381
+- ngejar: 0.3381
+- nya: 0.1912
+- support: 0.3057
+- susahnya: 0.3381
+- tayang: 0.3381
+- turun: 0.3381
+- ytb: 0.3191
+
+Dokumen 193:
+- puass: 1.0000
+
+Dokumen 194:
+- top: 0.8800
+- youtube: 0.4750
+
+Dokumen 195:
+- keren: 1.0000
+
+Dokumen 196:
+- perbarui: 0.8684
+- youtube: 0.4958
+
+Dokumen 197:
+
+Dokumen 198:
+- aplikasi: 0.8488
+- bagus: 0.5287
+
+Dokumen 199:
+- gak: 0.3419
+- iklan: 0.4530
+- skip: 0.6203
+- yutup: 0.5415
+
+Dokumen 200:
+- bagus: 1.0000
+
+Dokumen 201:
+- bagus: 1.0000
+
+Dokumen 202:
+- 2005: 0.2715
+- aplikasi: 0.3255
+- dengak: 0.2715
+- emang: 0.5430
+- halo: 0.2715
+- hp: 0.1849
+- kasih: 0.2244
+- maaf: 0.2562
+- nya: 0.1535
+- sih: 0.2149
+- suka: 0.1684
+- tau: 0.2302
+- usang: 0.1765
+- ya: 0.1780
+- youtube: 0.1184
+
+Dokumen 203:
+- al: 0.3536
+- dugung: 0.3536
+- gundil: 0.7071
+- iku: 0.3536
+- lu: 0.3536
+
+Dokumen 204:
+- and: 0.4119
+- app: 0.3945
+- banysk: 0.4364
+- bug: 0.3525
+- kontooollll: 0.4364
+- lag: 0.4119
+
+Dokumen 205:
+- abdet: 0.7157
+- gx: 0.6248
+- youtube: 0.3121
+
+Dokumen 206:
+- biar: 0.5543
+- bicara: 0.6349
+- bintang: 0.5382
+
+Dokumen 207:
+- apk: 0.7708
+- membantu: 0.6371
+
+Dokumen 208:
+- donk: 0.5921
+- gimana: 0.4522
+- kebuka: 0.4893
+- tolong: 0.3727
+- youtube: 0.2582
+
+Dokumen 209:
+- buka: 0.4923
+- gabisa: 0.8704
+
+Dokumen 210:
+- keren: 1.0000
+
+Dokumen 211:
+- puas: 0.6187
+- sagat: 0.7857
+
+Dokumen 212:
+- puas: 1.0000
+
+Dokumen 213:
+- crash: 0.3391
+- jalan: 0.3593
+- menit: 0.3391
+- napa: 0.3391
+- nge: 0.3391
+- ni: 0.3391
+- nya: 0.2032
+- tetep: 0.3391
+- videonya: 0.3391
+- youtube: 0.1567
+
+Dokumen 214:
+- aja: 1.0000
+
+Dokumen 215:
+- ok: 1.0000
+
+Dokumen 216:
+- ok: 1.0000
+
+Dokumen 217:
+- bagus: 1.0000
+
+Dokumen 218:
+- keren: 1.0000
+
+Dokumen 219:
+- membantu: 1.0000
+
+Dokumen 220:
+- anh: 0.5774
+- mkin: 0.5774
+- taii: 0.5774
+
+Dokumen 221:
+- ok: 1.0000
+
+Dokumen 222:
+- bagus: 1.0000
+
+Dokumen 223:
+- ngebleng: 1.0000
+
+Dokumen 224:
+- bagus: 1.0000
+
+Dokumen 225:
+- bagus: 1.0000
+
+Dokumen 226:
+- mantap: 1.0000
+
+Dokumen 227:
+- abis: 0.3936
+- aja: 0.2869
+- balikin: 0.3936
+- jaringan: 0.3770
+- mulu: 0.3641
+- reconnect: 0.4170
+- update: 0.2469
+- versi: 0.3135
+
+Dokumen 228:
+- ajis: 0.3710
+- anak: 0.3353
+- bantuan: 0.3501
+- biar: 0.3238
+- butuh: 0.3501
+- nonton: 0.2432
+- nya: 0.2098
+- sistem: 0.3710
+- tolong: 0.2335
+- youtube: 0.3235
+
+Dokumen 229:
+- buka: 0.3053
+- burik: 0.5971
+- gak: 0.3291
+- pembaruan: 0.5397
+- usang: 0.3881
+
+Dokumen 230:
+- bagus: 1.0000
+
+Dokumen 231:
+- bagus: 1.0000
+
+Dokumen 232:
+- bgus: 1.0000
+
+Dokumen 233:
+- mantap: 1.0000
+
+Dokumen 234:
+- mantap: 1.0000
+
+Dokumen 235:
+- akun: 0.1895
+- bayar: 0.1979
+- dana: 0.1979
+- duit: 0.2097
+- fitu: 0.2097
+- kembaliin: 0.2097
+- kembalikan: 0.1979
+- kepencet: 0.2097
+- ketarik: 0.1979
+- kos: 0.2097
+- langganan: 0.1979
+- lr: 0.2097
+- min: 0.3791
+- mohon: 0.1694
+- nya: 0.1186
+- otomatis: 0.1895
+- sengaja: 0.1979
+- senilai: 0.1979
+- tolong: 0.2640
+- uang: 0.3661
+
+Dokumen 236:
+
+Dokumen 237:
+- mantap: 1.0000
+
+Dokumen 238:
+- ok: 1.0000
+
+Dokumen 239:
+- enak: 0.6682
+- tonton: 0.7440
+
+Dokumen 240:
+- oke: 1.0000
+
+Dokumen 241:
+- android: 0.4133
+- bagus: 0.2053
+- kalo: 0.4272
+- kebawah: 0.5498
+- ratingnya: 0.5498
+
+Dokumen 242:
+- bagus: 0.3498
+- sagangt: 0.9368
+
+Dokumen 243:
+- bagus: 1.0000
+
+Dokumen 244:
+- bagus: 1.0000
+
+Dokumen 245:
+- aplikasi: 0.3723
+- buka: 0.3175
+- kanapa: 0.5862
+- tida: 0.5862
+- youtube: 0.2708
+
+Dokumen 246:
+- eror: 0.6291
+- yt: 0.7774
+
+Dokumen 247:
+- mantap: 1.0000
+
+Dokumen 248:
+- alhamdulillah: 1.0000
+
+Dokumen 249:
+- iklannya: 1.0000
+
+Dokumen 250:
+- bermafaat: 0.5774
+- moga: 0.5774
+- semangat: 0.5774
+
+Dokumen 251:
+- puas: 1.0000
+
+Dokumen 252:
+- banget: 0.5710
+- ska: 0.8210
+
+Dokumen 253:
+
+Dokumen 254:
+- aplikasi: 0.1403
+- bagus: 0.0874
+- banget: 0.1628
+- beritahu: 0.2340
+- cuman: 0.2209
+- gak: 0.1290
+- nama: 0.2209
+- pas: 0.1818
+- tag: 0.4681
+- teman: 0.7021
+- tolong: 0.1473
+- youtube: 0.1021
+
+Dokumen 255:
+- adblocker: 0.2425
+- aja: 0.1669
+- bug: 0.1959
+- elu: 0.2425
+- eui: 0.2425
+- gini: 0.2192
+- gw: 0.4235
+- kalo: 0.1884
+- kek: 0.2425
+- keyboard: 0.2425
+- make: 0.2289
+- mending: 0.2289
+- ngeperbaikin: 0.2425
+- nunggu: 0.2425
+- nya: 0.1371
+- oi: 0.2425
+- tau: 0.2056
+- udah: 0.1852
+
+Dokumen 256:
+- bagus: 1.0000
+
+Dokumen 257:
+- lumayan: 1.0000
+
+Dokumen 258:
+- berhenti: 0.3553
+- gara: 0.7528
+- iklannya: 0.3402
+- menganggu: 0.3764
+- update: 0.2228
+
+Dokumen 259:
+
+Dokumen 260:
+- aplik: 0.7018
+- bagus: 0.2620
+- kasi: 0.6624
+
+Dokumen 261:
+- bintang: 0.3358
+- buka: 0.2025
+- kasih: 0.3274
+- padahalkan: 0.3961
+- pas: 0.3078
+- udah: 0.6051
+- update: 0.2345
+- usang: 0.2575
+
+Dokumen 262:
+- bagus: 1.0000
+
+Dokumen 263:
+- bagus: 1.0000
+
+Dokumen 264:
+- berita: 0.6466
+- dengar: 0.7628
+
+Dokumen 265:
+- mantab: 1.0000
+
+Dokumen 266:
+- mudah: 1.0000
+
+Dokumen 267:
+- gotube: 0.4709
+- pake: 0.4111
+- terpaksa: 0.4709
+- usang: 0.3060
+- versi: 0.3539
+- youtube: 0.4107
+
+Dokumen 268:
+- bagus: 0.4808
+- oke: 0.8768
+
+Dokumen 269:
+- aktif: 0.6917
+- nggak: 0.7222
+
+Dokumen 270:
+- good: 0.5590
+- véry: 0.8292
+
+Dokumen 271:
+- jekel: 0.6017
+- mulu: 0.5253
+- updet: 0.6017
+
+Dokumen 272:
+- kunyuk: 0.5599
+- muka: 0.5599
+- teu: 0.5599
+- youtube: 0.2442
+
+Dokumen 273:
+- keren: 1.0000
+
+Dokumen 274:
+- ok: 1.0000
+
+Dokumen 275:
+- apdate: 0.5228
+- gak: 0.2882
+- gk: 0.3560
+- j1ace: 0.5228
+- samsung: 0.4935
+
+Dokumen 276:
+- jozz: 1.0000
+
+Dokumen 277:
+- ilmu: 0.4568
+- mambantu: 0.4938
+- pengetahuan: 0.5232
+- sosial: 0.5232
+
+Dokumen 278:
+- ok: 1.0000
+
+Dokumen 279:
+- mantap: 1.0000
+
+Dokumen 280:
+- aja: 0.5563
+- sih: 0.6400
+- ya: 0.5301
+
+Dokumen 281:
+- ok: 1.0000
+
+Dokumen 282:
+- mengecewakan: 1.0000
+
+Dokumen 283:
+- bocil: 0.3522
+- gg: 0.3522
+- hiburan: 0.2846
+- karna: 0.2846
+- kasih: 0.2911
+- ku: 0.2737
+- menghibur: 0.3184
+- padaku: 0.3522
+- terima: 0.3324
+- youtube: 0.3072
+
+Dokumen 284:
+- putar: 0.6706
+- todak: 0.7418
+
+Dokumen 285:
+- mantap: 1.0000
+
+Dokumen 286:
+- membantu: 1.0000
+
+Dokumen 287:
+- main: 0.9078
+- youtube: 0.4194
+
+Dokumen 288:
+- aplikasi: 0.4589
+- dibuka: 0.5670
+- tube: 0.4818
+- you: 0.4856
+
+Dokumen 289:
+- bagus: 1.0000
+
+Dokumen 290:
+- ok: 1.0000
+
+Dokumen 291:
+- keren: 1.0000
+
+Dokumen 292:
+- oke: 1.0000
+
+Dokumen 293:
+- bagus: 1.0000
+
+Dokumen 294:
+- lemot: 1.0000
+
+Dokumen 295:
+- buruk: 0.5854
+- ngebug: 0.6685
+- suka: 0.4586
+
+Dokumen 296:
+- aplikasi: 0.6202
+- suka: 0.6417
+- youtube: 0.4512
+
+Dokumen 297:
+- usang: 0.8304
+- youtube: 0.5571
+
+Dokumen 298:
+- mantap: 1.0000
+
+Dokumen 299:
+- bagus: 0.3817
+- bgt: 0.9243
+
+Dokumen 300:
+
+Dokumen 301:
+
+Dokumen 302:
+- dipahami: 0.4117
+- dipake: 0.4117
+- gak: 0.2269
+- gitu: 0.3721
+- gitulagi: 0.4117
+- sulit: 0.3721
+- update: 0.2437
+- usang: 0.2676
+- youtube: 0.1795
+
+Dokumen 303:
+- berbayar: 0.6303
+- cuman: 0.5949
+- seru: 0.4989
+
+Dokumen 304:
+- amaaaaan: 1.0000
+
+Dokumen 305:
+- mantap: 1.0000
+
+Dokumen 306:
+- asik: 0.8918
+- ok: 0.4524
+
+Dokumen 307:
+- bagus: 1.0000
+
+Dokumen 308:
+- membatu: 0.6864
+- sabngat: 0.7272
+
+Dokumen 309:
+- ah: 0.6822
+- tau: 0.5784
+- ya: 0.4473
+
+Dokumen 310:
+- bags: 1.0000
+
+Dokumen 311:
+- top: 1.0000
+
+Dokumen 312:
+- oke: 1.0000
+
+Dokumen 313:
+- android: 0.3615
+- cepat: 0.4199
+- hp: 0.3275
+- karna: 0.3885
+- usang: 0.6252
+- youtube: 0.2097
+
+Dokumen 314:
+- bagus: 0.1833
+- sagat: 0.4439
+- terkesan: 0.4911
+- wa: 0.4911
+- yautube: 0.4911
+- youtube: 0.2141
+
+Dokumen 315:
+- iklan: 0.6565
+- nya: 0.5083
+- suka: 0.5574
+
+Dokumen 316:
+- buram: 0.3379
+- caption: 0.3379
+- lihat: 0.2792
+- meraba: 0.3379
+- ngetik: 0.3379
+- pas: 0.2625
+- raba: 0.3379
+- upload: 0.3379
+- utuh: 0.3379
+- video: 0.2325
+
+Dokumen 317:
+- bos: 0.7272
+- sip: 0.6864
+
+Dokumen 318:
+- aja: 0.4119
+- ok: 0.9112
+
+Dokumen 319:
+- nyaman: 1.0000
+
+Dokumen 320:
+- gx: 0.7526
+- yutube: 0.6584
+
+Dokumen 321:
+- buka: 0.6417
+- gak: 0.3459
+- notifikasi: 0.6275
+- youtube: 0.2736
+
+Dokumen 322:
+- az: 0.7071
+- tank: 0.7071
+
+Dokumen 323:
+- bagus: 0.4501
+- yutub: 0.8930
+
+Dokumen 324:
+- bug: 0.4673
+- buka: 0.2957
+- lawas: 0.5784
+- nya: 0.3271
+- versi: 0.4348
+- youtube: 0.2522
+
+Dokumen 325:
+- diubah: 0.4928
+- gak: 0.2878
+- rendah: 0.5221
+- resolusi: 0.5221
+- video: 0.3592
+
+Dokumen 326:
+- gini: 0.5331
+- knp: 0.4367
+- kyk: 0.5897
+- nya: 0.3335
+- youtube: 0.2572
+
+Dokumen 327:
+- bagus: 1.0000
+
+Dokumen 328:
+- heli: 0.4811
+- luang: 0.4811
+- nya: 0.2721
+- perasaan: 0.4811
+- you5ube: 0.4811
+
+Dokumen 329:
+- bagus: 1.0000
+
+Dokumen 330:
+- puas: 1.0000
+
+Dokumen 331:
+- buka: 0.4117
+- gk: 0.5483
+- perbaharui: 0.7279
+
+Dokumen 332:
+- bagus: 0.3817
+- sayang: 0.9243
+
+Dokumen 333:
+- puas: 1.0000
+
+Dokumen 334:
+- digunaakan: 0.8340
+- ga: 0.5517
+
+Dokumen 335:
+- jaringan: 0.4468
+- kencang: 0.4943
+- lag: 0.4665
+- paketan: 0.4943
+- suka: 0.3066
+
+Dokumen 336:
+- bukak: 0.6092
+- gak: 0.3714
+- knpa: 0.6361
+- youtube: 0.2939
+
+Dokumen 337:
+- bagus: 0.2433
+- banget: 0.4532
+- buka: 0.3331
+- gk: 0.4437
+- ny: 0.5890
+- youtube: 0.2841
+
+Dokumen 338:
+- ditonton: 0.6130
+- mantap: 0.3330
+- mudah: 0.5066
+- youtub: 0.5066
+
+Dokumen 339:
+- best: 0.6543
+- isthe: 0.6932
+- youtube: 0.3023
+
+Dokumen 340:
+- ok: 0.4734
+- siip: 0.8808
+
+Dokumen 341:
+- deh: 0.4726
+- langsung: 0.5229
+- ok: 0.2652
+- respon: 0.5229
+- yutube: 0.3993
+
+Dokumen 342:
+- lumayan: 1.0000
+
+Dokumen 343:
+- inpormasi: 0.5377
+- membukaa: 0.5697
+- terkini: 0.5697
+- youtube: 0.2484
+
+Dokumen 344:
+- memuaskan: 1.0000
+
+Dokumen 345:
+- api: 0.4558
+- debat: 0.4558
+- kristen: 0.4558
+- nonton: 0.2988
+- suka: 0.2826
+- vs: 0.4558
+
+Dokumen 346:
+- matap: 1.0000
+
+Dokumen 347:
+- apanih: 0.4658
+- cari: 0.3949
+- contoh: 0.4658
+- game: 0.4396
+- motor: 0.4658
+
+Dokumen 348:
+- banget: 0.2100
+- developernya: 0.3019
+- diperbaiki: 0.2849
+- doang: 0.2849
+- hp: 0.2056
+- klo: 0.2849
+- ngeleg: 0.2849
+- ngelegnya: 0.3019
+- ram2: 0.2849
+- ribet: 0.2729
+- suka: 0.1872
+- tolong: 0.1900
+- tpi: 0.2849
+- youtube: 0.1317
+- youtubenya: 0.2849
+
+Dokumen 349:
+- bagus: 0.2678
+- banget: 0.4990
+- louding: 0.7174
+- nya: 0.4057
+
+Dokumen 350:
+- puas: 1.0000
+
+Dokumen 351:
+- ok: 1.0000
+
+Dokumen 352:
+- belajar: 1.0000
+
+Dokumen 353:
+- setuju: 1.0000
+
+Dokumen 354:
+- bgt: 0.6584
+- jelek: 0.5250
+- yutub: 0.5394
+
+Dokumen 355:
+- bagus: 1.0000
+
+Dokumen 356:
+- ok: 1.0000
+
+Dokumen 357:
+- iklanya: 0.7272
+- kepanjangan: 0.6864
+
+Dokumen 358:
+- idih: 1.0000
+
+Dokumen 359:
+- bagus: 1.0000
+
+Dokumen 360:
+- brita: 0.4082
+- mengerhui: 0.4082
+- ulasan: 0.8165
+
+Dokumen 361:
+- buka: 0.5345
+- gk: 0.7117
+- youtube: 0.4558
+
+Dokumen 362:
+- sempurnakan: 0.8463
+- tolong: 0.5327
+
+Dokumen 363:
+- seru: 1.0000
+
+Dokumen 364:
+- bagus: 0.2718
+- bermanfaat: 0.5472
+- vidio: 0.6172
+- yg: 0.4957
+
+Dokumen 365:
+- mantap: 1.0000
+
+Dokumen 366:
+- bagus: 1.0000
+
+Dokumen 367:
+
+Dokumen 368:
+- bacaan: 0.3612
+- bagus: 0.2697
+- bru: 0.3409
+- download: 0.3265
+- muncul: 0.3409
+- pas: 0.2807
+- pdhl: 0.3409
+- perbarui: 0.2759
+- si: 0.3265
+- usang: 0.2348
+- youtube: 0.1575
+
+Dokumen 369:
+- bagus: 1.0000
+
+Dokumen 370:
+- bagus: 0.4117
+- youtub: 0.9113
+
+Dokumen 371:
+- bagus: 1.0000
+
+Dokumen 372:
+- bagus: 0.3498
+- bangetttt: 0.9368
+
+Dokumen 373:
+
+Dokumen 374:
+- aja: 0.1866
+- bacaannya: 0.2712
+- dlu: 0.2560
+- gak: 0.1495
+- handphone: 0.2712
+- instal: 0.2241
+- kalo: 0.2107
+- kudu: 0.2712
+- masuk: 0.2299
+- mulu: 0.2368
+- rese: 0.2712
+- ribet: 0.2452
+- siee: 0.2712
+- uninstal: 0.2560
+- usang: 0.3526
+- youtube: 0.2366
+
+Dokumen 375:
+- bgaus: 1.0000
+
+Dokumen 376:
+- aplikasi: 0.1621
+- bagus: 0.1010
+- bener: 0.2553
+- blank: 0.2705
+- diaplikasi: 0.2705
+- dibuka: 0.4006
+- jaringan: 0.2445
+- kacau: 0.2705
+- lancar: 0.2445
+- loading: 0.2445
+- ngelag: 0.2705
+- nya: 0.1529
+- pas: 0.2101
+- tpi: 0.2553
+- update: 0.1601
+- web: 0.2445
+- yg: 0.1842
+- youtube: 0.1179
+
+Dokumen 377:
+- 7berbgai: 0.5000
+- musik: 0.5000
+- prsi: 0.5000
+- tayangkan: 0.5000
+
+Dokumen 378:
+- goutube: 0.7533
+- membuka: 0.6577
+
+Dokumen 379:
+
+Dokumen 380:
+- mantap: 1.0000
+
+Dokumen 381:
+- buka: 1.0000
+
+Dokumen 382:
+
+Dokumen 383:
+- bagus: 0.4030
+- kadang: 0.9152
+
+Dokumen 384:
+- bis: 0.7838
+- ga: 0.5185
+- youtube: 0.3418
+
+Dokumen 385:
+- buka: 0.4539
+- sulit: 0.8025
+- youtube: 0.3872
+
+Dokumen 386:
+- bagus: 1.0000
+
+Dokumen 387:
+- oki: 1.0000
+
+Dokumen 388:
+- suka: 1.0000
+
+Dokumen 389:
+- menguntungkan: 1.0000
+
+Dokumen 390:
+
+Dokumen 391:
+- berdahaja: 1.0000
+
+Dokumen 392:
+- bagus: 1.0000
+
+Dokumen 393:
+- bosa: 0.0721
+- bosan: 0.0721
+- butuh: 0.0681
+- hiburan: 0.1749
+- kali: 0.0630
+- lucu: 0.2724
+- meinonton: 0.0721
+- membutuhkan: 0.0681
+- menghibur: 0.0652
+- menonton: 0.1957
+- update: 0.1281
+- vd: 0.7936
+- yg: 0.0983
+- youtube: 0.0315
+- yuotube: 0.4086
+
+Dokumen 394:
+- chanel: 0.7897
+- ku: 0.6135
+
+Dokumen 395:
+- kadaluarsa: 0.9166
+- youtube: 0.3997
+
+Dokumen 396:
+- eror: 1.0000
+
+Dokumen 397:
+- aplikasinya: 0.3480
+- bsa: 0.3974
+- buka: 0.2248
+- engga: 0.4396
+- knpa: 0.4149
+- ko: 0.3838
+- sih: 0.3480
+- youtube: 0.1917
+
+Dokumen 398:
+- senang: 1.0000
+
+Dokumen 399:
+- lumayan: 1.0000
+
+Dokumen 400:
+- apdet: 0.5940
+- knapa: 0.5689
+- trus: 0.5689
+
+Dokumen 401:
+- akun: 0.2018
+- dana: 0.2107
+- fitur: 0.2232
+- keepncet: 0.2232
+- kembalikan: 0.4214
+- ketarik: 0.2107
+- langganan: 0.2107
+- membutuhkannya: 0.2232
+- mohon: 0.1803
+- nya: 0.1262
+- otomatis: 0.2018
+- pelajar: 0.2232
+- sengaja: 0.2107
+- senilai: 0.2107
+- tiba2: 0.2232
+- tolong: 0.1405
+- uang: 0.3898
+- yaallah: 0.2232
+
+Dokumen 402:
+- gini: 0.6118
+- knp: 0.5013
+- trus: 0.6118
+
+Dokumen 403:
+- nonton: 0.5047
+- suka: 0.4774
+- sy: 0.6361
+- youtube: 0.3357
+
+Dokumen 404:
+- bagus: 1.0000
+
+Dokumen 405:
+- bagus: 0.3099
+- bintang: 0.3518
+- ksh: 0.4150
+- lg: 0.3752
+- ok: 0.4211
+- sy: 0.3430
+- ttp: 0.4150
+
+Dokumen 406:
+- aplikasi: 0.6569
+- keren: 0.7540
+
+Dokumen 407:
+- bagus: 1.0000
+
+Dokumen 408:
+
+Dokumen 409:
+- mantap: 1.0000
+
+Dokumen 410:
+- bener: 0.6348
+- menginstal: 0.6726
+- nya: 0.3803
+
+Dokumen 411:
+- liat: 0.9007
+- youtube: 0.4345
+
+Dokumen 412:
+- bagus: 1.0000
+
+Dokumen 413:
+- update: 0.8051
+- youtube: 0.5931
+
+Dokumen 414:
+- keren: 1.0000
+
+Dokumen 415:
+- memuaskan: 1.0000
+
+Dokumen 416:
+- ngebug: 0.7124
+- nya: 0.4456
+- video: 0.5422
+
+Dokumen 417:
+- good: 1.0000
+
+Dokumen 418:
+- oke: 1.0000
+
+Dokumen 419:
+- bangettt: 0.3230
+- bermasalahann: 0.3230
+- gak: 0.1780
+- hai: 0.3230
+- hpnya: 0.3230
+- luna: 0.3230
+- nama: 0.3048
+- suka: 0.4006
+- yg: 0.4398
+
+Dokumen 420:
+- ok: 1.0000
+
+Dokumen 421:
+- puas: 1.0000
+
+Dokumen 422:
+- bet: 0.5767
+- dah: 0.5213
+- ngeleh: 0.5767
+- youtube: 0.2515
+
+Dokumen 423:
+- bagus: 1.0000
+
+Dokumen 424:
+- bermanfaat: 0.6394
+- menghibur: 0.7689
+
+Dokumen 425:
+- mantap: 1.0000
+
+Dokumen 426:
+- berita: 0.3331
+- dibantu: 0.3708
+- gak: 0.4331
+- kebuka: 0.3247
+- lihat: 0.3247
+- maaf: 0.3708
+- tolong: 0.2473
+- yiutube: 0.3929
+
+Dokumen 427:
+- bagus: 0.3380
+- maksih: 0.8544
+- youtube: 0.3948
+
+Dokumen 428:
+- good: 0.5812
+- very: 0.8137
+
+Dokumen 429:
+- ga: 0.4034
+- gitu: 0.2756
+- hp: 0.4152
+- iya: 0.2756
+- jelek: 0.4396
+- nya: 0.1724
+- pas: 0.2369
+- perbaiki: 0.2414
+- tau: 0.2585
+- tolong: 0.1919
+- update: 0.1805
+- usang: 0.1982
+
+Dokumen 430:
+- biar: 0.3840
+- bs: 0.3635
+- deplovernya: 0.4398
+- hp: 0.2995
+- nonton: 0.2883
+- sy: 0.3635
+- versi: 0.3306
+- yutube: 0.3359
+
+Dokumen 431:
+- karaoke: 1.0000
+
+Dokumen 432:
+- bukak: 0.5350
+- gk: 0.4030
+- kanapa: 0.5586
+- youtub: 0.4891
+
+Dokumen 433:
+- mantap: 1.0000
+
+Dokumen 434:
+- konsuten: 1.0000
+
+Dokumen 435:
+- lumayan: 1.0000
+
+Dokumen 436:
+- bagusss: 0.4305
+- cmn: 0.4931
+- hehe: 0.4931
+- melulu: 0.4931
+- update: 0.2919
+
+Dokumen 437:
+- bagus: 1.0000
+
+Dokumen 438:
+- gak: 0.5852
+- perbarui: 0.8109
+
+Dokumen 439:
+- apk: 0.6503
+- busuk: 0.7597
+
+Dokumen 440:
+- informasi: 0.7644
+- membantu: 0.6448
+
+Dokumen 441:
+- iklan: 0.7907
+- nya: 0.6122
+
+Dokumen 442:
+- gak: 0.4574
+- perbarui: 0.6338
+- versi: 0.6238
+
+Dokumen 443:
+- bagus: 0.4948
+- ya: 0.8690
+
+Dokumen 444:
+- mantap: 1.0000
+
+Dokumen 445:
+- perbaiki: 0.7827
+- tolong: 0.6224
+
+Dokumen 446:
+- jelek: 0.8556
+- youtube: 0.5177
+
+Dokumen 447:
+- iklan: 0.6468
+- konten: 0.4003
+- nonton: 0.2903
+- ya: 0.5806
+
+Dokumen 448:
+
+Dokumen 449:
+- deh: 0.4601
+- gotobe: 0.5090
+- iklan: 0.3717
+- kataku: 0.5090
+- nya: 0.2878
+- youtube: 0.2219
+
+Dokumen 450:
+- banget: 0.7146
+- oke: 0.6996
+
+Dokumen 451:
+- dibawa: 0.3868
+- jakarta: 0.3868
+- kantor: 0.3868
+- mudah: 0.3197
+- praktis: 0.3868
+- pulang: 0.3868
+- pusat: 0.3868
+
+Dokumen 452:
+- ok: 1.0000
+
+Dokumen 453:
+- mantap: 1.0000
+
+Dokumen 454:
+- mempelajari: 0.7071
+- pertanian: 0.7071
+
+Dokumen 455:
+- bs: 0.6588
+- pakai: 0.7524
+
+Dokumen 456:
+- bintang: 1.0000
+
+Dokumen 457:
+- mantap: 1.0000
+
+Dokumen 458:
+- biarin: 0.2594
+- diubah: 0.2449
+- gausa: 0.2594
+- layar: 0.2345
+- menuhin: 0.2594
+- tampilan: 0.2594
+- thumbnail: 0.2594
+- tolong: 0.1633
+- ubah: 0.5189
+- yah: 0.4897
+- youtube: 0.1131
+
+Dokumen 459:
+- membantu: 0.5553
+- mksh: 0.8317
+
+Dokumen 460:
+- seru: 1.0000
+
+Dokumen 461:
+- good: 1.0000
+
+Dokumen 462:
+- aplot: 0.4269
+- buka: 0.2182
+- gak: 0.4705
+- kalo: 0.3316
+- menit: 0.4029
+- salah: 0.4029
+- sih: 0.3379
+
+Dokumen 463:
+
+Dokumen 464:
+- barunya: 0.7994
+- versi: 0.6009
+
+Dokumen 465:
+- kenap: 0.5599
+- membukak: 0.5599
+- takdapat: 0.5599
+- youtube: 0.2442
+
+Dokumen 466:
+
+Dokumen 467:
+
+Dokumen 468:
+- aplikasinya: 0.7644
+- membantu: 0.6448
+
+Dokumen 469:
+- bagus: 0.6503
+- youtube: 0.7596
+
+Dokumen 470:
+- android: 0.3717
+- aplikasinya: 0.3914
+- buka: 0.2528
+- terbaru: 0.4667
+- tolong: 0.3112
+- untung: 0.4945
+- update: 0.2927
+
+Dokumen 471:
+- mantaap: 1.0000
+
+Dokumen 472:
+- apli: 1.0000
+
+Dokumen 473:
+- ok: 1.0000
+
+Dokumen 474:
+
+Dokumen 475:
+- bagus: 1.0000
+
+Dokumen 476:
+- mantul: 1.0000
+
+Dokumen 477:
+- mantap: 1.0000
+
+Dokumen 478:
+- anehh: 0.5271
+- doang: 0.4975
+- live: 0.4975
+- loading: 0.4765
+
+Dokumen 479:
+
+Dokumen 480:
+- bagus: 1.0000
+
+Dokumen 481:
+- nonton: 0.5916
+- tube: 0.5679
+- you: 0.5723
+
+Dokumen 482:
+- membantu: 1.0000
+
+Dokumen 483:
+- gimana: 0.3490
+- kadarluarsa: 0.4570
+- sudan: 0.4570
+- tolong: 0.5753
+- ya: 0.2996
+- youtube: 0.1993
+
+Dokumen 484:
+- dpsng: 0.6264
+- knp: 0.4639
+- tidk: 0.6264
+
+Dokumen 485:
+- lumayan: 1.0000
+
+Dokumen 486:
+- bagus: 0.4501
+- yutub: 0.8930
+
+Dokumen 487:
+- bagus: 1.0000
+
+Dokumen 488:
+- informasi: 0.5007
+- membagi: 0.6325
+- mudah: 0.5227
+- youtube: 0.2758
+
+Dokumen 489:
+- bagus: 1.0000
+
+Dokumen 490:
+- all: 0.4785
+- apapun: 0.5070
+- in: 0.5070
+- kekurangan: 0.5070
+
+Dokumen 491:
+
+Dokumen 492:
+- knapa: 0.4815
+- mnbuka: 0.5326
+- tdak: 0.5027
+- youtobe: 0.4815
+
+Dokumen 493:
+
+Dokumen 494:
+- buka: 0.6801
+- gak: 0.7331
+
+Dokumen 495:
+- oke: 1.0000
+
+Dokumen 496:
+- buka: 0.3693
+- gk: 0.4918
+- ko: 0.6305
+- ya: 0.4735
+
+Dokumen 497:
+- kasih: 0.5151
+- kenyataan: 0.6233
+- terima: 0.5883
+
+Dokumen 498:
+- bs: 0.3197
+- buka: 0.3956
+- eror: 0.2955
+- ga: 0.2559
+- gmn: 0.3869
+- jg: 0.3651
+- sy: 0.3197
+- update: 0.2290
+- web: 0.3497
+- youtube: 0.1687
+
+Dokumen 499:
+- mantab: 1.0000
+
+Dokumen 500:
+- bagus: 1.0000
+
+Dokumen 501:
+- aktifkan: 0.7112
+- tube: 0.4952
+- you: 0.4990
+
+Dokumen 502:
+- ilmu: 0.6577
+- menambah: 0.7533
+
+Dokumen 503:
+- karepmu: 0.6065
+- mantab: 0.5141
+- wis: 0.6065
+
+Dokumen 504:
+- bantu: 0.5749
+- buka: 0.3467
+- tolong: 0.4268
+- tube: 0.4268
+- you: 0.4301
+
+Dokumen 505:
+
+Dokumen 506:
+- suka: 1.0000
+
+Dokumen 507:
+- puas: 1.0000
+
+Dokumen 508:
+- bagus: 1.0000
+
+Dokumen 509:
+- bagus: 0.3498
+- sekaliiiiiiiiii: 0.9368
+
+Dokumen 510:
+- mantap: 0.4773
+- youtupee: 0.8787
+
+Dokumen 511:
+- love: 0.6019
+- manyukai: 0.6019
+- youtube: 0.5249
+
+Dokumen 512:
+- bagus: 1.0000
+
+Dokumen 513:
+- ajak: 0.4013
+- bgtu: 0.4013
+- ga: 0.2654
+- gerak: 0.4013
+- ngelek: 0.4013
+- udah: 0.3065
+- ufdet: 0.4013
+- youtube: 0.1750
+
+Dokumen 514:
+- mantap: 1.0000
+
+Dokumen 515:
+- ok: 1.0000
+
+Dokumen 516:
+- mantap: 1.0000
+
+Dokumen 517:
+- bermanfaat: 0.4207
+- membantu: 0.3736
+- mencari: 0.4744
+- video2: 0.5596
+- yg: 0.3810
+
+Dokumen 518:
+- misdi: 0.7071
+- selangit: 0.7071
+
+Dokumen 519:
+- bose: 0.7779
+- hiburan: 0.6284
+
+Dokumen 520:
+- apl: 0.8787
+- mantap: 0.4773
+
+Dokumen 521:
+- ajahh: 0.7071
+- dahrun: 0.7071
+
+Dokumen 522:
+- ok: 1.0000
+
+Dokumen 523:
+- balikin: 0.5551
+- format: 0.5882
+- lamaa: 0.5882
+
+Dokumen 524:
+- bagus: 1.0000
+
+Dokumen 525:
+- mantap: 1.0000
+
+Dokumen 526:
+- keren: 1.0000
+
+Dokumen 527:
+- aplikasi: 0.7222
+- bagus: 0.4498
+- youtube: 0.5254
+
+Dokumen 528:
+- jelek: 0.5847
+- sekai: 0.8112
+
+Dokumen 529:
+- bikin: 0.5799
+- hp: 0.3949
+- nya: 0.3279
+- qu: 0.5799
+- youtube: 0.2529
+
+Dokumen 530:
+- bagus: 1.0000
+
+Dokumen 531:
+- butut: 1.0000
+
+Dokumen 532:
+- lihat: 0.4306
+- menarik: 0.4711
+- tercantum: 0.5211
+- vidio: 0.4418
+- yg: 0.3548
+
+Dokumen 533:
+- dowlod: 0.7071
+- yutoub: 0.7071
+
+Dokumen 534:
+- gabisa: 0.6197
+- terbuka: 0.5985
+- yutub: 0.5077
+
+Dokumen 535:
+- apk: 0.5477
+- buka: 0.3466
+- hp: 0.4616
+- tube: 0.4267
+- you: 0.4300
+
+Dokumen 536:
+- bagus: 1.0000
+
+Dokumen 537:
+- memuaskan: 1.0000
+
+Dokumen 538:
+- berulang: 0.4884
+- dgn: 0.4884
+- tp: 0.4518
+- uodet: 0.5175
+- youtube: 0.2257
+
+Dokumen 539:
+- buka: 0.3748
+- gak: 0.8080
+- suka: 0.4546
+
+Dokumen 540:
+- bagus: 1.0000
+
+Dokumen 541:
+- android: 0.3071
+- gak: 0.2252
+- hp: 0.2782
+- salah: 0.3856
+- usang: 0.2656
+- versi: 0.6143
+- ya: 0.2679
+- yg: 0.2782
+- youtube: 0.1782
+
+Dokumen 542:
+- memuaskan: 1.0000
+
+Dokumen 543:
+- puas: 1.0000
+
+Dokumen 544:
+- bayak: 0.2075
+- bayar: 0.1958
+- coba: 0.1875
+- dwonload: 0.4150
+- gak: 0.1144
+- gw: 0.1811
+- kah: 0.2075
+- kecuali: 0.1958
+- liatin: 0.2075
+- meta: 0.2075
+- min: 0.3751
+- pay: 0.2075
+- pembayaran: 0.2075
+- suruh: 0.1875
+- tan: 0.2075
+- to: 0.2075
+- uang: 0.1811
+- vidio: 0.1759
+- win: 0.2075
+- woi: 0.2075
+
+Dokumen 545:
+- mencari: 1.0000
+
+Dokumen 546:
+
+Dokumen 547:
+- bagus: 1.0000
+
+Dokumen 548:
+- ok: 1.0000
+
+Dokumen 549:
+- buka: 0.2801
+- diupdate: 0.5479
+- gak: 0.3020
+- hp: 0.3730
+- sy: 0.4527
+- ya: 0.3592
+- youtube: 0.2389
+
+Dokumen 550:
+- ok: 1.0000
+
+Dokumen 551:
+- ok: 1.0000
+
+Dokumen 552:
+- ok: 1.0000
+
+Dokumen 553:
+- bagus: 0.3454
+- buka: 0.4731
+- gak: 0.5099
+- hp: 0.6300
+
+Dokumen 554:
+- buka: 0.4078
+- gx: 0.6963
+- knp: 0.5907
+
+Dokumen 555:
+- membantu: 0.5553
+- pemula: 0.8317
+
+Dokumen 556:
+- bagus: 0.2426
+- nonton: 0.4261
+- tube: 0.4090
+- xnxx: 0.6499
+- you: 0.4122
+
+Dokumen 557:
+- buka: 0.2987
+- gak: 0.3219
+- gua: 0.5280
+- hadeh: 0.5841
+- yutub: 0.4326
+
+Dokumen 558:
+- menyenangkan: 0.6864
+- menyukainya: 0.7272
+
+Dokumen 559:
+- ok: 1.0000
+
+Dokumen 560:
+- perbaharui: 1.0000
+
+Dokumen 561:
+- aplikasi: 0.3690
+- aplikasinya: 0.1624
+- bagus: 0.0766
+- bosen: 0.2052
+- browser: 0.5809
+- cari: 0.1739
+- developer: 0.4103
+- males: 0.2052
+- mohon: 0.1658
+- ni: 0.1936
+- nonton: 0.2690
+- perbaiki: 0.1624
+- suka: 0.1272
+- tolong: 0.1291
+- update: 0.1214
+
+Dokumen 562:
+- zonk: 1.0000
+
+Dokumen 563:
+- bagus: 1.0000
+
+Dokumen 564:
+- ok: 1.0000
+
+Dokumen 565:
+- youtube: 1.0000
+
+Dokumen 566:
+- bagus: 1.0000
+
+Dokumen 567:
+- gimana: 0.6163
+- terbuka: 0.7045
+- youtube: 0.3519
+
+Dokumen 568:
+- android: 0.1823
+- androidnya: 0.2425
+- aplikasi: 0.2907
+- batas: 0.2425
+- berfungsi: 0.2425
+- buatannya: 0.2425
+- dianggap: 0.2425
+- ditinggalkan: 0.2425
+- gagal: 0.2425
+- google: 0.2425
+- minimal: 0.2425
+- pengguna: 0.2425
+- syarat: 0.4850
+- uninstall: 0.2425
+
+Dokumen 569:
+- ayolah: 0.3943
+- bekas: 0.3943
+- hilang: 0.3943
+- history: 0.3722
+- penulusuran: 0.3943
+- penulusurannya: 0.3943
+- update: 0.2334
+- youtube: 0.1720
+
+Dokumen 570:
+- angel: 0.7071
+- temen: 0.7071
+
+Dokumen 571:
+- buruk: 0.6184
+- dibuka: 0.5785
+- gk: 0.5319
+
+Dokumen 572:
+
+Dokumen 573:
+- gimana: 0.4752
+- mematikan: 0.6222
+- musil: 0.6222
+
+Dokumen 574:
+- bagus: 1.0000
+
+Dokumen 575:
+- ksih: 0.7071
+- terimah: 0.7071
+
+Dokumen 576:
+- mantap: 1.0000
+
+Dokumen 577:
+- membantu: 1.0000
+
+Dokumen 578:
+- buka: 0.4115
+- gak: 0.4436
+- knp: 0.5961
+- ya: 0.5277
+
+Dokumen 579:
+- bagus: 1.0000
+
+Dokumen 580:
+- kaya: 0.7071
+- tahi: 0.7071
+
+Dokumen 581:
+- bnget: 0.7857
+- puas: 0.6187
+
+Dokumen 582:
+- mendonlwo: 0.9166
+- youtube: 0.3997
+
+Dokumen 583:
+
+Dokumen 584:
+- bagus: 0.4730
+- banget: 0.8811
+
+Dokumen 585:
+- mantap: 1.0000
+
+Dokumen 586:
+- menyenangkan: 1.0000
+
+Dokumen 587:
+- bagus: 1.0000
+
+Dokumen 588:
+
+Dokumen 589:
+- bagus: 1.0000
+
+Dokumen 590:
+- bagus: 0.4331
+- lumayan: 0.9013
+
+Dokumen 591:
+- bagus: 1.0000
+
+Dokumen 592:
+
+Dokumen 593:
+- aplikasi: 0.4376
+- kualitas: 0.6890
+- perbaiki: 0.5778
+
+Dokumen 594:
+- kualitas: 0.4992
+- nya: 0.2991
+- terbaru: 0.4992
+- tingkatkan: 0.5289
+- video: 0.3639
+
+Dokumen 595:
+
+Dokumen 596:
+- no1: 0.4852
+- pokoke: 0.4852
+- top: 0.3920
+- yg: 0.3304
+- yutub: 0.3593
+- yutube: 0.3706
+
+Dokumen 597:
+- ok: 1.0000
+
+Dokumen 598:
+- bagus: 1.0000
+
+Dokumen 599:
+- baik2: 1.0000
+
+Dokumen 600:
+- sungguh: 1.0000
+
+Dokumen 601:
+- aja: 0.1705
+- fersi: 0.2339
+- gak: 0.4098
+- milemoriku: 0.2478
+- nya: 0.1401
+- slalu: 0.2478
+- suka: 0.1537
+- tau: 0.2101
+- update: 0.7335
+
+Dokumen 602:
+- buka: 0.6801
+- gak: 0.7331
+
+Dokumen 603:
+- bermanfaat: 0.4974
+- cari: 0.5610
+- info: 0.6617
+
+Dokumen 604:
+- ok: 1.0000
+
+Dokumen 605:
+- aktifkan: 1.0000
+
+Dokumen 606:
+
+Dokumen 607:
+- bagus: 1.0000
+
+Dokumen 608:
+- dangdut: 0.8363
+- nonton: 0.5483
+
+Dokumen 609:
+- oke: 1.0000
+
+Dokumen 610:
+- buka: 0.5681
+- yutub: 0.8229
+
+Dokumen 611:
+- mantap: 1.0000
+
+Dokumen 612:
+- lengkap: 0.5649
+- menapjupkan: 0.6470
+- seru: 0.5122
+
+Dokumen 613:
+- sy: 0.8844
+- youtube: 0.4667
+
+Dokumen 614:
+- bagus: 1.0000
+
+Dokumen 615:
+- membantu: 1.0000
+
+Dokumen 616:
+- bagus: 1.0000
+
+Dokumen 617:
+- apk: 0.5774
+- bantu: 0.6059
+- tolong: 0.4498
+- youtube: 0.3117
+
+Dokumen 618:
+
+Dokumen 619:
+- berita: 0.4226
+- dunia: 0.4985
+- hiburan: 0.4027
+- lengkap: 0.4352
+- wawasan: 0.4705
+
+Dokumen 620:
+- buruk: 1.0000
+
+Dokumen 621:
+- aman: 0.3822
+- dah: 0.3455
+- ngeleg: 0.7214
+- suka: 0.2370
+- videonya: 0.3607
+- youtube: 0.1667
+
+Dokumen 622:
+- coba: 0.6706
+- de: 0.7418
+
+Dokumen 623:
+- alasan: 0.3371
+- broswer: 0.3371
+- login: 0.6095
+- memperbarui: 0.3182
+- nya: 0.1906
+- pembaruan: 0.3047
+- perangkat: 0.3182
+- usang: 0.2191
+- youtube: 0.1470
+
+Dokumen 624:
+- membantu: 1.0000
+
+Dokumen 625:
+- bagus: 1.0000
+
+Dokumen 626:
+- aplikasinya: 0.6403
+- bagus: 0.3020
+- berguna: 0.7062
+
+Dokumen 627:
+- majua: 0.4854
+- membantu: 0.3241
+- semangkin: 0.4854
+- semoga: 0.4854
+- tube: 0.3055
+- you: 0.3079
+
+Dokumen 628:
+- bagus: 1.0000
+
+Dokumen 629:
+- bagus: 0.4730
+- banget: 0.8811
+
+Dokumen 630:
+- bagus: 1.0000
+
+Dokumen 631:
+- donlot: 0.8363
+- nonton: 0.5483
+
+Dokumen 632:
+- bagus: 1.0000
+
+Dokumen 633:
+- bagus: 1.0000
+
+Dokumen 634:
+- njio: 1.0000
+
+Dokumen 635:
+- aja: 0.4592
+- buka: 0.3413
+- mengalami: 0.6675
+- nya: 0.3774
+- youtube: 0.2911
+
+Dokumen 636:
+- ok: 1.0000
+
+Dokumen 637:
+- bgini: 0.2327
+- buka: 0.1190
+- dlu: 0.2196
+- gtu: 0.4653
+- nonton: 0.1525
+- skrng: 0.2327
+- stiap: 0.4653
+- trus: 0.4206
+- uninstal: 0.2196
+- update: 0.1377
+- ya: 0.1525
+- youtube: 0.1015
+- yutup: 0.2031
+- yutuup: 0.2327
+
+Dokumen 638:
+- bagus: 1.0000
+
+Dokumen 639:
+- applikasi: 0.4716
+- bagus: 0.1761
+- kasi: 0.4451
+- ku: 0.3664
+- nya: 0.5334
+- udah: 0.3602
+
+Dokumen 640:
+- aja: 0.1851
+- aneh: 0.2539
+- bertulisan: 0.2690
+- gk: 0.1832
+- mengecewakan: 0.2539
+- pakai: 0.2539
+- pake: 0.2349
+- perbarui: 0.6164
+- setelan: 0.2690
+- udah: 0.2055
+- usang: 0.1749
+- ya: 0.1764
+- youtube: 0.2346
+
+Dokumen 641:
+- luas: 0.6517
+- wawasan: 0.6151
+- yg: 0.4437
+
+Dokumen 642:
+- ok: 1.0000
+
+Dokumen 643:
+- video: 1.0000
+
+Dokumen 644:
+- konten: 0.5052
+- suka: 0.3466
+- trend: 0.5589
+- zaman: 0.5589
+
+Dokumen 645:
+- top: 1.0000
+
+Dokumen 646:
+- ok: 1.0000
+
+Dokumen 647:
+- oke: 1.0000
+
+Dokumen 648:
+- lumayan: 1.0000
+
+Dokumen 649:
+- bagus: 1.0000
+
+Dokumen 650:
+- kereen: 1.0000
+
+Dokumen 651:
+- buka: 0.2901
+- instal: 0.4688
+- kali: 0.4953
+- si: 0.5128
+- yutube: 0.4333
+
+Dokumen 652:
+- rekomen: 1.0000
+
+Dokumen 653:
+- buruk: 0.5722
+- memperbarui: 0.6823
+- tolong: 0.4550
+
+Dokumen 654:
+- mantap: 1.0000
+
+Dokumen 655:
+- jelek: 0.7104
+- nya: 0.5573
+- youtube: 0.4298
+
+Dokumen 656:
+- buruk: 0.8008
+- update: 0.5989
+
+Dokumen 657:
+- buka: 0.4022
+- gk: 0.5357
+- yuotube: 0.7425
+
+Dokumen 658:
+- bagus: 1.0000
+
+Dokumen 659:
+- buka: 0.4552
+- youtubku: 0.8904
+
+Dokumen 660:
+- canggih: 0.5042
+- mempantu: 0.5042
+- suka: 0.3127
+- tugas: 0.5042
+- yutub: 0.3734
+
+Dokumen 661:
+- berulang: 0.7524
+- instal: 0.6588
+
+Dokumen 662:
+
+Dokumen 663:
+- bagus: 1.0000
+
+Dokumen 664:
+- bgus: 0.5628
+- keren: 0.4685
+- skali: 0.6810
+
+Dokumen 665:
+- bagus: 1.0000
+
+Dokumen 666:
+- bagus: 1.0000
+
+Dokumen 667:
+- membantu: 1.0000
+
+Dokumen 668:
+- yaaaaa: 1.0000
+
+Dokumen 669:
+- bagus: 1.0000
+
+Dokumen 670:
+- ok: 1.0000
+
+Dokumen 671:
+- tidakbisamenoto: 1.0000
+
+Dokumen 672:
+- bagusss: 1.0000
+
+Dokumen 673:
+- oke: 1.0000
+
+Dokumen 674:
+- kadang: 0.2398
+- lancar: 0.2557
+- liat: 0.5113
+- muter2: 0.2828
+- shot: 0.5656
+- taiii: 0.2828
+- video: 0.1946
+- yg: 0.1926
+- youtube: 0.2467
+
+Dokumen 675:
+- bagus: 0.2381
+- cepet: 0.6377
+- nya: 0.3606
+- pelayanan: 0.6377
+
+Dokumen 676:
+- keren: 1.0000
+
+Dokumen 677:
+- bagus: 1.0000
+
+Dokumen 678:
+- tube: 0.5327
+- yo: 0.8463
+
+Dokumen 679:
+- keren: 1.0000
+
+Dokumen 680:
+- top: 1.0000
+
+Dokumen 681:
+
+Dokumen 682:
+- bagus: 0.4880
+- membantu: 0.8728
+
+Dokumen 683:
+- bsa: 0.5009
+- knp: 0.4104
+- ngk: 0.5230
+- pasang: 0.5542
+
+Dokumen 684:
+- bagus: 1.0000
+
+Dokumen 685:
+- top: 1.0000
+
+Dokumen 686:
+- ok: 1.0000
+
+Dokumen 687:
+- mantul: 1.0000
+
+Dokumen 688:
+- mantap: 1.0000
+
+Dokumen 689:
+- bagus: 1.0000
+
+Dokumen 690:
+- mantap: 1.0000
+
+Dokumen 691:
+- dibuka: 0.4798
+- dihpku: 0.6479
+- ga: 0.4286
+- tolong: 0.4078
+
+Dokumen 692:
+- jozz: 1.0000
+
+Dokumen 693:
+- mantap: 0.5580
+- top: 0.8298
+
+Dokumen 694:
+- goodjobs: 1.0000
+
+Dokumen 695:
+- ok: 1.0000
+
+Dokumen 696:
+- cok: 1.0000
+
+Dokumen 697:
+- aplikasi: 0.4198
+- bantu: 0.5937
+- susah: 0.5264
+- tolong: 0.4408
+
+Dokumen 698:
+- iklan: 0.4588
+- kenyamanan: 0.6283
+- mengganggu: 0.6283
+
+Dokumen 699:
+- bagus: 0.3498
+- kuntul: 0.9368
+
+Dokumen 700:
+- apk: 0.3070
+- dikit²: 0.3800
+- ga: 0.2514
+- gak: 0.2095
+- iklan: 0.5551
+- ribet: 0.3435
+- si: 0.3435
+- yutup: 0.3318
+
+Dokumen 701:
+- baguss: 0.6706
+- tayangan: 0.7418
+
+Dokumen 702:
+- iya: 1.0000
+
+Dokumen 703:
+- bagus: 1.0000
+
+Dokumen 704:
+- membantu: 1.0000
+
+Dokumen 705:
+- kebuka: 0.5246
+- kga: 0.6348
+- tube: 0.3996
+- you: 0.4026
+
+Dokumen 706:
+- bestttt: 1.0000
+
+Dokumen 707:
+- bagus: 1.0000
+
+Dokumen 708:
+- habis: 0.5815
+- iklan: 0.4499
+- nya: 0.3484
+- premium: 0.5815
+
+Dokumen 709:
+- lumayan: 1.0000
+
+Dokumen 710:
+- aktifkan: 0.7112
+- tube: 0.4952
+- you: 0.4990
+
+Dokumen 711:
+- enak: 0.8869
+- nonton: 0.3429
+- update: 0.3096
+
+Dokumen 712:
+
+Dokumen 713:
+- mengakaea: 0.5774
+- tuobe: 0.5774
+- yuo: 0.5774
+
+Dokumen 714:
+- bagus: 1.0000
+
+Dokumen 715:
+- okk: 1.0000
+
+Dokumen 716:
+- ok: 1.0000
+
+Dokumen 717:
+- bagus: 1.0000
+
+Dokumen 718:
+- ga: 0.5185
+- puyeng: 0.7838
+- youtube: 0.3418
+
+Dokumen 719:
+- mantapnontonndyuotub: 1.0000
+
+Dokumen 720:
+- bagus: 1.0000
+
+Dokumen 721:
+- ok: 0.4524
+- pelajari: 0.8918
+
+Dokumen 722:
+- good: 1.0000
+
+Dokumen 723:
+- macet: 1.0000
+
+Dokumen 724:
+- aja: 0.1262
+- banget: 0.1276
+- bangetterus: 0.1835
+- berasa: 0.1835
+- durasinya: 0.3670
+- gak: 0.1011
+- iklan: 0.2680
+- iklannya: 0.3318
+- jg: 0.1732
+- kepanjangan: 0.1732
+- klo: 0.1732
+- lagu: 0.1659
+- mohon: 0.1482
+- nonton: 0.1203
+- oke: 0.1249
+- perbaiki: 0.1453
+- streaming: 0.3464
+- tp: 0.3204
+- tuh: 0.3670
+- youtube: 0.1600
+
+Dokumen 725:
+- bida: 0.6757
+- pergen: 0.6757
+- youtube: 0.2947
+
+Dokumen 726:
+- bagus: 1.0000
+
+Dokumen 727:
+- 400: 0.7071
+- server: 0.7071
+
+Dokumen 728:
+- joosss: 1.0000
+
+Dokumen 729:
+- oke: 1.0000
+
+Dokumen 730:
+- bagus: 1.0000
+
+Dokumen 731:
+- bnget: 0.7819
+- jelek: 0.6234
+
+Dokumen 732:
+- oke: 1.0000
+
+Dokumen 733:
+- baikkkkkkkkkkk: 1.0000
+
+Dokumen 734:
+- 6s: 0.3004
+- and: 0.2835
+- buggy: 0.3004
+- feels: 0.3004
+- glitchy: 0.3004
+- on: 0.3004
+- pad: 0.3004
+- pro: 0.3004
+- sometimes: 0.3004
+- ui: 0.3004
+- xiaomi: 0.3004
+- youtube: 0.1310
+
+Dokumen 735:
+- ditutup: 0.4530
+- komentar: 0.3841
+- update: 0.8045
+
+Dokumen 736:
+- bagus: 1.0000
+
+Dokumen 737:
+- bagus: 1.0000
+
+Dokumen 738:
+- mantap: 1.0000
+
+Dokumen 739:
+- all: 0.4523
+- android: 0.3602
+- make: 0.4523
+- pls: 0.4793
+- support: 0.4332
+- youtube: 0.2090
+
+Dokumen 740:
+- agama: 0.4034
+- anak: 0.3647
+- bagus: 0.1506
+- belajar: 0.3647
+- enak: 0.3420
+- hiburan: 0.3259
+- motivasi: 0.4034
+- nyari: 0.4034
+
+Dokumen 741:
+- nice: 1.0000
+
+Dokumen 742:
+- nice: 1.0000
+
+Dokumen 743:
+- ahie2: 0.5114
+- gakbisa: 0.5114
+- knapa: 0.4622
+- putar: 0.4622
+- youtube: 0.2230
+
+Dokumen 744:
+- hp: 0.4022
+- ku: 0.4590
+- sayangny: 0.5907
+- tube: 0.3718
+- you: 0.3747
+
+Dokumen 745:
+- koyok: 0.7071
+- taek: 0.7071
+
+Dokumen 746:
+- mntap: 1.0000
+
+Dokumen 747:
+- mrmbantu: 1.0000
+
+Dokumen 748:
+- ok: 1.0000
+
+Dokumen 749:
+- browser: 0.3555
+- buka: 0.1926
+- ga: 0.2492
+- hp: 0.2565
+- makan: 0.3767
+- pembaruan: 0.3405
+- quota: 0.3767
+- sanggup: 0.3767
+- usang: 0.2448
+- versi: 0.2831
+- youtube: 0.1643
+
+Dokumen 750:
+- hiburan: 0.4666
+- informasi: 0.4572
+- kalangan: 0.5776
+- mencari: 0.4896
+
+Dokumen 751:
+- mantap: 1.0000
+
+Dokumen 752:
+- buruk: 1.0000
+
+Dokumen 753:
+- terimakasih: 1.0000
+
+Dokumen 754:
+- mantap: 1.0000
+
+Dokumen 755:
+- aplikasi: 0.3041
+- belajar: 0.4587
+- mambantu: 0.4789
+- memasak: 0.5074
+- sagat: 0.4587
+
+Dokumen 756:
+- 5a: 0.3579
+- android: 0.2690
+- aplikasi: 0.2145
+- gk: 0.2437
+- hp: 0.2437
+- kebuka: 0.2958
+- knp: 0.2651
+- konfirmasi: 0.3579
+- nya: 0.2024
+- redmi: 0.3579
+- terimakasih: 0.3235
+- tolong: 0.2253
+- youtube: 0.1561
+
+Dokumen 757:
+- ok: 1.0000
+
+Dokumen 758:
+- bermanfaat: 1.0000
+
+Dokumen 759:
+- bagus: 1.0000
+
+Dokumen 760:
+- youtube: 1.0000
+
+Dokumen 761:
+- busuk: 1.0000
+
+Dokumen 762:
+- myanmar: 1.0000
+
+Dokumen 763:
+- bagus: 1.0000
+
+Dokumen 764:
+- oke: 1.0000
+
+Dokumen 765:
+- bagus: 0.3464
+- buka: 0.4744
+- youtube: 0.8093
+
+Dokumen 766:
+- bagus: 0.4448
+- bermanfaat: 0.8956
+
+Dokumen 767:
+- ok: 1.0000
+
+Dokumen 768:
+- aduuh: 0.2906
+- dimengerti: 0.2906
+- doa: 0.2906
+- gaptek: 0.2906
+- jd: 0.2742
+- lg: 0.2626
+- nenek2: 0.2906
+- nii: 0.2906
+- streaming: 0.2742
+- tks: 0.2906
+- tlng: 0.2906
+- udh: 0.2626
+- ya: 0.1905
+
+Dokumen 769:
+- ok: 1.0000
+
+Dokumen 770:
+- beritana: 0.5958
+- menarik: 0.5386
+- real: 0.5958
+
+Dokumen 771:
+- mantap: 1.0000
+
+Dokumen 772:
+- ad: 1.0000
+
+Dokumen 773:
+- ok: 1.0000
+
+Dokumen 774:
+- good: 1.0000
+
+Dokumen 775:
+- keren: 1.0000
+
+Dokumen 776:
+- aplikasi: 0.6235
+- bermanfaat: 0.7818
+
+Dokumen 777:
+- perfeck: 1.0000
+
+Dokumen 778:
+- apaloud: 0.3391
+- gimana: 0.5180
+- gk: 0.2309
+- haruss: 0.3391
+- min: 0.3066
+- nih: 0.3201
+- nihh: 0.3391
+- terusss: 0.3391
+- youtube: 0.1479
+
+Dokumen 779:
+- aplikasinya: 0.5957
+- bagus: 0.2809
+- channel: 0.7525
+
+Dokumen 780:
+- bagus: 1.0000
+
+Dokumen 781:
+- suruh: 0.8366
+- update: 0.5478
+
+Dokumen 782:
+- dibetul: 1.0000
+
+Dokumen 783:
+- eror: 1.0000
+
+Dokumen 784:
+- ok: 1.0000
+
+Dokumen 785:
+- mantab: 0.6466
+- yuh: 0.7628
+
+Dokumen 786:
+- berguna: 1.0000
+
+Dokumen 787:
+- aplikasi: 0.3607
+- bagus: 0.2247
+- dn: 0.5439
+- membantu: 0.4018
+- sngt: 0.6018
+
+Dokumen 788:
+- aplikasi: 0.6950
+- suka: 0.7190
+
+Dokumen 789:
+- seru: 1.0000
+
+Dokumen 790:
+- bagus: 0.2099
+- buka: 0.2875
+- ga: 0.3720
+- hp: 0.3828
+- ku: 0.4369
+- ok: 0.2852
+- ssngat: 0.5623
+
+Dokumen 791:
+- hp: 0.5601
+- kemarin: 0.2742
+- kena: 0.2742
+- main: 0.5176
+- nonton: 0.1798
+- nya: 0.1550
+- seru: 0.2170
+- singkat: 0.2742
+- tv: 0.2742
+- youtube: 0.1196
+
+Dokumen 792:
+- bagus: 0.4730
+- banget: 0.8811
+
+Dokumen 793:
+- kali: 0.7578
+- versi: 0.6525
+
+Dokumen 794:
+- jelek: 1.0000
+
+Dokumen 795:
+- mantap: 1.0000
+
+Dokumen 796:
+
+Dokumen 797:
+- download: 0.4257
+- lagu: 0.4257
+- mudah: 0.3892
+- mudahan: 0.4709
+- nonton: 0.3088
+- pake: 0.4111
+
+Dokumen 798:
+- buka: 0.5681
+- knp: 0.8229
+
+Dokumen 799:
+- bqgus: 1.0000
+
+Dokumen 800:
+- infonya: 0.4092
+- paraahh: 0.4092
+- sdh: 0.4092
+- tdk: 0.3381
+- terbuka: 0.3572
+- update: 0.2422
+- usang: 0.2659
+- versi: 0.3076
+- youtube: 0.1784
+
+Dokumen 801:
+- mantap: 1.0000
+
+Dokumen 802:
+
+Dokumen 803:
+- goodd: 1.0000
+
+Dokumen 804:
+- dah: 0.5676
+- ga: 0.4154
+- jelek: 0.4526
+- pake: 0.5482
+
+Dokumen 805:
+- suka: 1.0000
+
+Dokumen 806:
+- goood: 0.7071
+- job: 0.7071
+
+Dokumen 807:
+- dibuka: 0.6381
+- tube: 0.5423
+- you: 0.5465
+
+Dokumen 808:
+
+Dokumen 809:
+- bagus: 1.0000
+
+Dokumen 810:
+- okok: 1.0000
+
+Dokumen 811:
+- dibuka: 0.3980
+- gak: 0.2962
+- kadang: 0.4556
+- parah: 0.5073
+- yotubenya: 0.5375
+
+Dokumen 812:
+- hapus: 0.9007
+- youtube: 0.4345
+
+Dokumen 813:
+- sekalii: 1.0000
+
+Dokumen 814:
+- dibuka: 0.5198
+- tdk: 0.5800
+- tube: 0.4418
+- you: 0.4452
+
+Dokumen 815:
+
+Dokumen 816:
+- gak: 0.3742
+- hp: 0.4623
+- ku: 0.5275
+- tube: 0.4273
+- you: 0.4306
+
+Dokumen 817:
+- ok: 0.4524
+- pelayananya: 0.8918
+
+Dokumen 818:
+- good: 1.0000
+
+Dokumen 819:
+- buka: 0.4771
+- gak: 0.5143
+- yutube: 0.7127
+
+Dokumen 820:
+- mantappp: 1.0000
+
+Dokumen 821:
+- bs: 0.5895
+- buka: 0.3647
+- ga: 0.4719
+- yutube: 0.5448
+
+Dokumen 822:
+- abis: 0.3654
+- byr: 0.3872
+- dh: 0.3872
+- gw: 0.3380
+- knp: 0.2867
+- premium: 0.3654
+- sih: 0.3065
+- uang: 0.3380
+- youtube: 0.1688
+
+Dokumen 823:
+- bermanfaat: 1.0000
+
+Dokumen 824:
+- dibuka: 0.4472
+- dinstal: 0.6038
+- gak: 0.3328
+- habis: 0.5699
+
+Dokumen 825:
+- seru: 1.0000
+
+Dokumen 826:
+- bagus: 1.0000
+
+Dokumen 827:
+
+Dokumen 828:
+- mantap: 1.0000
+
+Dokumen 829:
+- tube: 0.4843
+- yes: 0.7262
+- you: 0.4880
+
+Dokumen 830:
+- bagus: 0.1556
+- gimna: 0.4167
+- ko: 0.3638
+- maunya: 0.4167
+- sih: 0.6597
+- update: 0.2467
+
+Dokumen 831:
+- fersi: 0.4352
+- perbaharui: 0.4168
+- tdk: 0.3810
+- tertulis: 0.4611
+- usang: 0.2997
+- youtubenya: 0.4352
+
+Dokumen 832:
+- jelek: 1.0000
+
+Dokumen 833:
+- bagus: 0.1928
+- bintang: 0.4377
+- game: 0.4873
+- kasih: 0.4267
+- mabar: 0.5163
+- nya: 0.2919
+
+Dokumen 834:
+- bagus: 1.0000
+
+Dokumen 835:
+- makinn: 0.7994
+- susah: 0.6009
+
+Dokumen 836:
+- susah: 1.0000
+
+Dokumen 837:
+- app: 0.2586
+- buka: 0.2925
+- gak: 0.1576
+- instal: 0.2364
+- isntal: 0.2860
+- jd: 0.2700
+- kecuali: 0.2700
+- tsb: 0.2860
+- uinstal: 0.5721
+- update: 0.3386
+- youtube: 0.1247
+
+Dokumen 838:
+- ok: 1.0000
+
+Dokumen 839:
+- good: 1.0000
+
+Dokumen 840:
+- lihat: 0.3664
+- ngeblur: 0.4434
+- short: 0.4008
+- solusi: 0.4434
+- tp: 0.3871
+- update: 0.2625
+- video: 0.3051
+
+Dokumen 841:
+- buka: 0.3594
+- gx: 0.6137
+- hpe: 0.7030
+
+Dokumen 842:
+- bagus: 1.0000
+
+Dokumen 843:
+- bug: 0.6503
+- parah: 0.7597
+
+Dokumen 844:
+- butu: 0.5446
+- inspirasi: 0.5446
+- karna: 0.4400
+- mencari: 0.4617
+
+Dokumen 845:
+- apli: 0.2260
+- bagus: 0.1788
+- bagusss: 0.2091
+- bagusssssss: 0.2395
+- bitang: 0.2395
+- gabut: 0.2395
+- gitu: 0.2165
+- hilangin: 0.2395
+- karna: 0.1935
+- kasih: 0.1979
+- ku: 0.1861
+- lohhhhhhhhhhhhhhhh: 0.2395
+- nonton: 0.1570
+- nya: 0.1354
+- online: 0.2260
+- palin: 0.2395
+- sih: 0.3792
+- sihh: 0.2260
+- ya: 0.1570
+- yng: 0.2395
+
+Dokumen 846:
+- bagus: 1.0000
+
+Dokumen 847:
+- beranda: 0.2210
+- dipencet: 0.4420
+- diperbaiki: 0.2086
+- gk: 0.3010
+- kalo: 0.1717
+- karna: 0.1785
+- kayak: 0.2086
+- knp: 0.1637
+- mulu: 0.1929
+- ngebug: 0.1998
+- nonton: 0.1449
+- short: 0.1998
+- sih: 0.1749
+- susah: 0.1661
+- tenggelam: 0.4420
+- tolong: 0.1391
+- tombol: 0.2210
+- ya: 0.1449
+- youtube: 0.0964
+
+Dokumen 848:
+- ok: 1.0000
+
+Dokumen 849:
+- bagus: 1.0000
+
+Dokumen 850:
+- android: 0.4145
+- banget: 0.3835
+- lolipop: 0.5515
+- sayang: 0.4985
+- usang: 0.3584
+
+Dokumen 851:
+- izinkan: 0.8363
+- komentar: 0.3545
+- tindakan: 0.4182
+
+Dokumen 852:
+- keren: 1.0000
+
+Dokumen 853:
+- menonton: 0.3752
+- nya: 0.2347
+- senang: 0.3170
+- seru²: 0.4151
+- shorts: 0.4151
+- video: 0.5712
+- youtube: 0.1810
+
+Dokumen 854:
+- aja: 0.3337
+- baguss: 0.4384
+- banget: 0.3373
+- kalo: 0.3768
+- lihat: 0.4008
+- updite: 0.4850
+- youtube: 0.2115
+
+Dokumen 855:
+- bagus: 1.0000
+
+Dokumen 856:
+- good: 1.0000
+
+Dokumen 857:
+- suka: 0.6420
+- yutub: 0.7667
+
+Dokumen 858:
+- buka: 0.4211
+- perbaiki: 0.6519
+- tolong: 0.5184
+- youtube: 0.3592
+
+Dokumen 859:
+- konten: 0.6706
+- kreator: 0.7418
+
+Dokumen 860:
+- ok: 1.0000
+
+Dokumen 861:
+- mantap: 1.0000
+
+Dokumen 862:
+- good: 1.0000
+
+Dokumen 863:
+- cepat: 0.5253
+- cobs: 0.6017
+- versy: 0.6017
+
+Dokumen 864:
+- bagus: 0.4730
+- banget: 0.8811
+
+Dokumen 865:
+- berita: 0.6812
+- internasional: 0.2679
+- manusia: 0.2528
+- membuka: 0.2338
+- mengenal: 0.2679
+- negeri: 0.2679
+- perilakunya: 0.2679
+- sifat: 0.2679
+- youtobe: 0.2421
+
+Dokumen 866:
+- bagus: 1.0000
+
+Dokumen 867:
+- good: 1.0000
+
+Dokumen 868:
+- bagus: 0.1594
+- layar: 0.3860
+- nonton: 0.2800
+- nya: 0.2415
+- pelangi: 0.4270
+- tolong: 0.2688
+- video: 0.2938
+- vidio: 0.3620
+- warna: 0.4270
+- youtube: 0.1862
+
+Dokumen 869:
+- aplikasi: 0.7608
+- buka: 0.6490
+
+Dokumen 870:
+- berguna: 0.6577
+- sewajarnya: 0.7533
+
+Dokumen 871:
+- ga: 0.3724
+- kecewa: 0.5629
+- masuk: 0.4772
+- sugguh: 0.5629
+
+Dokumen 872:
+- okay: 1.0000
+
+Dokumen 873:
+- banget: 0.3217
+- kadang: 0.3921
+- layar: 0.4181
+- oke: 0.3149
+- pecah: 0.4625
+- tp: 0.4038
+- ya: 0.3032
+
+Dokumen 874:
+- mantap: 1.0000
+
+Dokumen 875:
+- aja: 0.3788
+- aplikasi: 0.3300
+- gk: 0.3749
+- kebuka: 0.4550
+- nya: 0.3113
+- nyebelin: 0.5506
+
+Dokumen 876:
+- ok: 1.0000
+
+Dokumen 877:
+
+Dokumen 878:
+- bagus: 1.0000
+
+Dokumen 879:
+- ad: 0.3805
+- gak: 0.2402
+- kali: 0.3805
+- tulisan: 0.4113
+- udah: 0.3328
+- update: 0.2580
+- usang: 0.2832
+- ya: 0.2857
+- youtube: 0.3801
+
+Dokumen 880:
+- ok: 1.0000
+
+Dokumen 881:
+- bagusan: 1.0000
+
+Dokumen 882:
+- keren: 1.0000
+
+Dokumen 883:
+- mantap: 1.0000
+
+Dokumen 884:
+- 0ke: 1.0000
+
+Dokumen 885:
+- bantu: 0.5580
+- buka: 0.3365
+- ga: 0.4354
+- kenpa: 0.6212
+
+Dokumen 886:
+- lagu: 1.0000
+
+Dokumen 887:
+- gak: 0.5206
+- putar: 0.8538
+
+Dokumen 888:
+- android: 0.3523
+- dibilang: 0.4687
+- nougat: 0.4687
+- sedih: 0.4687
+- usang: 0.3046
+- versi: 0.3523
+
+Dokumen 889:
+- bagus: 1.0000
+
+Dokumen 890:
+- best: 1.0000
+
+Dokumen 891:
+- aja: 0.2558
+- android: 0.2795
+- gk: 0.5064
+- hp: 0.2532
+- khusus: 0.3509
+- knp: 0.2754
+- lite: 0.3718
+- nonton: 0.2438
+- support: 0.3361
+- youtube: 0.1621
+
+Dokumen 892:
+- buka: 0.2422
+- nya: 0.2679
+- perbaiki: 0.3750
+- rolong: 0.4738
+- tulisan: 0.4472
+- udah: 0.3619
+- update: 0.2805
+- usang: 0.3080
+
+Dokumen 893:
+- bagus: 1.0000
+
+Dokumen 894:
+- buka: 0.3747
+- ga: 0.4848
+- mohon: 0.5921
+- nya: 0.4144
+- youtube: 0.3196
+
+Dokumen 895:
+- senang: 1.0000
+
+Dokumen 896:
+- mantap: 0.4963
+- nya: 0.5166
+- yutube: 0.6977
+
+Dokumen 897:
+- ok: 1.0000
+
+Dokumen 898:
+- mantap: 1.0000
+
+Dokumen 899:
+- mati: 0.8840
+- nya: 0.2499
+- tube: 0.2782
+- you: 0.2804
+
+Dokumen 900:
+- bgus: 1.0000
+
+Dokumen 901:
+- susah: 1.0000
+
+Dokumen 902:
+- bermanfaat: 1.0000
+
+Dokumen 903:
+- bagus: 1.0000
+
+Dokumen 904:
+- mantap: 1.0000
+
+Dokumen 905:
+- bagus: 1.0000
+
+Dokumen 906:
+- bagus: 1.0000
+
+Dokumen 907:
+- bagus: 1.0000
+
+Dokumen 908:
+- perbarui: 0.5189
+- yaa: 0.6794
+- yutube: 0.5189
+
+Dokumen 909:
+- ga: 0.7452
+- update: 0.6668
+
+Dokumen 910:
+
+Dokumen 911:
+- buks: 0.7867
+- yutub: 0.6173
+
+Dokumen 912:
+- ok: 1.0000
+
+Dokumen 913:
+- eror: 0.6497
+- tube: 0.5354
+- you: 0.5396
+
+Dokumen 914:
+- bagus: 1.0000
+
+Dokumen 915:
+- bagus: 1.0000
+
+Dokumen 916:
+- buka: 0.6801
+- gak: 0.7331
+
+Dokumen 917:
+- biar: 0.3792
+- data: 0.3927
+- gabisa: 0.3927
+- hapus: 0.3927
+- nonton: 0.2848
+- usang: 0.2823
+- video: 0.2989
+- youtube: 0.3789
+
+Dokumen 918:
+- good: 1.0000
+
+Dokumen 919:
+- aktif: 0.4742
+- kn: 0.5246
+- lg: 0.4742
+- yutu: 0.5246
+
+Dokumen 920:
+- pengalaman: 1.0000
+
+Dokumen 921:
+- disuruh: 0.6178
+- hp: 0.4653
+- nya: 0.3864
+- update: 0.4045
+- youtube: 0.2980
+
+Dokumen 922:
+- aplkasi: 0.4473
+- karna: 0.3614
+- membuka: 0.3905
+- senang: 0.3416
+- sya: 0.4473
+- terhibur: 0.4473
+
+Dokumen 923:
+- buka: 0.2919
+- gak: 0.3147
+- knp: 0.4228
+- pas: 0.4436
+- prah: 0.5709
+- update: 0.3380
+
+Dokumen 924:
+- yutub: 1.0000
+
+Dokumen 925:
+- kereeeeen: 1.0000
+
+Dokumen 926:
+- aja: 0.6056
+- liat: 0.7957
+
+Dokumen 927:
+- bagus: 0.3498
+- bangat: 0.9368
+
+Dokumen 928:
+- good: 1.0000
+
+Dokumen 929:
+- oke: 1.0000
+
+Dokumen 930:
+- alih: 0.3647
+- ber: 0.3647
+- com: 0.3647
+- gak: 0.4020
+- paham: 0.3647
+- siruh: 0.3647
+- ya: 0.2391
+- youtub: 0.3014
+- youtube: 0.1590
+
+Dokumen 931:
+- dewi: 0.4621
+- geming: 0.4621
+- hacaa: 0.4621
+- lihat: 0.3819
+- pengen: 0.4621
+
+Dokumen 932:
+- byk: 0.3357
+- diperbarui: 0.3357
+- dn: 0.3034
+- iklan: 0.2451
+- kesini: 0.3168
+- lemot: 0.3034
+- mnt: 0.3357
+- parahhh: 0.3357
+- sllu: 0.3357
+- youtobe: 0.3034
+
+Dokumen 933:
+- bagus: 1.0000
+
+Dokumen 934:
+- diuodate: 0.5774
+- habiskan: 0.5774
+- kuota: 0.5774
+
+Dokumen 935:
+- 4g: 0.1608
+- anjlok: 0.1608
+- benerin: 0.1608
+- bngt: 0.1518
+- bug: 0.2599
+- fokus: 0.1608
+- gak: 0.1773
+- gawe: 0.1608
+- jelek: 0.1159
+- komen: 0.1608
+- like: 0.1608
+- loading: 0.1454
+- lur: 0.1608
+- mh: 0.1608
+- ngantuk: 0.1608
+- nge: 0.3036
+- ngopi: 0.3217
+- nih: 0.1518
+- nya: 0.1819
+- nyeee: 0.1608
+- pas: 0.1250
+- pdhl: 0.1518
+- pokoknya: 0.1608
+- sinyal: 0.1608
+- susah: 0.1209
+- tetiba: 0.1608
+- upgrade: 0.1518
+- video: 0.2213
+- yg: 0.1095
+- yt: 0.3036
+
+Dokumen 936:
+- bagus: 1.0000
+
+Dokumen 937:
+- dibuka: 0.5610
+- diperbaharui: 0.7149
+- gak: 0.4175
+
+Dokumen 938:
+- makasih: 0.6656
+- ok: 0.3376
+- om: 0.6656
+
+Dokumen 939:
+- bagus: 1.0000
+
+Dokumen 940:
+- banget: 0.5357
+- gua: 0.6963
+- suka: 0.4777
+
+Dokumen 941:
+- lemot: 1.0000
+
+Dokumen 942:
+- aneh: 0.3462
+- bagus: 0.1370
+- banyk: 0.3669
+- bnget: 0.3316
+- disuruh: 0.3316
+- mlah: 0.3669
+- update: 0.4343
+- video: 0.2524
+- yah: 0.3462
+
+Dokumen 943:
+- buka: 0.3873
+- tdk: 0.6260
+- tube: 0.4768
+- you: 0.4805
+
+Dokumen 944:
+- good: 1.0000
+
+Dokumen 945:
+- bagus: 1.0000
+
+Dokumen 946:
+- agus: 1.0000
+
+Dokumen 947:
+- bagus: 0.1475
+- berguna: 0.3449
+- buruk: 0.3127
+- contohh: 0.3951
+- ga: 0.2614
+- gak: 0.2178
+- konten2: 0.3951
+- nya: 0.2234
+- sulit: 0.3571
+- takpantas: 0.3951
+
+Dokumen 948:
+- dibukak: 1.0000
+
+Dokumen 949:
+- bagus: 1.0000
+
+Dokumen 950:
+- bagust: 0.2670
+- banget: 0.1857
+- berbaiki: 0.5340
+- gimana: 0.2039
+- maceeet: 0.2670
+- masuk: 0.2263
+- nonton: 0.1750
+- nya: 0.1510
+- pas: 0.2074
+- tolong: 0.3361
+- vidio: 0.4527
+- ya: 0.1750
+
+Dokumen 951:
+- good: 1.0000
+
+Dokumen 952:
+- bsa: 0.6373
+- gak: 0.3886
+- upgrade: 0.6654
+
+Dokumen 953:
+- cepat: 0.7408
+- informasi: 0.6717
+
+Dokumen 954:
+- berharga: 0.5958
+- informasi: 0.4716
+- mengikuti: 0.5958
+- youtube: 0.2598
+
+Dokumen 955:
+- gimana: 0.6541
+- update: 0.5069
+- ya: 0.5615
+
+Dokumen 956:
+- ku: 0.5193
+- tdk: 0.5523
+- terbuka: 0.5835
+- youtube: 0.2914
+
+Dokumen 957:
+- bs: 0.4571
+- dibantu: 0.5220
+- dibuka: 0.4096
+- gak: 0.3048
+- mohon: 0.4468
+- youtube: 0.2412
+
+Dokumen 958:
+- aplikasiyoutubenya: 0.6816
+- buka: 0.3485
+- tida: 0.6433
+
+Dokumen 959:
+- beda: 0.5532
+- jelek: 0.7974
+- youtube: 0.2412
+
+Dokumen 960:
+
+Dokumen 961:
+- keren: 1.0000
+
+Dokumen 962:
+- data: 0.5052
+- hemat: 0.5589
+- prastis: 0.5589
+- suka: 0.3466
+
+Dokumen 963:
+- usang: 0.5246
+- ya: 0.5291
+- youtub: 0.6670
+
+Dokumen 964:
+- mantap: 1.0000
+
+Dokumen 965:
+- eror: 1.0000
+
+Dokumen 966:
+- update: 1.0000
+
+Dokumen 967:
+- babi: 0.5156
+- date: 0.5156
+- diup: 0.5156
+- yutup: 0.4501
+
+Dokumen 968:
+- dibuka: 0.6036
+- ga: 0.5391
+- jelek: 0.5874
+
+Dokumen 969:
+
+Dokumen 970:
+
+Dokumen 971:
+- aqir: 0.8715
+- eror: 0.3328
+- youtub: 0.3601
+
+Dokumen 972:
+- bagus: 1.0000
+
+Dokumen 973:
+
+Dokumen 974:
+- buka: 1.0000
+
+Dokumen 975:
+- mantap: 1.0000
+
+Dokumen 976:
+- berita: 0.6682
+- inpormasi: 0.7440
+
+Dokumen 977:
+- anak: 0.3849
+- aplikasi: 0.2552
+- cari: 0.3610
+- kesukaan: 0.4258
+- lagu2: 0.4258
+- lengkap: 0.3717
+- suka: 0.2641
+- video: 0.2930
+
+Dokumen 978:
+- senang: 1.0000
+
+Dokumen 979:
+- senang: 0.7763
+- suka: 0.6304
+
+Dokumen 980:
+- bagus: 0.2921
+- kalo: 0.6078
+- lgi: 0.7384
+
+Dokumen 981:
+- oke: 0.6768
+- yutub: 0.7362
+
+Dokumen 982:
+- maksih: 0.5774
+- membatu: 0.5774
+- yotube: 0.5774
+
+Dokumen 983:
+- terbaik: 1.0000
+
+Dokumen 984:
+
+Dokumen 985:
+- suka: 0.8180
+- youtube: 0.5752
+
+Dokumen 986:
+
+Dokumen 987:
+- bg: 0.6423
+- iklan: 0.4691
+- judol: 0.6062
+
+Dokumen 988:
+- joss: 0.7272
+- sip: 0.6864
+
+Dokumen 989:
+- dulunya: 0.3013
+- ilmu: 0.2630
+- informasi: 0.2385
+- membantu: 0.4024
+- minim: 0.3013
+- pengetauan: 0.3013
+- sesuai: 0.3013
+- trimakasih: 0.3013
+- tube: 0.1896
+- yg: 0.4103
+- you: 0.1911
+- youtube: 0.1314
+
+Dokumen 990:
+- bagus: 1.0000
+
+Dokumen 991:
+- bud: 0.6104
+- ilangin: 0.5761
+- keren: 0.4200
+- nya: 0.3452
+
+Dokumen 992:
+- senang: 1.0000
+
+Dokumen 993:
+- done: 0.7071
+- well: 0.7071
+
+Dokumen 994:
+- buka: 0.4177
+- eror: 0.6239
+- gk: 0.5562
+- youtube: 0.3562
+
+Dokumen 995:
+- aplikasi: 0.4427
+- ngak: 0.6970
+- perbarui: 0.5641
+
+Dokumen 996:
+- bagus: 1.0000
+
+Dokumen 997:
+- bagus: 1.0000
+
+Dokumen 998:
+- bagus: 1.0000
+
+Dokumen 999:
+- gak: 0.3541
+- napa: 0.6064
+- tube: 0.4044
+- ya: 0.4212
+- you: 0.4075
+

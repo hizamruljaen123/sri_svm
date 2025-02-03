@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
     <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist@2.19.0/plotly.min.js"></script>
-    <title>Admin - Scraping Data</title>
+    <title>Admin - Analisis Sentimen</title>
   </head>
   <body>
 
@@ -16,71 +16,69 @@
     <div class="sidebar">
       <h4 class="text-center">Admin Panel</h4>
       <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
-      <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a>
+      <!-- <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a> -->
+      <a href="/tfidf_results" class="{% if active_page == 'scraping' %}active{% endif %}">TF-IDF</a>
       <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
       <a href="/data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Data Latih</a>
-      <a href="/open_data_latih" target="_blank"  class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_latih" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
       <a href="/open_data_uji" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
     </div>
 
     <!-- Content Area -->
     <div class="content">
-      
-
       <!-- Scraping Form -->
       <div class="container-fluid mt-5">
         <!-- Plotly Graph for Sentiment Frequency -->
+        <div id="responseMessage" class="mt-4"></div>
         <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h1 class="text-center mb-4">Hasil Analisa</h1>
-                  <div class="text-right">
-                    <button class="btn btn-primary btn-sm" id="predictButton">Prediksi Ulang</button>  
-                  </div>
-                  <br>
-                  <!-- Table Container with Parallax Scrolling -->
-                  <div class="table-container"> 
-                    <table class="table custom-table">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Komentar</th>
-                          <th scope="col">Prediksi Sentimen</th>
-                        </tr>
-                      </thead>
-                      <tbody id="data_scraping">
-                        <!-- Data from API will be injected here -->
-                      </tbody>
-                    </table>
-                  </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center mb-4">Hasil Analisa</h1>
+                <div class="text-right">
+                  <button class="btn btn-primary btn-sm" id="predictButton">Prediksi Ulang</button>  
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <h3 class="text-center">Sentiment Frequency</h3>
-                  <div id="sentimentChart"></div>
-                </div>
-              </div>
-              <br>
-              <div class="card">
-                <div class="card-body">
-                  <h3 class="text-center">SVM Hyperplane</h3>
-                  <div class="text-right">
-                    <button class="btn btn-primary btn-sm" id="trainingModel">Training Model</button>  
-                  </div>
-
-                  <div class="modelGraph">
-                    <img src="{{ url_for('static', filename='graph/train_svm_manual.png') }}" alt="" width="100%">
-                  </div>
-                  
+                <br>
+                <!-- Table Container with Parallax Scrolling -->
+                <div class="table-container"> 
+                  <table class="table custom-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Komentar</th>
+                        <th scope="col">Prediksi Sentimen</th>
+                      </tr>
+                    </thead>
+                    <tbody id="data_scraping">
+                      <!-- Data from API will be injected here -->
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
           </div>
-        <div id="responseMessage" class="mt-4"></div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="text-center">Sentiment Frequency</h3>
+                <div id="sentimentChart"></div>
+              </div>
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-body">
+                <h3 class="text-center">SVM Hyperplane</h3>
+                <div class="text-right">
+                  <button class="btn btn-primary btn-sm" id="trainingModel">Training Model</button>  
+                </div>
+                <div class="modelGraph">
+                  <img src="{{ url_for('static', filename='graph/train_svm_manual_tsne.png') }}" alt="SVM Hyperplane" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
       </div>
       <br>
       <div class="container-fluid mt-5">
@@ -88,151 +86,112 @@
           <button class="btn btn-danger btn-sm" onclick="reloadEvaluation()">Reload Evaluation</button>
         </div>
         <div class="row">
-            <!-- Training Data Table -->
-            <div class="col-md-6">
-                <h3>Training Data Evaluation</h3>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Metric</th>
-                            <th>Value</th>
-                        </tr>
-                    </thead>
-                    <tbody id="trainMetrics">
-                        <!-- Training data metrics will be added here -->
-                    </tbody>
-                </table>
-            </div>
+          <!-- Training Data Table -->
+          <div class="col-md-6">
+            <h3>Training Data Evaluation</h3>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody id="trainMetrics">
+                <!-- Training data metrics will be added here -->
+              </tbody>
+            </table>
+          </div>
 
-            <!-- Test Data Table -->
-            <div class="col-md-6">
-                <h3>Test Data Evaluation</h3>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Metric</th>
-                            <th>Value</th>
-                        </tr>
-                    </thead>
-                    <tbody id="testMetrics">
-                        <!-- Test data metrics will be added here -->
-                    </tbody>
-                </table>
-            </div>
+          <!-- Test Data Table -->
+          <div class="col-md-6">
+            <h3>Test Data Evaluation</h3>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody id="testMetrics">
+                <!-- Test data metrics will be added here -->
+              </tbody>
+            </table>
+          </div>
         </div>
-    
         <br>
         <!-- Confusion Matrices -->
         <div class="row mt-4" id="confusionMatrices">
           <!-- Confusion matrices will be appended here -->
+        </div>
       </div>
-      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
       $(document).ready(function() {
-        
-
-        // Event listener for the "Training Model" button
-        $(document).ready(function() {
         // Event listener for the "Training Model" button
         $('#trainingModel').click(function() {
-            // Show a loading message
-            $('#responseMessage').html('<div class="alert alert-info">Training model sedang berjalan...</div>');
-
-            // Send an AJAX request to the /train_svm_manual route
-            $.ajax({
-                url: '/train_svm_manual',  // Endpoint for training the model
-                type: 'GET',
-                success: function(response) {
-                    // Display the success message
-                    $('#responseMessage').html('<div class="alert alert-success">Training model selesai!</div>');
-
-                    // Update the modelGraph div with the new graph path
-                    $('.modelGraph').html('<img src="' + response.graph_path + '" alt="SVM Hyperplane Graph" width="100%">');
-
-                    // Reload the page after 2 seconds to reflect changes
-                    setTimeout(function() {
-                        location.reload();  // Reload the page
-                    }, 2000); // 2 seconds delay before reloading
-                },
-                error: function(error) {
-                    // Show error message if the training fails
-                    console.error('Error during training:', error);
-                    $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat training model.</div>');
-                }
-            });
+          $('#responseMessage').html('<div class="alert alert-info">Training model sedang berjalan...</div>');
+          $.ajax({
+            url: '/train_svm_manual',
+            type: 'GET',
+            success: function(response) {
+              $('#responseMessage').html('<div class="alert alert-success">Training model selesai!</div>');
+              $('.modelGraph').html('<img src="' + response.graph_tsne_path + '" alt="SVM Hyperplane" width="100%">');
+              setTimeout(function() {
+                location.reload();
+              }, 2000);
+            },
+            error: function(error) {
+              console.error('Error during training:', error);
+              $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat training model.</div>');
+            }
+          });
         });
-    });
-
-    
 
         // Fetch and display data on page load
         function loadData() {
           $.ajax({
-            url: '/show_classification_results',  // Your API endpoint
+            url: '/show_classification_results',
             type: 'GET',
             success: function(response) {
-                // Initialize an object to hold sentiment frequencies
-                const sentimentFrequency = {
-                    positif: 0,
-                    negatif: 0,
-                    netral: 0
-                };
+              const sentimentFrequency = { positif: 0, negatif: 0, netral: 0 };
+              const tableBody = $('#data_scraping');
+              tableBody.empty();
+              response.data_result.forEach((item, index) => {
+                const prediksiSentimen = item.prediksi_sentimen;
+                const row = `
+                  <tr>
+                    <th scope="row">${index + 1}</th>
+                    <td>${item.komentar}</td>
+                    <td>${prediksiSentimen}</td>
+                  </tr>
+                `;
+                tableBody.append(row);
+                if (prediksiSentimen === 'positif') sentimentFrequency.positif++;
+                else if (prediksiSentimen === 'negatif') sentimentFrequency.negatif++;
+              });
 
-                console.log(response);
-
-                // Populate table with API data
-                const tableBody = $('#data_scraping');
-                tableBody.empty(); // Clear previous data
-                response.data_result.forEach((item, index) => {
-                    const prediksiSentimen = item.prediksi_sentimen;
-
-                    const row = `
-                        <tr>
-                            <th scope="row">${index + 1}</th>
-                            <td>${item.komentar}</td>
-                            <td>${prediksiSentimen}</td>
-                        </tr>
-                    `;
-                    tableBody.append(row);
-
-                    // Count sentiment frequency
-                    if (prediksiSentimen === 'positif') {
-                        sentimentFrequency.positif++;
-                    } else if (prediksiSentimen === 'negatif') {
-                        sentimentFrequency.negatif++;
-                    } 
-                });
-
-                // Render Plotly chart for sentiment frequency
-                const sentimentData = {
-                    x: ['Positive', 'Negative'], // Sentiment labels
-                    y: [sentimentFrequency.positif, sentimentFrequency.negatif, sentimentFrequency.netral], // Frequency of each sentiment
-                    type: 'bar', // Bar chart type
-                    marker: {
-                        color: ['#28a745', '#dc3545', '#ffc107'] // Colors for each bar
-                    }
-                };
-
-                const layout = {
-                    title: 'Sentiment Frequency Distribution',
-                    height: 500,
-                    xaxis: {
-                        title: 'Sentiment'
-                    },
-                    yaxis: {
-                        title: 'Frequency'
-                    }
-                };
-
-                Plotly.newPlot('sentimentChart', [sentimentData], layout);
+              // Render Plotly chart
+              const sentimentData = {
+                x: ['Positive', 'Negative'],
+                y: [sentimentFrequency.positif, sentimentFrequency.negatif],
+                type: 'bar',
+                marker: { color: ['#28a745', '#dc3545'] }
+              };
+              const layout = {
+                title: 'Sentiment Frequency Distribution',
+                height: 500,
+                xaxis: { title: 'Sentiment' },
+                yaxis: { title: 'Frequency' }
+              };
+              Plotly.newPlot('sentimentChart', [sentimentData], layout);
             },
             error: function(error) {
-                console.error('Error fetching data:', error);
-                $('#responseMessage').html('<div class="alert alert-danger">Failed to load data.</div>');
+              console.error('Error fetching data:', error);
+              $('#responseMessage').html('<div class="alert alert-danger">Gagal memuat data.</div>');
             }
           });
         }
@@ -240,118 +199,97 @@
         // Initial load
         loadData();
         fetchEvaluationResults();
-        
 
         // On click of 'Prediksi Ulang' button
         $('#predictButton').click(function() {
+          $('#responseMessage').html('<div class="alert alert-info">Prediksi ulang sedang berjalan...</div>');
           $.ajax({
-            url: '/predict_svm',  // Trigger prediction
+            url: '/predict_svm',
             type: 'GET',
             success: function(response) {
-                // Reload page after prediction is done
-                $('#responseMessage').html('<div class="alert alert-success">Prediksi ulang berhasil!</div>');
-                loadData(); // Reload the table and chart with new data
+              $('#responseMessage').html('<div class="alert alert-success">Prediksi ulang berhasil!</div>');
+              loadData();
             },
             error: function(error) {
-                console.error('Error during prediction:', error);
-                $('#responseMessage').html('<div class="alert alert-danger">Error during prediction.</div>');
+              console.error('Error during prediction:', error);
+              $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat prediksi.</div>');
             }
           });
         });
       });
-       // Function to fetch data from the evaluation API and display it in tables
-       function fetchEvaluationResults() {
-            // Replace with your API endpoint
-            const apiEndpoint = "/evaluate_model"; 
 
-            fetch(apiEndpoint)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status === "success") {
-                        displayMetrics(data);
-                    } else {
-                        console.error('Failed to fetch data');
-                    }
-                })
-                .catch(error => console.error('Error:', error));
-        }
+      // Function to fetch evaluation results
+      function fetchEvaluationResults() {
+        fetch('/evaluate_model')
+          .then(response => response.json())
+          .then(data => {
+            if (data.status === "success") {
+              displayMetrics(data);
+            } else {
+              console.error('Failed to fetch data');
+            }
+          })
+          .catch(error => console.error('Error:', error));
+      }
 
-        // Function to display the metrics in Bootstrap 4 tables
-        function displayMetrics(data) {
-            const trainMetricsContainer = document.getElementById('trainMetrics');
-            const testMetricsContainer = document.getElementById('testMetrics');
+      // Function to display metrics
+      function displayMetrics(data) {
+        const trainMetricsContainer = document.getElementById('trainMetrics');
+        const testMetricsContainer = document.getElementById('testMetrics');
 
-            // Create rows for Training Data Table
-            const trainMetrics = [
-                { label: "Accuracy", value: data.accuracy_train },
-                { label: "Precision", value: data.precision_train },
-                { label: "Recall", value: data.recall_train },
-                { label: "F1 Score", value: data.f1_train }
-            ];
+        // Training Data Metrics
+        const trainMetrics = [
+          { label: "Accuracy", value: data.accuracy_train },
+          { label: "Precision", value: data.precision_train },
+          { label: "Recall", value: data.recall_train },
+          { label: "F1 Score", value: data.f1_train }
+        ];
+        trainMetrics.forEach(metric => {
+          const row = document.createElement('tr');
+          row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
+          trainMetricsContainer.appendChild(row);
+        });
 
-            // Append rows for Training Data
-            trainMetrics.forEach(metric => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${metric.label}</td>
-                    <td>${metric.value.toFixed(4)}</td>
-                `;
-                trainMetricsContainer.appendChild(row);
-            });
+        // Test Data Metrics
+        const testMetrics = [
+          { label: "Accuracy", value: data.accuracy_test },
+          { label: "Precision", value: data.precision_test },
+          { label: "Recall", value: data.recall_test },
+          { label: "F1 Score", value: data.f1_test }
+        ];
+        testMetrics.forEach(metric => {
+          const row = document.createElement('tr');
+          row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
+          testMetricsContainer.appendChild(row);
+        });
 
-            // Create rows for Test Data Table
-            const testMetrics = [
-                { label: "Accuracy", value: data.accuracy_test },
-                { label: "Precision", value: data.precision_test },
-                { label: "Recall", value: data.recall_test },
-                { label: "F1 Score", value: data.f1_test }
-            ];
+        // Confusion Matrices
+        const confusionMatricesContainer = document.getElementById('confusionMatrices');
+        confusionMatricesContainer.innerHTML = `
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Confusion Matrix (Train)</h5>
+                <img src="${data.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Confusion Matrix (Test)</h5>
+                <img src="${data.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
+              </div>
+            </div>
+          </div>
+        `;
+      }
 
-            // Append rows for Test Data
-            testMetrics.forEach(metric => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${metric.label}</td>
-                    <td>${metric.value.toFixed(4)}</td>
-                `;
-                testMetricsContainer.appendChild(row);
-            });
-
-            // Add confusion matrix images
-            const confusionMatricesContainer = document.getElementById('confusionMatrices');
-            const imageContainerTrain = document.createElement('div');
-            imageContainerTrain.classList.add('col-md-6', 'mb-4');
-            imageContainerTrain.innerHTML = `
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Confusion Matrix (Train)</h5>
-                        <img src="${data.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
-                    </div>
-                </div>
-            `;
-            confusionMatricesContainer.appendChild(imageContainerTrain);
-
-            const imageContainerTest = document.createElement('div');
-            imageContainerTest.classList.add('col-md-6', 'mb-4');
-            imageContainerTest.innerHTML = `
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Confusion Matrix (Test)</h5>
-                        <img src="${data.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
-                    </div>
-                </div>
-            `;
-            confusionMatricesContainer.appendChild(imageContainerTest);
-        }
-
-        function reloadEvaluation() {
-        // Call the function to fetch evaluation results
+      // Reload evaluation results
+      function reloadEvaluation() {
         fetchEvaluationResults();
-
-        // Show alert after calling fetchEvaluationResults
         alert('Reload Berhasil');
-    }
+      }
     </script>
-
   </body>
 </html>

@@ -1,0 +1,8685 @@
+Dokumen 0:
+- bermanfaat: 1.0000
+
+Dokumen 1:
+
+Dokumen 2:
+
+Dokumen 3:
+
+Dokumen 4:
+- bagus: 1.0000
+
+Dokumen 5:
+- bagus: 1.0000
+
+Dokumen 6:
+
+Dokumen 7:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 8:
+- bgus: 1.0000
+
+Dokumen 9:
+- ok: 1.0000
+
+Dokumen 10:
+- bagus: 1.0000
+
+Dokumen 11:
+- membantu: 1.0000
+
+Dokumen 12:
+- membantu: 1.0000
+
+Dokumen 13:
+- bagus: 1.0000
+
+Dokumen 14:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 15:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 16:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 17:
+- jelek: 1.0000
+
+Dokumen 18:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 19:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 20:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 21:
+- meta: 1.0000
+
+Dokumen 22:
+
+Dokumen 23:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 24:
+- ok: 1.0000
+
+Dokumen 25:
+
+Dokumen 26:
+- ok: 1.0000
+
+Dokumen 27:
+
+Dokumen 28:
+
+Dokumen 29:
+- mantap: 1.0000
+
+Dokumen 30:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 31:
+- mantap: 1.0000
+
+Dokumen 32:
+- jelek: 1.0000
+
+Dokumen 33:
+- al: 1.0000
+
+Dokumen 34:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 35:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 36:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 37:
+- bagus: 1.0000
+
+Dokumen 38:
+- membatu: 1.0000
+
+Dokumen 39:
+- mantap: 1.0000
+
+Dokumen 40:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 41:
+- ok: 1.0000
+
+Dokumen 42:
+- terbaik: 1.0000
+
+Dokumen 43:
+- mantap: 1.0000
+
+Dokumen 44:
+- meta: 1.0000
+
+Dokumen 45:
+- ok: 1.0000
+
+Dokumen 46:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 47:
+
+Dokumen 48:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 49:
+
+Dokumen 50:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 51:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 52:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 53:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 54:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 55:
+- ok: 1.0000
+
+Dokumen 56:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 57:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 58:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 59:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 60:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 61:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 62:
+- bagus: 1.0000
+
+Dokumen 63:
+- good: 1.0000
+
+Dokumen 64:
+
+Dokumen 65:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 66:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 67:
+- baguss: 1.0000
+
+Dokumen 68:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 69:
+- ok: 1.0000
+
+Dokumen 70:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 71:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 72:
+
+Dokumen 73:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 74:
+
+Dokumen 75:
+- ok: 1.0000
+
+Dokumen 76:
+- bagus: 1.0000
+
+Dokumen 77:
+
+Dokumen 78:
+
+Dokumen 79:
+- jelek: 1.0000
+
+Dokumen 80:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 81:
+- mantap: 1.0000
+
+Dokumen 82:
+
+Dokumen 83:
+- best: 1.0000
+
+Dokumen 84:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 85:
+- bagus: 1.0000
+
+Dokumen 86:
+- kerja: 1.0000
+
+Dokumen 87:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 88:
+
+Dokumen 89:
+- oke: 1.0000
+
+Dokumen 90:
+
+Dokumen 91:
+- ok: 1.0000
+
+Dokumen 92:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 93:
+
+Dokumen 94:
+- membantu: 1.0000
+
+Dokumen 95:
+- oke: 1.0000
+
+Dokumen 96:
+- membantu: 1.0000
+
+Dokumen 97:
+- semoga: 0.5774
+- sukses: 0.5774
+- wa: 0.5774
+
+Dokumen 98:
+- lumayan: 0.7584
+- membantu: 0.6518
+
+Dokumen 99:
+- bagus: 1.0000
+
+Dokumen 100:
+- bermanfaat: 1.0000
+
+Dokumen 101:
+
+Dokumen 102:
+
+Dokumen 103:
+
+Dokumen 104:
+- bagus: 1.0000
+
+Dokumen 105:
+- bagus: 1.0000
+
+Dokumen 106:
+
+Dokumen 107:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 108:
+- bgus: 1.0000
+
+Dokumen 109:
+- ok: 1.0000
+
+Dokumen 110:
+- bagus: 1.0000
+
+Dokumen 111:
+- membantu: 1.0000
+
+Dokumen 112:
+- membantu: 1.0000
+
+Dokumen 113:
+- bagus: 1.0000
+
+Dokumen 114:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 115:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 116:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 117:
+- jelek: 1.0000
+
+Dokumen 118:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 119:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 120:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 121:
+- meta: 1.0000
+
+Dokumen 122:
+
+Dokumen 123:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 124:
+- ok: 1.0000
+
+Dokumen 125:
+
+Dokumen 126:
+- ok: 1.0000
+
+Dokumen 127:
+
+Dokumen 128:
+
+Dokumen 129:
+- mantap: 1.0000
+
+Dokumen 130:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 131:
+- mantap: 1.0000
+
+Dokumen 132:
+- jelek: 1.0000
+
+Dokumen 133:
+- al: 1.0000
+
+Dokumen 134:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 135:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 136:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 137:
+- bagus: 1.0000
+
+Dokumen 138:
+- membatu: 1.0000
+
+Dokumen 139:
+- mantap: 1.0000
+
+Dokumen 140:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 141:
+- ok: 1.0000
+
+Dokumen 142:
+- terbaik: 1.0000
+
+Dokumen 143:
+- mantap: 1.0000
+
+Dokumen 144:
+- meta: 1.0000
+
+Dokumen 145:
+- ok: 1.0000
+
+Dokumen 146:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 147:
+
+Dokumen 148:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 149:
+
+Dokumen 150:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 151:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 152:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 153:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 154:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 155:
+- ok: 1.0000
+
+Dokumen 156:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 157:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 158:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 159:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 160:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 161:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 162:
+- bagus: 1.0000
+
+Dokumen 163:
+- good: 1.0000
+
+Dokumen 164:
+
+Dokumen 165:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 166:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 167:
+- baguss: 1.0000
+
+Dokumen 168:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 169:
+- ok: 1.0000
+
+Dokumen 170:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 171:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 172:
+
+Dokumen 173:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 174:
+
+Dokumen 175:
+- ok: 1.0000
+
+Dokumen 176:
+- bagus: 1.0000
+
+Dokumen 177:
+
+Dokumen 178:
+
+Dokumen 179:
+- jelek: 1.0000
+
+Dokumen 180:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 181:
+- mantap: 1.0000
+
+Dokumen 182:
+
+Dokumen 183:
+- best: 1.0000
+
+Dokumen 184:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 185:
+- bagus: 1.0000
+
+Dokumen 186:
+- kerja: 1.0000
+
+Dokumen 187:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 188:
+
+Dokumen 189:
+- oke: 1.0000
+
+Dokumen 190:
+
+Dokumen 191:
+- ok: 1.0000
+
+Dokumen 192:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 193:
+
+Dokumen 194:
+- membantu: 1.0000
+
+Dokumen 195:
+- oke: 1.0000
+
+Dokumen 196:
+- membantu: 1.0000
+
+Dokumen 197:
+- semoga: 0.5774
+- sukses: 0.5774
+- wa: 0.5774
+
+Dokumen 198:
+- lumayan: 0.7584
+- membantu: 0.6518
+
+Dokumen 199:
+- bagus: 1.0000
+
+Dokumen 200:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 201:
+- terbaik: 1.0000
+
+Dokumen 202:
+
+Dokumen 203:
+- bermanfaat: 1.0000
+
+Dokumen 204:
+
+Dokumen 205:
+
+Dokumen 206:
+
+Dokumen 207:
+- bagus: 1.0000
+
+Dokumen 208:
+- bagus: 1.0000
+
+Dokumen 209:
+
+Dokumen 210:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 211:
+- bgus: 1.0000
+
+Dokumen 212:
+- ok: 1.0000
+
+Dokumen 213:
+- bagus: 1.0000
+
+Dokumen 214:
+- membantu: 1.0000
+
+Dokumen 215:
+- membantu: 1.0000
+
+Dokumen 216:
+- bagus: 1.0000
+
+Dokumen 217:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 218:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 219:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 220:
+- jelek: 1.0000
+
+Dokumen 221:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 222:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 223:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 224:
+- meta: 1.0000
+
+Dokumen 225:
+
+Dokumen 226:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 227:
+- ok: 1.0000
+
+Dokumen 228:
+
+Dokumen 229:
+- ok: 1.0000
+
+Dokumen 230:
+
+Dokumen 231:
+
+Dokumen 232:
+- mantap: 1.0000
+
+Dokumen 233:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 234:
+- mantap: 1.0000
+
+Dokumen 235:
+- jelek: 1.0000
+
+Dokumen 236:
+- al: 1.0000
+
+Dokumen 237:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 238:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 239:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 240:
+- bagus: 1.0000
+
+Dokumen 241:
+- membatu: 1.0000
+
+Dokumen 242:
+- mantap: 1.0000
+
+Dokumen 243:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 244:
+- ok: 1.0000
+
+Dokumen 245:
+- terbaik: 1.0000
+
+Dokumen 246:
+- mantap: 1.0000
+
+Dokumen 247:
+- meta: 1.0000
+
+Dokumen 248:
+- ok: 1.0000
+
+Dokumen 249:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 250:
+
+Dokumen 251:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 252:
+
+Dokumen 253:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 254:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 255:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 256:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 257:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 258:
+- ok: 1.0000
+
+Dokumen 259:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 260:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 261:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 262:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 263:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 264:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 265:
+- bagus: 1.0000
+
+Dokumen 266:
+- good: 1.0000
+
+Dokumen 267:
+
+Dokumen 268:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 269:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 270:
+- baguss: 1.0000
+
+Dokumen 271:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 272:
+- ok: 1.0000
+
+Dokumen 273:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 274:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 275:
+
+Dokumen 276:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 277:
+
+Dokumen 278:
+- ok: 1.0000
+
+Dokumen 279:
+- bagus: 1.0000
+
+Dokumen 280:
+
+Dokumen 281:
+
+Dokumen 282:
+- jelek: 1.0000
+
+Dokumen 283:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 284:
+- mantap: 1.0000
+
+Dokumen 285:
+
+Dokumen 286:
+- best: 1.0000
+
+Dokumen 287:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 288:
+- bagus: 1.0000
+
+Dokumen 289:
+- kerja: 1.0000
+
+Dokumen 290:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 291:
+
+Dokumen 292:
+- oke: 1.0000
+
+Dokumen 293:
+
+Dokumen 294:
+- ok: 1.0000
+
+Dokumen 295:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 296:
+
+Dokumen 297:
+- membantu: 1.0000
+
+Dokumen 298:
+- oke: 1.0000
+
+Dokumen 299:
+- membantu: 1.0000
+
+Dokumen 300:
+- bermanfaat: 1.0000
+
+Dokumen 301:
+
+Dokumen 302:
+
+Dokumen 303:
+
+Dokumen 304:
+- bagus: 1.0000
+
+Dokumen 305:
+- bagus: 1.0000
+
+Dokumen 306:
+
+Dokumen 307:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 308:
+- bgus: 1.0000
+
+Dokumen 309:
+- ok: 1.0000
+
+Dokumen 310:
+- bagus: 1.0000
+
+Dokumen 311:
+- membantu: 1.0000
+
+Dokumen 312:
+- membantu: 1.0000
+
+Dokumen 313:
+- bagus: 1.0000
+
+Dokumen 314:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 315:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 316:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 317:
+- jelek: 1.0000
+
+Dokumen 318:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 319:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 320:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 321:
+- meta: 1.0000
+
+Dokumen 322:
+
+Dokumen 323:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 324:
+- ok: 1.0000
+
+Dokumen 325:
+
+Dokumen 326:
+- ok: 1.0000
+
+Dokumen 327:
+
+Dokumen 328:
+
+Dokumen 329:
+- mantap: 1.0000
+
+Dokumen 330:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 331:
+- mantap: 1.0000
+
+Dokumen 332:
+- jelek: 1.0000
+
+Dokumen 333:
+- al: 1.0000
+
+Dokumen 334:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 335:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 336:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 337:
+- bagus: 1.0000
+
+Dokumen 338:
+- membatu: 1.0000
+
+Dokumen 339:
+- mantap: 1.0000
+
+Dokumen 340:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 341:
+- ok: 1.0000
+
+Dokumen 342:
+- terbaik: 1.0000
+
+Dokumen 343:
+- mantap: 1.0000
+
+Dokumen 344:
+- meta: 1.0000
+
+Dokumen 345:
+- ok: 1.0000
+
+Dokumen 346:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 347:
+
+Dokumen 348:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 349:
+
+Dokumen 350:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 351:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 352:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 353:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 354:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 355:
+- ok: 1.0000
+
+Dokumen 356:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 357:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 358:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 359:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 360:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 361:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 362:
+- bagus: 1.0000
+
+Dokumen 363:
+- good: 1.0000
+
+Dokumen 364:
+
+Dokumen 365:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 366:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 367:
+- baguss: 1.0000
+
+Dokumen 368:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 369:
+- ok: 1.0000
+
+Dokumen 370:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 371:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 372:
+
+Dokumen 373:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 374:
+
+Dokumen 375:
+- ok: 1.0000
+
+Dokumen 376:
+- bagus: 1.0000
+
+Dokumen 377:
+
+Dokumen 378:
+
+Dokumen 379:
+- jelek: 1.0000
+
+Dokumen 380:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 381:
+- mantap: 1.0000
+
+Dokumen 382:
+
+Dokumen 383:
+- best: 1.0000
+
+Dokumen 384:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 385:
+- bagus: 1.0000
+
+Dokumen 386:
+- kerja: 1.0000
+
+Dokumen 387:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 388:
+
+Dokumen 389:
+- oke: 1.0000
+
+Dokumen 390:
+
+Dokumen 391:
+- ok: 1.0000
+
+Dokumen 392:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 393:
+
+Dokumen 394:
+- membantu: 1.0000
+
+Dokumen 395:
+- oke: 1.0000
+
+Dokumen 396:
+- membantu: 1.0000
+
+Dokumen 397:
+- semoga: 0.5774
+- sukses: 0.5774
+- wa: 0.5774
+
+Dokumen 398:
+- lumayan: 0.7584
+- membantu: 0.6518
+
+Dokumen 399:
+- bagus: 1.0000
+
+Dokumen 400:
+- bermanfaat: 1.0000
+
+Dokumen 401:
+
+Dokumen 402:
+
+Dokumen 403:
+
+Dokumen 404:
+- bagus: 1.0000
+
+Dokumen 405:
+- bagus: 1.0000
+
+Dokumen 406:
+
+Dokumen 407:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 408:
+- bgus: 1.0000
+
+Dokumen 409:
+- ok: 1.0000
+
+Dokumen 410:
+- bagus: 1.0000
+
+Dokumen 411:
+- membantu: 1.0000
+
+Dokumen 412:
+- membantu: 1.0000
+
+Dokumen 413:
+- bagus: 1.0000
+
+Dokumen 414:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 415:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 416:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 417:
+- jelek: 1.0000
+
+Dokumen 418:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 419:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 420:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 421:
+- meta: 1.0000
+
+Dokumen 422:
+
+Dokumen 423:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 424:
+- ok: 1.0000
+
+Dokumen 425:
+
+Dokumen 426:
+- ok: 1.0000
+
+Dokumen 427:
+
+Dokumen 428:
+
+Dokumen 429:
+- mantap: 1.0000
+
+Dokumen 430:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 431:
+- mantap: 1.0000
+
+Dokumen 432:
+- jelek: 1.0000
+
+Dokumen 433:
+- al: 1.0000
+
+Dokumen 434:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 435:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 436:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 437:
+- bagus: 1.0000
+
+Dokumen 438:
+- membatu: 1.0000
+
+Dokumen 439:
+- mantap: 1.0000
+
+Dokumen 440:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 441:
+- ok: 1.0000
+
+Dokumen 442:
+- terbaik: 1.0000
+
+Dokumen 443:
+- mantap: 1.0000
+
+Dokumen 444:
+- meta: 1.0000
+
+Dokumen 445:
+- ok: 1.0000
+
+Dokumen 446:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 447:
+
+Dokumen 448:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 449:
+
+Dokumen 450:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 451:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 452:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 453:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 454:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 455:
+- ok: 1.0000
+
+Dokumen 456:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 457:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 458:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 459:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 460:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 461:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 462:
+- bagus: 1.0000
+
+Dokumen 463:
+- good: 1.0000
+
+Dokumen 464:
+
+Dokumen 465:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 466:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 467:
+- baguss: 1.0000
+
+Dokumen 468:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 469:
+- ok: 1.0000
+
+Dokumen 470:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 471:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 472:
+
+Dokumen 473:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 474:
+
+Dokumen 475:
+- ok: 1.0000
+
+Dokumen 476:
+- bagus: 1.0000
+
+Dokumen 477:
+
+Dokumen 478:
+
+Dokumen 479:
+- jelek: 1.0000
+
+Dokumen 480:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 481:
+- mantap: 1.0000
+
+Dokumen 482:
+
+Dokumen 483:
+- best: 1.0000
+
+Dokumen 484:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 485:
+- bagus: 1.0000
+
+Dokumen 486:
+- kerja: 1.0000
+
+Dokumen 487:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 488:
+
+Dokumen 489:
+- oke: 1.0000
+
+Dokumen 490:
+
+Dokumen 491:
+- ok: 1.0000
+
+Dokumen 492:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 493:
+
+Dokumen 494:
+- membantu: 1.0000
+
+Dokumen 495:
+- oke: 1.0000
+
+Dokumen 496:
+- membantu: 1.0000
+
+Dokumen 497:
+- semoga: 0.5774
+- sukses: 0.5774
+- wa: 0.5774
+
+Dokumen 498:
+- lumayan: 0.7584
+- membantu: 0.6518
+
+Dokumen 499:
+- bagus: 1.0000
+
+Dokumen 500:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 501:
+- terbaik: 1.0000
+
+Dokumen 502:
+
+Dokumen 503:
+- bermanfaat: 1.0000
+
+Dokumen 504:
+
+Dokumen 505:
+
+Dokumen 506:
+
+Dokumen 507:
+- bagus: 1.0000
+
+Dokumen 508:
+- bagus: 1.0000
+
+Dokumen 509:
+
+Dokumen 510:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 511:
+- bgus: 1.0000
+
+Dokumen 512:
+- ok: 1.0000
+
+Dokumen 513:
+- bagus: 1.0000
+
+Dokumen 514:
+- membantu: 1.0000
+
+Dokumen 515:
+- membantu: 1.0000
+
+Dokumen 516:
+- bagus: 1.0000
+
+Dokumen 517:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 518:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 519:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 520:
+- jelek: 1.0000
+
+Dokumen 521:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 522:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 523:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 524:
+- meta: 1.0000
+
+Dokumen 525:
+
+Dokumen 526:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 527:
+- ok: 1.0000
+
+Dokumen 528:
+
+Dokumen 529:
+- ok: 1.0000
+
+Dokumen 530:
+
+Dokumen 531:
+
+Dokumen 532:
+- mantap: 1.0000
+
+Dokumen 533:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 534:
+- mantap: 1.0000
+
+Dokumen 535:
+- jelek: 1.0000
+
+Dokumen 536:
+- al: 1.0000
+
+Dokumen 537:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 538:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 539:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 540:
+- bagus: 1.0000
+
+Dokumen 541:
+- membatu: 1.0000
+
+Dokumen 542:
+- mantap: 1.0000
+
+Dokumen 543:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 544:
+- ok: 1.0000
+
+Dokumen 545:
+- terbaik: 1.0000
+
+Dokumen 546:
+- mantap: 1.0000
+
+Dokumen 547:
+- meta: 1.0000
+
+Dokumen 548:
+- ok: 1.0000
+
+Dokumen 549:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 550:
+
+Dokumen 551:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 552:
+
+Dokumen 553:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 554:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 555:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 556:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 557:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 558:
+- ok: 1.0000
+
+Dokumen 559:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 560:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 561:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 562:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 563:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 564:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 565:
+- bagus: 1.0000
+
+Dokumen 566:
+- good: 1.0000
+
+Dokumen 567:
+
+Dokumen 568:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 569:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 570:
+- baguss: 1.0000
+
+Dokumen 571:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 572:
+- ok: 1.0000
+
+Dokumen 573:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 574:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 575:
+
+Dokumen 576:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 577:
+
+Dokumen 578:
+- ok: 1.0000
+
+Dokumen 579:
+- bagus: 1.0000
+
+Dokumen 580:
+
+Dokumen 581:
+
+Dokumen 582:
+- jelek: 1.0000
+
+Dokumen 583:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 584:
+- mantap: 1.0000
+
+Dokumen 585:
+
+Dokumen 586:
+- best: 1.0000
+
+Dokumen 587:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 588:
+- bagus: 1.0000
+
+Dokumen 589:
+- kerja: 1.0000
+
+Dokumen 590:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 591:
+
+Dokumen 592:
+- oke: 1.0000
+
+Dokumen 593:
+
+Dokumen 594:
+- ok: 1.0000
+
+Dokumen 595:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 596:
+
+Dokumen 597:
+- membantu: 1.0000
+
+Dokumen 598:
+- oke: 1.0000
+
+Dokumen 599:
+- membantu: 1.0000
+
+Dokumen 600:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 601:
+- terbaik: 1.0000
+
+Dokumen 602:
+
+Dokumen 603:
+- bermanfaat: 1.0000
+
+Dokumen 604:
+
+Dokumen 605:
+
+Dokumen 606:
+
+Dokumen 607:
+- bagus: 1.0000
+
+Dokumen 608:
+- bagus: 1.0000
+
+Dokumen 609:
+
+Dokumen 610:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 611:
+- bgus: 1.0000
+
+Dokumen 612:
+- ok: 1.0000
+
+Dokumen 613:
+- bagus: 1.0000
+
+Dokumen 614:
+- membantu: 1.0000
+
+Dokumen 615:
+- membantu: 1.0000
+
+Dokumen 616:
+- bagus: 1.0000
+
+Dokumen 617:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 618:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 619:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 620:
+- jelek: 1.0000
+
+Dokumen 621:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 622:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 623:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 624:
+- meta: 1.0000
+
+Dokumen 625:
+
+Dokumen 626:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 627:
+- ok: 1.0000
+
+Dokumen 628:
+
+Dokumen 629:
+- ok: 1.0000
+
+Dokumen 630:
+
+Dokumen 631:
+
+Dokumen 632:
+- mantap: 1.0000
+
+Dokumen 633:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 634:
+- mantap: 1.0000
+
+Dokumen 635:
+- jelek: 1.0000
+
+Dokumen 636:
+- al: 1.0000
+
+Dokumen 637:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 638:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 639:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 640:
+- bagus: 1.0000
+
+Dokumen 641:
+- membatu: 1.0000
+
+Dokumen 642:
+- mantap: 1.0000
+
+Dokumen 643:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 644:
+- ok: 1.0000
+
+Dokumen 645:
+- terbaik: 1.0000
+
+Dokumen 646:
+- mantap: 1.0000
+
+Dokumen 647:
+- meta: 1.0000
+
+Dokumen 648:
+- ok: 1.0000
+
+Dokumen 649:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 650:
+
+Dokumen 651:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 652:
+
+Dokumen 653:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 654:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 655:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 656:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 657:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 658:
+- ok: 1.0000
+
+Dokumen 659:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 660:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 661:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 662:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 663:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 664:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 665:
+- bagus: 1.0000
+
+Dokumen 666:
+- good: 1.0000
+
+Dokumen 667:
+
+Dokumen 668:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 669:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 670:
+- baguss: 1.0000
+
+Dokumen 671:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 672:
+- ok: 1.0000
+
+Dokumen 673:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 674:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 675:
+
+Dokumen 676:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 677:
+
+Dokumen 678:
+- ok: 1.0000
+
+Dokumen 679:
+- bagus: 1.0000
+
+Dokumen 680:
+
+Dokumen 681:
+
+Dokumen 682:
+- jelek: 1.0000
+
+Dokumen 683:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 684:
+- mantap: 1.0000
+
+Dokumen 685:
+
+Dokumen 686:
+- best: 1.0000
+
+Dokumen 687:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 688:
+- bagus: 1.0000
+
+Dokumen 689:
+- kerja: 1.0000
+
+Dokumen 690:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 691:
+
+Dokumen 692:
+- oke: 1.0000
+
+Dokumen 693:
+
+Dokumen 694:
+- ok: 1.0000
+
+Dokumen 695:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 696:
+
+Dokumen 697:
+- membantu: 1.0000
+
+Dokumen 698:
+- oke: 1.0000
+
+Dokumen 699:
+- membantu: 1.0000
+
+Dokumen 700:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 701:
+- terbaik: 1.0000
+
+Dokumen 702:
+
+Dokumen 703:
+- bermanfaat: 1.0000
+
+Dokumen 704:
+
+Dokumen 705:
+
+Dokumen 706:
+
+Dokumen 707:
+- bagus: 1.0000
+
+Dokumen 708:
+- bagus: 1.0000
+
+Dokumen 709:
+
+Dokumen 710:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 711:
+- bgus: 1.0000
+
+Dokumen 712:
+- ok: 1.0000
+
+Dokumen 713:
+- bagus: 1.0000
+
+Dokumen 714:
+- membantu: 1.0000
+
+Dokumen 715:
+- membantu: 1.0000
+
+Dokumen 716:
+- bagus: 1.0000
+
+Dokumen 717:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 718:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 719:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 720:
+- jelek: 1.0000
+
+Dokumen 721:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 722:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 723:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 724:
+- meta: 1.0000
+
+Dokumen 725:
+
+Dokumen 726:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 727:
+- ok: 1.0000
+
+Dokumen 728:
+
+Dokumen 729:
+- ok: 1.0000
+
+Dokumen 730:
+
+Dokumen 731:
+
+Dokumen 732:
+- mantap: 1.0000
+
+Dokumen 733:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 734:
+- mantap: 1.0000
+
+Dokumen 735:
+- jelek: 1.0000
+
+Dokumen 736:
+- al: 1.0000
+
+Dokumen 737:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 738:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 739:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 740:
+- bagus: 1.0000
+
+Dokumen 741:
+- membatu: 1.0000
+
+Dokumen 742:
+- mantap: 1.0000
+
+Dokumen 743:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 744:
+- ok: 1.0000
+
+Dokumen 745:
+- terbaik: 1.0000
+
+Dokumen 746:
+- mantap: 1.0000
+
+Dokumen 747:
+- meta: 1.0000
+
+Dokumen 748:
+- ok: 1.0000
+
+Dokumen 749:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 750:
+
+Dokumen 751:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 752:
+
+Dokumen 753:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 754:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 755:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 756:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 757:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 758:
+- ok: 1.0000
+
+Dokumen 759:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 760:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 761:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 762:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 763:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 764:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 765:
+- bagus: 1.0000
+
+Dokumen 766:
+- good: 1.0000
+
+Dokumen 767:
+
+Dokumen 768:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 769:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 770:
+- baguss: 1.0000
+
+Dokumen 771:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 772:
+- ok: 1.0000
+
+Dokumen 773:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 774:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 775:
+
+Dokumen 776:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 777:
+
+Dokumen 778:
+- ok: 1.0000
+
+Dokumen 779:
+- bagus: 1.0000
+
+Dokumen 780:
+
+Dokumen 781:
+
+Dokumen 782:
+- jelek: 1.0000
+
+Dokumen 783:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 784:
+- mantap: 1.0000
+
+Dokumen 785:
+
+Dokumen 786:
+- best: 1.0000
+
+Dokumen 787:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 788:
+- bagus: 1.0000
+
+Dokumen 789:
+- kerja: 1.0000
+
+Dokumen 790:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 791:
+
+Dokumen 792:
+- oke: 1.0000
+
+Dokumen 793:
+
+Dokumen 794:
+- ok: 1.0000
+
+Dokumen 795:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 796:
+
+Dokumen 797:
+- membantu: 1.0000
+
+Dokumen 798:
+- oke: 1.0000
+
+Dokumen 799:
+- membantu: 1.0000
+
+Dokumen 800:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 801:
+- terbaik: 1.0000
+
+Dokumen 802:
+
+Dokumen 803:
+- bermanfaat: 1.0000
+
+Dokumen 804:
+
+Dokumen 805:
+
+Dokumen 806:
+
+Dokumen 807:
+- bagus: 1.0000
+
+Dokumen 808:
+- bagus: 1.0000
+
+Dokumen 809:
+
+Dokumen 810:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 811:
+- bgus: 1.0000
+
+Dokumen 812:
+- ok: 1.0000
+
+Dokumen 813:
+- bagus: 1.0000
+
+Dokumen 814:
+- membantu: 1.0000
+
+Dokumen 815:
+- membantu: 1.0000
+
+Dokumen 816:
+- bagus: 1.0000
+
+Dokumen 817:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 818:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 819:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 820:
+- jelek: 1.0000
+
+Dokumen 821:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 822:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 823:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 824:
+- meta: 1.0000
+
+Dokumen 825:
+
+Dokumen 826:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 827:
+- ok: 1.0000
+
+Dokumen 828:
+
+Dokumen 829:
+- ok: 1.0000
+
+Dokumen 830:
+
+Dokumen 831:
+
+Dokumen 832:
+- mantap: 1.0000
+
+Dokumen 833:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 834:
+- mantap: 1.0000
+
+Dokumen 835:
+- jelek: 1.0000
+
+Dokumen 836:
+- al: 1.0000
+
+Dokumen 837:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 838:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 839:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 840:
+- bagus: 1.0000
+
+Dokumen 841:
+- membatu: 1.0000
+
+Dokumen 842:
+- mantap: 1.0000
+
+Dokumen 843:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 844:
+- ok: 1.0000
+
+Dokumen 845:
+- terbaik: 1.0000
+
+Dokumen 846:
+- mantap: 1.0000
+
+Dokumen 847:
+- meta: 1.0000
+
+Dokumen 848:
+- ok: 1.0000
+
+Dokumen 849:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 850:
+
+Dokumen 851:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 852:
+
+Dokumen 853:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 854:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 855:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 856:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 857:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 858:
+- ok: 1.0000
+
+Dokumen 859:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 860:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 861:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 862:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 863:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 864:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 865:
+- bagus: 1.0000
+
+Dokumen 866:
+- good: 1.0000
+
+Dokumen 867:
+
+Dokumen 868:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 869:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 870:
+- baguss: 1.0000
+
+Dokumen 871:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 872:
+- ok: 1.0000
+
+Dokumen 873:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 874:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 875:
+
+Dokumen 876:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 877:
+
+Dokumen 878:
+- ok: 1.0000
+
+Dokumen 879:
+- bagus: 1.0000
+
+Dokumen 880:
+
+Dokumen 881:
+
+Dokumen 882:
+- jelek: 1.0000
+
+Dokumen 883:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 884:
+- mantap: 1.0000
+
+Dokumen 885:
+
+Dokumen 886:
+- best: 1.0000
+
+Dokumen 887:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 888:
+- bagus: 1.0000
+
+Dokumen 889:
+- kerja: 1.0000
+
+Dokumen 890:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 891:
+
+Dokumen 892:
+- oke: 1.0000
+
+Dokumen 893:
+
+Dokumen 894:
+- ok: 1.0000
+
+Dokumen 895:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 896:
+
+Dokumen 897:
+- membantu: 1.0000
+
+Dokumen 898:
+- oke: 1.0000
+
+Dokumen 899:
+- membantu: 1.0000
+
+Dokumen 900:
+- bermanfaat: 1.0000
+
+Dokumen 901:
+
+Dokumen 902:
+
+Dokumen 903:
+
+Dokumen 904:
+- bagus: 1.0000
+
+Dokumen 905:
+- bagus: 1.0000
+
+Dokumen 906:
+
+Dokumen 907:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 908:
+- bgus: 1.0000
+
+Dokumen 909:
+- ok: 1.0000
+
+Dokumen 910:
+- bagus: 1.0000
+
+Dokumen 911:
+- membantu: 1.0000
+
+Dokumen 912:
+- membantu: 1.0000
+
+Dokumen 913:
+- bagus: 1.0000
+
+Dokumen 914:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 915:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 916:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 917:
+- jelek: 1.0000
+
+Dokumen 918:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 919:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 920:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 921:
+- meta: 1.0000
+
+Dokumen 922:
+
+Dokumen 923:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 924:
+- ok: 1.0000
+
+Dokumen 925:
+
+Dokumen 926:
+- ok: 1.0000
+
+Dokumen 927:
+
+Dokumen 928:
+
+Dokumen 929:
+- mantap: 1.0000
+
+Dokumen 930:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 931:
+- mantap: 1.0000
+
+Dokumen 932:
+- jelek: 1.0000
+
+Dokumen 933:
+- al: 1.0000
+
+Dokumen 934:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 935:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 936:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 937:
+- bagus: 1.0000
+
+Dokumen 938:
+- membatu: 1.0000
+
+Dokumen 939:
+- mantap: 1.0000
+
+Dokumen 940:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 941:
+- ok: 1.0000
+
+Dokumen 942:
+- terbaik: 1.0000
+
+Dokumen 943:
+- mantap: 1.0000
+
+Dokumen 944:
+- meta: 1.0000
+
+Dokumen 945:
+- ok: 1.0000
+
+Dokumen 946:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 947:
+
+Dokumen 948:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 949:
+
+Dokumen 950:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 951:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 952:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 953:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 954:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 955:
+- ok: 1.0000
+
+Dokumen 956:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 957:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 958:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 959:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 960:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 961:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 962:
+- bagus: 1.0000
+
+Dokumen 963:
+- good: 1.0000
+
+Dokumen 964:
+
+Dokumen 965:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 966:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 967:
+- baguss: 1.0000
+
+Dokumen 968:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 969:
+- ok: 1.0000
+
+Dokumen 970:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 971:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 972:
+
+Dokumen 973:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 974:
+
+Dokumen 975:
+- ok: 1.0000
+
+Dokumen 976:
+- bagus: 1.0000
+
+Dokumen 977:
+
+Dokumen 978:
+
+Dokumen 979:
+- jelek: 1.0000
+
+Dokumen 980:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 981:
+- mantap: 1.0000
+
+Dokumen 982:
+
+Dokumen 983:
+- best: 1.0000
+
+Dokumen 984:
+- aman: 0.2710
+- berlaku: 0.2558
+- bug: 0.2189
+- masuk: 0.2297
+- teman: 0.8130
+- tpi: 0.2558
+- yg: 0.1845
+
+Dokumen 985:
+- bagus: 1.0000
+
+Dokumen 986:
+- kerja: 1.0000
+
+Dokumen 987:
+- banget: 0.3335
+- bikin: 0.4795
+- bug: 0.3874
+- layar: 0.4334
+- mati: 0.4795
+- tolong: 0.3018
+
+Dokumen 988:
+
+Dokumen 989:
+- oke: 1.0000
+
+Dokumen 990:
+
+Dokumen 991:
+- ok: 1.0000
+
+Dokumen 992:
+- tolong: 0.5327
+- wa: 0.8463
+
+Dokumen 993:
+
+Dokumen 994:
+- membantu: 1.0000
+
+Dokumen 995:
+- oke: 1.0000
+
+Dokumen 996:
+- membantu: 1.0000
+
+Dokumen 997:
+- semoga: 0.5774
+- sukses: 0.5774
+- wa: 0.5774
+
+Dokumen 998:
+- lumayan: 0.7584
+- membantu: 0.6518
+
+Dokumen 999:
+- bagus: 1.0000
+
+Dokumen 1000:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1001:
+
+Dokumen 1002:
+
+Dokumen 1003:
+- whatsapp: 1.0000
+
+Dokumen 1004:
+- bagus: 1.0000
+
+Dokumen 1005:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1006:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1007:
+- berguna: 1.0000
+
+Dokumen 1008:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1009:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1010:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1011:
+
+Dokumen 1012:
+- bagus: 1.0000
+
+Dokumen 1013:
+
+Dokumen 1014:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1015:
+- terbaik: 1.0000
+
+Dokumen 1016:
+
+Dokumen 1017:
+- bermanfaat: 1.0000
+
+Dokumen 1018:
+
+Dokumen 1019:
+
+Dokumen 1020:
+
+Dokumen 1021:
+- bagus: 1.0000
+
+Dokumen 1022:
+- bagus: 1.0000
+
+Dokumen 1023:
+
+Dokumen 1024:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1025:
+- bgus: 1.0000
+
+Dokumen 1026:
+- ok: 1.0000
+
+Dokumen 1027:
+- bagus: 1.0000
+
+Dokumen 1028:
+- membantu: 1.0000
+
+Dokumen 1029:
+- membantu: 1.0000
+
+Dokumen 1030:
+- bagus: 1.0000
+
+Dokumen 1031:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1032:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1033:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1034:
+- jelek: 1.0000
+
+Dokumen 1035:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1036:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1037:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1038:
+- meta: 1.0000
+
+Dokumen 1039:
+
+Dokumen 1040:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1041:
+- ok: 1.0000
+
+Dokumen 1042:
+
+Dokumen 1043:
+- ok: 1.0000
+
+Dokumen 1044:
+
+Dokumen 1045:
+
+Dokumen 1046:
+- mantap: 1.0000
+
+Dokumen 1047:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1048:
+- mantap: 1.0000
+
+Dokumen 1049:
+- jelek: 1.0000
+
+Dokumen 1050:
+- al: 1.0000
+
+Dokumen 1051:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1052:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1053:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1054:
+- bagus: 1.0000
+
+Dokumen 1055:
+- membatu: 1.0000
+
+Dokumen 1056:
+- mantap: 1.0000
+
+Dokumen 1057:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1058:
+- ok: 1.0000
+
+Dokumen 1059:
+- terbaik: 1.0000
+
+Dokumen 1060:
+- mantap: 1.0000
+
+Dokumen 1061:
+- meta: 1.0000
+
+Dokumen 1062:
+- ok: 1.0000
+
+Dokumen 1063:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1064:
+
+Dokumen 1065:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1066:
+
+Dokumen 1067:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1068:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1069:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1070:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1071:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1072:
+- ok: 1.0000
+
+Dokumen 1073:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1074:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1075:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1076:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1077:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1078:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1079:
+- bagus: 1.0000
+
+Dokumen 1080:
+- good: 1.0000
+
+Dokumen 1081:
+
+Dokumen 1082:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1083:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1084:
+- baguss: 1.0000
+
+Dokumen 1085:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1086:
+- ok: 1.0000
+
+Dokumen 1087:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1088:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1089:
+
+Dokumen 1090:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1091:
+
+Dokumen 1092:
+- ok: 1.0000
+
+Dokumen 1093:
+- bagus: 1.0000
+
+Dokumen 1094:
+
+Dokumen 1095:
+
+Dokumen 1096:
+- jelek: 1.0000
+
+Dokumen 1097:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 1098:
+- mantap: 1.0000
+
+Dokumen 1099:
+
+Dokumen 1100:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1101:
+
+Dokumen 1102:
+
+Dokumen 1103:
+- whatsapp: 1.0000
+
+Dokumen 1104:
+- bagus: 1.0000
+
+Dokumen 1105:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1106:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1107:
+- berguna: 1.0000
+
+Dokumen 1108:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1109:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1110:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1111:
+
+Dokumen 1112:
+- bagus: 1.0000
+
+Dokumen 1113:
+
+Dokumen 1114:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1115:
+- terbaik: 1.0000
+
+Dokumen 1116:
+
+Dokumen 1117:
+- bermanfaat: 1.0000
+
+Dokumen 1118:
+
+Dokumen 1119:
+
+Dokumen 1120:
+
+Dokumen 1121:
+- bagus: 1.0000
+
+Dokumen 1122:
+- bagus: 1.0000
+
+Dokumen 1123:
+
+Dokumen 1124:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1125:
+- bgus: 1.0000
+
+Dokumen 1126:
+- ok: 1.0000
+
+Dokumen 1127:
+- bagus: 1.0000
+
+Dokumen 1128:
+- membantu: 1.0000
+
+Dokumen 1129:
+- membantu: 1.0000
+
+Dokumen 1130:
+- bagus: 1.0000
+
+Dokumen 1131:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1132:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1133:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1134:
+- jelek: 1.0000
+
+Dokumen 1135:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1136:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1137:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1138:
+- meta: 1.0000
+
+Dokumen 1139:
+
+Dokumen 1140:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1141:
+- ok: 1.0000
+
+Dokumen 1142:
+
+Dokumen 1143:
+- ok: 1.0000
+
+Dokumen 1144:
+
+Dokumen 1145:
+
+Dokumen 1146:
+- mantap: 1.0000
+
+Dokumen 1147:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1148:
+- mantap: 1.0000
+
+Dokumen 1149:
+- jelek: 1.0000
+
+Dokumen 1150:
+- al: 1.0000
+
+Dokumen 1151:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1152:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1153:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1154:
+- bagus: 1.0000
+
+Dokumen 1155:
+- membatu: 1.0000
+
+Dokumen 1156:
+- mantap: 1.0000
+
+Dokumen 1157:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1158:
+- ok: 1.0000
+
+Dokumen 1159:
+- terbaik: 1.0000
+
+Dokumen 1160:
+- mantap: 1.0000
+
+Dokumen 1161:
+- meta: 1.0000
+
+Dokumen 1162:
+- ok: 1.0000
+
+Dokumen 1163:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1164:
+
+Dokumen 1165:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1166:
+
+Dokumen 1167:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1168:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1169:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1170:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1171:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1172:
+- ok: 1.0000
+
+Dokumen 1173:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1174:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1175:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1176:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1177:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1178:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1179:
+- bagus: 1.0000
+
+Dokumen 1180:
+- good: 1.0000
+
+Dokumen 1181:
+
+Dokumen 1182:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1183:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1184:
+- baguss: 1.0000
+
+Dokumen 1185:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1186:
+- ok: 1.0000
+
+Dokumen 1187:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1188:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1189:
+
+Dokumen 1190:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1191:
+
+Dokumen 1192:
+- ok: 1.0000
+
+Dokumen 1193:
+- bagus: 1.0000
+
+Dokumen 1194:
+
+Dokumen 1195:
+
+Dokumen 1196:
+- jelek: 1.0000
+
+Dokumen 1197:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 1198:
+- mantap: 1.0000
+
+Dokumen 1199:
+
+Dokumen 1200:
+- hp: 0.4338
+- meta: 0.6371
+- sedih: 0.6371
+
+Dokumen 1201:
+- gak: 1.0000
+
+Dokumen 1202:
+- banget: 0.2139
+- bug: 0.4970
+- doang: 0.2903
+- ga: 0.2035
+- gak: 0.1695
+- jam: 0.3076
+- nama: 0.2903
+- nya: 0.1739
+- orang: 0.3076
+- trus: 0.2781
+- update: 0.1821
+- wa: 0.3076
+- yg: 0.2094
+
+Dokumen 1203:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1204:
+
+Dokumen 1205:
+
+Dokumen 1206:
+- whatsapp: 1.0000
+
+Dokumen 1207:
+- bagus: 1.0000
+
+Dokumen 1208:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1209:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1210:
+- berguna: 1.0000
+
+Dokumen 1211:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1212:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1213:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1214:
+
+Dokumen 1215:
+- bagus: 1.0000
+
+Dokumen 1216:
+
+Dokumen 1217:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1218:
+- terbaik: 1.0000
+
+Dokumen 1219:
+
+Dokumen 1220:
+- bermanfaat: 1.0000
+
+Dokumen 1221:
+
+Dokumen 1222:
+
+Dokumen 1223:
+
+Dokumen 1224:
+- bagus: 1.0000
+
+Dokumen 1225:
+- bagus: 1.0000
+
+Dokumen 1226:
+
+Dokumen 1227:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1228:
+- bgus: 1.0000
+
+Dokumen 1229:
+- ok: 1.0000
+
+Dokumen 1230:
+- bagus: 1.0000
+
+Dokumen 1231:
+- membantu: 1.0000
+
+Dokumen 1232:
+- membantu: 1.0000
+
+Dokumen 1233:
+- bagus: 1.0000
+
+Dokumen 1234:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1235:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1236:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1237:
+- jelek: 1.0000
+
+Dokumen 1238:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1239:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1240:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1241:
+- meta: 1.0000
+
+Dokumen 1242:
+
+Dokumen 1243:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1244:
+- ok: 1.0000
+
+Dokumen 1245:
+
+Dokumen 1246:
+- ok: 1.0000
+
+Dokumen 1247:
+
+Dokumen 1248:
+
+Dokumen 1249:
+- mantap: 1.0000
+
+Dokumen 1250:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1251:
+- mantap: 1.0000
+
+Dokumen 1252:
+- jelek: 1.0000
+
+Dokumen 1253:
+- al: 1.0000
+
+Dokumen 1254:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1255:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1256:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1257:
+- bagus: 1.0000
+
+Dokumen 1258:
+- membatu: 1.0000
+
+Dokumen 1259:
+- mantap: 1.0000
+
+Dokumen 1260:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1261:
+- ok: 1.0000
+
+Dokumen 1262:
+- terbaik: 1.0000
+
+Dokumen 1263:
+- mantap: 1.0000
+
+Dokumen 1264:
+- meta: 1.0000
+
+Dokumen 1265:
+- ok: 1.0000
+
+Dokumen 1266:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1267:
+
+Dokumen 1268:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1269:
+
+Dokumen 1270:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1271:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1272:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1273:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1274:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1275:
+- ok: 1.0000
+
+Dokumen 1276:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1277:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1278:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1279:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1280:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1281:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1282:
+- bagus: 1.0000
+
+Dokumen 1283:
+- good: 1.0000
+
+Dokumen 1284:
+
+Dokumen 1285:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1286:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1287:
+- baguss: 1.0000
+
+Dokumen 1288:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1289:
+- ok: 1.0000
+
+Dokumen 1290:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1291:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1292:
+
+Dokumen 1293:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1294:
+
+Dokumen 1295:
+- ok: 1.0000
+
+Dokumen 1296:
+- bagus: 1.0000
+
+Dokumen 1297:
+
+Dokumen 1298:
+
+Dokumen 1299:
+- jelek: 1.0000
+
+Dokumen 1300:
+- hp: 0.4338
+- meta: 0.6371
+- sedih: 0.6371
+
+Dokumen 1301:
+- gak: 1.0000
+
+Dokumen 1302:
+- banget: 0.2139
+- bug: 0.4970
+- doang: 0.2903
+- ga: 0.2035
+- gak: 0.1695
+- jam: 0.3076
+- nama: 0.2903
+- nya: 0.1739
+- orang: 0.3076
+- trus: 0.2781
+- update: 0.1821
+- wa: 0.3076
+- yg: 0.2094
+
+Dokumen 1303:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1304:
+
+Dokumen 1305:
+
+Dokumen 1306:
+- whatsapp: 1.0000
+
+Dokumen 1307:
+- bagus: 1.0000
+
+Dokumen 1308:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1309:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1310:
+- berguna: 1.0000
+
+Dokumen 1311:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1312:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1313:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1314:
+
+Dokumen 1315:
+- bagus: 1.0000
+
+Dokumen 1316:
+
+Dokumen 1317:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1318:
+- terbaik: 1.0000
+
+Dokumen 1319:
+
+Dokumen 1320:
+- bermanfaat: 1.0000
+
+Dokumen 1321:
+
+Dokumen 1322:
+
+Dokumen 1323:
+
+Dokumen 1324:
+- bagus: 1.0000
+
+Dokumen 1325:
+- bagus: 1.0000
+
+Dokumen 1326:
+
+Dokumen 1327:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1328:
+- bgus: 1.0000
+
+Dokumen 1329:
+- ok: 1.0000
+
+Dokumen 1330:
+- bagus: 1.0000
+
+Dokumen 1331:
+- membantu: 1.0000
+
+Dokumen 1332:
+- membantu: 1.0000
+
+Dokumen 1333:
+- bagus: 1.0000
+
+Dokumen 1334:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1335:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1336:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1337:
+- jelek: 1.0000
+
+Dokumen 1338:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1339:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1340:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1341:
+- meta: 1.0000
+
+Dokumen 1342:
+
+Dokumen 1343:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1344:
+- ok: 1.0000
+
+Dokumen 1345:
+
+Dokumen 1346:
+- ok: 1.0000
+
+Dokumen 1347:
+
+Dokumen 1348:
+
+Dokumen 1349:
+- mantap: 1.0000
+
+Dokumen 1350:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1351:
+- mantap: 1.0000
+
+Dokumen 1352:
+- jelek: 1.0000
+
+Dokumen 1353:
+- al: 1.0000
+
+Dokumen 1354:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1355:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1356:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1357:
+- bagus: 1.0000
+
+Dokumen 1358:
+- membatu: 1.0000
+
+Dokumen 1359:
+- mantap: 1.0000
+
+Dokumen 1360:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1361:
+- ok: 1.0000
+
+Dokumen 1362:
+- terbaik: 1.0000
+
+Dokumen 1363:
+- mantap: 1.0000
+
+Dokumen 1364:
+- meta: 1.0000
+
+Dokumen 1365:
+- ok: 1.0000
+
+Dokumen 1366:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1367:
+
+Dokumen 1368:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1369:
+
+Dokumen 1370:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1371:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1372:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1373:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1374:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1375:
+- ok: 1.0000
+
+Dokumen 1376:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1377:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1378:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1379:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1380:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1381:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1382:
+- bagus: 1.0000
+
+Dokumen 1383:
+- good: 1.0000
+
+Dokumen 1384:
+
+Dokumen 1385:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1386:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1387:
+- baguss: 1.0000
+
+Dokumen 1388:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1389:
+- ok: 1.0000
+
+Dokumen 1390:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1391:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1392:
+
+Dokumen 1393:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1394:
+
+Dokumen 1395:
+- ok: 1.0000
+
+Dokumen 1396:
+- bagus: 1.0000
+
+Dokumen 1397:
+
+Dokumen 1398:
+
+Dokumen 1399:
+- jelek: 1.0000
+
+Dokumen 1400:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1401:
+
+Dokumen 1402:
+
+Dokumen 1403:
+- whatsapp: 1.0000
+
+Dokumen 1404:
+- bagus: 1.0000
+
+Dokumen 1405:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1406:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1407:
+- berguna: 1.0000
+
+Dokumen 1408:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1409:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1410:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1411:
+
+Dokumen 1412:
+- bagus: 1.0000
+
+Dokumen 1413:
+
+Dokumen 1414:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1415:
+- terbaik: 1.0000
+
+Dokumen 1416:
+
+Dokumen 1417:
+- bermanfaat: 1.0000
+
+Dokumen 1418:
+
+Dokumen 1419:
+
+Dokumen 1420:
+
+Dokumen 1421:
+- bagus: 1.0000
+
+Dokumen 1422:
+- bagus: 1.0000
+
+Dokumen 1423:
+
+Dokumen 1424:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1425:
+- bgus: 1.0000
+
+Dokumen 1426:
+- ok: 1.0000
+
+Dokumen 1427:
+- bagus: 1.0000
+
+Dokumen 1428:
+- membantu: 1.0000
+
+Dokumen 1429:
+- membantu: 1.0000
+
+Dokumen 1430:
+- bagus: 1.0000
+
+Dokumen 1431:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1432:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1433:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1434:
+- jelek: 1.0000
+
+Dokumen 1435:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1436:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1437:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1438:
+- meta: 1.0000
+
+Dokumen 1439:
+
+Dokumen 1440:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1441:
+- ok: 1.0000
+
+Dokumen 1442:
+
+Dokumen 1443:
+- ok: 1.0000
+
+Dokumen 1444:
+
+Dokumen 1445:
+
+Dokumen 1446:
+- mantap: 1.0000
+
+Dokumen 1447:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1448:
+- mantap: 1.0000
+
+Dokumen 1449:
+- jelek: 1.0000
+
+Dokumen 1450:
+- al: 1.0000
+
+Dokumen 1451:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1452:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1453:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1454:
+- bagus: 1.0000
+
+Dokumen 1455:
+- membatu: 1.0000
+
+Dokumen 1456:
+- mantap: 1.0000
+
+Dokumen 1457:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1458:
+- ok: 1.0000
+
+Dokumen 1459:
+- terbaik: 1.0000
+
+Dokumen 1460:
+- mantap: 1.0000
+
+Dokumen 1461:
+- meta: 1.0000
+
+Dokumen 1462:
+- ok: 1.0000
+
+Dokumen 1463:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1464:
+
+Dokumen 1465:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1466:
+
+Dokumen 1467:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1468:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1469:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1470:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1471:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1472:
+- ok: 1.0000
+
+Dokumen 1473:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1474:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1475:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1476:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1477:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1478:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1479:
+- bagus: 1.0000
+
+Dokumen 1480:
+- good: 1.0000
+
+Dokumen 1481:
+
+Dokumen 1482:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1483:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1484:
+- baguss: 1.0000
+
+Dokumen 1485:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1486:
+- ok: 1.0000
+
+Dokumen 1487:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1488:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1489:
+
+Dokumen 1490:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1491:
+
+Dokumen 1492:
+- ok: 1.0000
+
+Dokumen 1493:
+- bagus: 1.0000
+
+Dokumen 1494:
+
+Dokumen 1495:
+
+Dokumen 1496:
+- jelek: 1.0000
+
+Dokumen 1497:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 1498:
+- mantap: 1.0000
+
+Dokumen 1499:
+
+Dokumen 1500:
+- hp: 0.4338
+- meta: 0.6371
+- sedih: 0.6371
+
+Dokumen 1501:
+- gak: 1.0000
+
+Dokumen 1502:
+- banget: 0.2139
+- bug: 0.4970
+- doang: 0.2903
+- ga: 0.2035
+- gak: 0.1695
+- jam: 0.3076
+- nama: 0.2903
+- nya: 0.1739
+- orang: 0.3076
+- trus: 0.2781
+- update: 0.1821
+- wa: 0.3076
+- yg: 0.2094
+
+Dokumen 1503:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1504:
+
+Dokumen 1505:
+
+Dokumen 1506:
+- whatsapp: 1.0000
+
+Dokumen 1507:
+- bagus: 1.0000
+
+Dokumen 1508:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1509:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1510:
+- berguna: 1.0000
+
+Dokumen 1511:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1512:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1513:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1514:
+
+Dokumen 1515:
+- bagus: 1.0000
+
+Dokumen 1516:
+
+Dokumen 1517:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1518:
+- terbaik: 1.0000
+
+Dokumen 1519:
+
+Dokumen 1520:
+- bermanfaat: 1.0000
+
+Dokumen 1521:
+
+Dokumen 1522:
+
+Dokumen 1523:
+
+Dokumen 1524:
+- bagus: 1.0000
+
+Dokumen 1525:
+- bagus: 1.0000
+
+Dokumen 1526:
+
+Dokumen 1527:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1528:
+- bgus: 1.0000
+
+Dokumen 1529:
+- ok: 1.0000
+
+Dokumen 1530:
+- bagus: 1.0000
+
+Dokumen 1531:
+- membantu: 1.0000
+
+Dokumen 1532:
+- membantu: 1.0000
+
+Dokumen 1533:
+- bagus: 1.0000
+
+Dokumen 1534:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1535:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1536:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1537:
+- jelek: 1.0000
+
+Dokumen 1538:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1539:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1540:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1541:
+- meta: 1.0000
+
+Dokumen 1542:
+
+Dokumen 1543:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1544:
+- ok: 1.0000
+
+Dokumen 1545:
+
+Dokumen 1546:
+- ok: 1.0000
+
+Dokumen 1547:
+
+Dokumen 1548:
+
+Dokumen 1549:
+- mantap: 1.0000
+
+Dokumen 1550:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1551:
+- mantap: 1.0000
+
+Dokumen 1552:
+- jelek: 1.0000
+
+Dokumen 1553:
+- al: 1.0000
+
+Dokumen 1554:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1555:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1556:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1557:
+- bagus: 1.0000
+
+Dokumen 1558:
+- membatu: 1.0000
+
+Dokumen 1559:
+- mantap: 1.0000
+
+Dokumen 1560:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1561:
+- ok: 1.0000
+
+Dokumen 1562:
+- terbaik: 1.0000
+
+Dokumen 1563:
+- mantap: 1.0000
+
+Dokumen 1564:
+- meta: 1.0000
+
+Dokumen 1565:
+- ok: 1.0000
+
+Dokumen 1566:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1567:
+
+Dokumen 1568:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1569:
+
+Dokumen 1570:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1571:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1572:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1573:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1574:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1575:
+- ok: 1.0000
+
+Dokumen 1576:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1577:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1578:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1579:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1580:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1581:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1582:
+- bagus: 1.0000
+
+Dokumen 1583:
+- good: 1.0000
+
+Dokumen 1584:
+
+Dokumen 1585:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1586:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1587:
+- baguss: 1.0000
+
+Dokumen 1588:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1589:
+- ok: 1.0000
+
+Dokumen 1590:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1591:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1592:
+
+Dokumen 1593:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1594:
+
+Dokumen 1595:
+- ok: 1.0000
+
+Dokumen 1596:
+- bagus: 1.0000
+
+Dokumen 1597:
+
+Dokumen 1598:
+
+Dokumen 1599:
+- jelek: 1.0000
+
+Dokumen 1600:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1601:
+
+Dokumen 1602:
+
+Dokumen 1603:
+- whatsapp: 1.0000
+
+Dokumen 1604:
+- bagus: 1.0000
+
+Dokumen 1605:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1606:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1607:
+- berguna: 1.0000
+
+Dokumen 1608:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1609:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1610:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1611:
+
+Dokumen 1612:
+- bagus: 1.0000
+
+Dokumen 1613:
+
+Dokumen 1614:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1615:
+- terbaik: 1.0000
+
+Dokumen 1616:
+
+Dokumen 1617:
+- bermanfaat: 1.0000
+
+Dokumen 1618:
+
+Dokumen 1619:
+
+Dokumen 1620:
+
+Dokumen 1621:
+- bagus: 1.0000
+
+Dokumen 1622:
+- bagus: 1.0000
+
+Dokumen 1623:
+
+Dokumen 1624:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1625:
+- bgus: 1.0000
+
+Dokumen 1626:
+- ok: 1.0000
+
+Dokumen 1627:
+- bagus: 1.0000
+
+Dokumen 1628:
+- membantu: 1.0000
+
+Dokumen 1629:
+- membantu: 1.0000
+
+Dokumen 1630:
+- bagus: 1.0000
+
+Dokumen 1631:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1632:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1633:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1634:
+- jelek: 1.0000
+
+Dokumen 1635:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1636:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1637:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1638:
+- meta: 1.0000
+
+Dokumen 1639:
+
+Dokumen 1640:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1641:
+- ok: 1.0000
+
+Dokumen 1642:
+
+Dokumen 1643:
+- ok: 1.0000
+
+Dokumen 1644:
+
+Dokumen 1645:
+
+Dokumen 1646:
+- mantap: 1.0000
+
+Dokumen 1647:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1648:
+- mantap: 1.0000
+
+Dokumen 1649:
+- jelek: 1.0000
+
+Dokumen 1650:
+- al: 1.0000
+
+Dokumen 1651:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1652:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1653:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1654:
+- bagus: 1.0000
+
+Dokumen 1655:
+- membatu: 1.0000
+
+Dokumen 1656:
+- mantap: 1.0000
+
+Dokumen 1657:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1658:
+- ok: 1.0000
+
+Dokumen 1659:
+- terbaik: 1.0000
+
+Dokumen 1660:
+- mantap: 1.0000
+
+Dokumen 1661:
+- meta: 1.0000
+
+Dokumen 1662:
+- ok: 1.0000
+
+Dokumen 1663:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1664:
+
+Dokumen 1665:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1666:
+
+Dokumen 1667:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1668:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1669:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1670:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1671:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1672:
+- ok: 1.0000
+
+Dokumen 1673:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1674:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1675:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1676:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1677:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1678:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1679:
+- bagus: 1.0000
+
+Dokumen 1680:
+- good: 1.0000
+
+Dokumen 1681:
+
+Dokumen 1682:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1683:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1684:
+- baguss: 1.0000
+
+Dokumen 1685:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1686:
+- ok: 1.0000
+
+Dokumen 1687:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1688:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1689:
+
+Dokumen 1690:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1691:
+
+Dokumen 1692:
+- ok: 1.0000
+
+Dokumen 1693:
+- bagus: 1.0000
+
+Dokumen 1694:
+
+Dokumen 1695:
+
+Dokumen 1696:
+- jelek: 1.0000
+
+Dokumen 1697:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 1698:
+- mantap: 1.0000
+
+Dokumen 1699:
+
+Dokumen 1700:
+- asik: 0.7071
+- meta: 0.7071
+
+Dokumen 1701:
+- fitur: 1.0000
+
+Dokumen 1702:
+- bagus: 0.3498
+- skali: 0.9368
+
+Dokumen 1703:
+- bagus: 0.3678
+- tida: 0.9299
+
+Dokumen 1704:
+- nya: 1.0000
+
+Dokumen 1705:
+
+Dokumen 1706:
+- hp: 0.4338
+- meta: 0.6371
+- sedih: 0.6371
+
+Dokumen 1707:
+- gak: 1.0000
+
+Dokumen 1708:
+- banget: 0.2139
+- bug: 0.4970
+- doang: 0.2903
+- ga: 0.2035
+- gak: 0.1695
+- jam: 0.3076
+- nama: 0.2903
+- nya: 0.1739
+- orang: 0.3076
+- trus: 0.2781
+- update: 0.1821
+- wa: 0.3076
+- yg: 0.2094
+
+Dokumen 1709:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1710:
+
+Dokumen 1711:
+
+Dokumen 1712:
+- whatsapp: 1.0000
+
+Dokumen 1713:
+- bagus: 1.0000
+
+Dokumen 1714:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1715:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1716:
+- berguna: 1.0000
+
+Dokumen 1717:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1718:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1719:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1720:
+
+Dokumen 1721:
+- bagus: 1.0000
+
+Dokumen 1722:
+
+Dokumen 1723:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1724:
+- terbaik: 1.0000
+
+Dokumen 1725:
+
+Dokumen 1726:
+- bermanfaat: 1.0000
+
+Dokumen 1727:
+
+Dokumen 1728:
+
+Dokumen 1729:
+
+Dokumen 1730:
+- bagus: 1.0000
+
+Dokumen 1731:
+- bagus: 1.0000
+
+Dokumen 1732:
+
+Dokumen 1733:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1734:
+- bgus: 1.0000
+
+Dokumen 1735:
+- ok: 1.0000
+
+Dokumen 1736:
+- bagus: 1.0000
+
+Dokumen 1737:
+- membantu: 1.0000
+
+Dokumen 1738:
+- membantu: 1.0000
+
+Dokumen 1739:
+- bagus: 1.0000
+
+Dokumen 1740:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1741:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1742:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1743:
+- jelek: 1.0000
+
+Dokumen 1744:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1745:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1746:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1747:
+- meta: 1.0000
+
+Dokumen 1748:
+
+Dokumen 1749:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1750:
+- ok: 1.0000
+
+Dokumen 1751:
+
+Dokumen 1752:
+- ok: 1.0000
+
+Dokumen 1753:
+
+Dokumen 1754:
+
+Dokumen 1755:
+- mantap: 1.0000
+
+Dokumen 1756:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1757:
+- mantap: 1.0000
+
+Dokumen 1758:
+- jelek: 1.0000
+
+Dokumen 1759:
+- al: 1.0000
+
+Dokumen 1760:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1761:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1762:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1763:
+- bagus: 1.0000
+
+Dokumen 1764:
+- membatu: 1.0000
+
+Dokumen 1765:
+- mantap: 1.0000
+
+Dokumen 1766:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1767:
+- ok: 1.0000
+
+Dokumen 1768:
+- terbaik: 1.0000
+
+Dokumen 1769:
+- mantap: 1.0000
+
+Dokumen 1770:
+- meta: 1.0000
+
+Dokumen 1771:
+- ok: 1.0000
+
+Dokumen 1772:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1773:
+
+Dokumen 1774:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1775:
+
+Dokumen 1776:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1777:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1778:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1779:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1780:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1781:
+- ok: 1.0000
+
+Dokumen 1782:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1783:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1784:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1785:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1786:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1787:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1788:
+- bagus: 1.0000
+
+Dokumen 1789:
+- good: 1.0000
+
+Dokumen 1790:
+
+Dokumen 1791:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1792:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1793:
+- baguss: 1.0000
+
+Dokumen 1794:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1795:
+- ok: 1.0000
+
+Dokumen 1796:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1797:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1798:
+
+Dokumen 1799:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1800:
+- hp: 0.4338
+- meta: 0.6371
+- sedih: 0.6371
+
+Dokumen 1801:
+- gak: 1.0000
+
+Dokumen 1802:
+- banget: 0.2139
+- bug: 0.4970
+- doang: 0.2903
+- ga: 0.2035
+- gak: 0.1695
+- jam: 0.3076
+- nama: 0.2903
+- nya: 0.1739
+- orang: 0.3076
+- trus: 0.2781
+- update: 0.1821
+- wa: 0.3076
+- yg: 0.2094
+
+Dokumen 1803:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1804:
+
+Dokumen 1805:
+
+Dokumen 1806:
+- whatsapp: 1.0000
+
+Dokumen 1807:
+- bagus: 1.0000
+
+Dokumen 1808:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1809:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1810:
+- berguna: 1.0000
+
+Dokumen 1811:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1812:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1813:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1814:
+
+Dokumen 1815:
+- bagus: 1.0000
+
+Dokumen 1816:
+
+Dokumen 1817:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1818:
+- terbaik: 1.0000
+
+Dokumen 1819:
+
+Dokumen 1820:
+- bermanfaat: 1.0000
+
+Dokumen 1821:
+
+Dokumen 1822:
+
+Dokumen 1823:
+
+Dokumen 1824:
+- bagus: 1.0000
+
+Dokumen 1825:
+- bagus: 1.0000
+
+Dokumen 1826:
+
+Dokumen 1827:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1828:
+- bgus: 1.0000
+
+Dokumen 1829:
+- ok: 1.0000
+
+Dokumen 1830:
+- bagus: 1.0000
+
+Dokumen 1831:
+- membantu: 1.0000
+
+Dokumen 1832:
+- membantu: 1.0000
+
+Dokumen 1833:
+- bagus: 1.0000
+
+Dokumen 1834:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1835:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1836:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1837:
+- jelek: 1.0000
+
+Dokumen 1838:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1839:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1840:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1841:
+- meta: 1.0000
+
+Dokumen 1842:
+
+Dokumen 1843:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1844:
+- ok: 1.0000
+
+Dokumen 1845:
+
+Dokumen 1846:
+- ok: 1.0000
+
+Dokumen 1847:
+
+Dokumen 1848:
+
+Dokumen 1849:
+- mantap: 1.0000
+
+Dokumen 1850:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1851:
+- mantap: 1.0000
+
+Dokumen 1852:
+- jelek: 1.0000
+
+Dokumen 1853:
+- al: 1.0000
+
+Dokumen 1854:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1855:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1856:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1857:
+- bagus: 1.0000
+
+Dokumen 1858:
+- membatu: 1.0000
+
+Dokumen 1859:
+- mantap: 1.0000
+
+Dokumen 1860:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1861:
+- ok: 1.0000
+
+Dokumen 1862:
+- terbaik: 1.0000
+
+Dokumen 1863:
+- mantap: 1.0000
+
+Dokumen 1864:
+- meta: 1.0000
+
+Dokumen 1865:
+- ok: 1.0000
+
+Dokumen 1866:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1867:
+
+Dokumen 1868:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1869:
+
+Dokumen 1870:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1871:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1872:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1873:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1874:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1875:
+- ok: 1.0000
+
+Dokumen 1876:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1877:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1878:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1879:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1880:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1881:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1882:
+- bagus: 1.0000
+
+Dokumen 1883:
+- good: 1.0000
+
+Dokumen 1884:
+
+Dokumen 1885:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1886:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1887:
+- baguss: 1.0000
+
+Dokumen 1888:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1889:
+- ok: 1.0000
+
+Dokumen 1890:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1891:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1892:
+
+Dokumen 1893:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1894:
+
+Dokumen 1895:
+- ok: 1.0000
+
+Dokumen 1896:
+- bagus: 1.0000
+
+Dokumen 1897:
+
+Dokumen 1898:
+
+Dokumen 1899:
+- jelek: 1.0000
+
+Dokumen 1900:
+- hp: 0.4736
+- joss: 0.6955
+- ku: 0.5404
+
+Dokumen 1901:
+
+Dokumen 1902:
+
+Dokumen 1903:
+- whatsapp: 1.0000
+
+Dokumen 1904:
+- bagus: 1.0000
+
+Dokumen 1905:
+- aplikasi: 0.0980
+- karna: 0.1321
+- orang: 0.9810
+- tolong: 0.1029
+
+Dokumen 1906:
+- bgt: 0.2225
+- dulunya: 0.2462
+- gak: 0.1357
+- ku: 0.1913
+- nama: 0.2323
+- nggak: 0.2323
+- nya: 0.5568
+- pas: 0.3825
+- ubah: 0.4924
+- yg: 0.1676
+
+Dokumen 1907:
+- berguna: 1.0000
+
+Dokumen 1908:
+- aja: 0.3677
+- bagus: 0.1995
+- coba: 0.2415
+- fitur: 0.2672
+- ga: 0.1768
+- gitu: 0.2415
+- kalo: 0.2076
+- kasih: 0.2208
+- ngetik: 0.2672
+- nya: 0.1511
+- sih: 0.2115
+- udah: 0.6122
+
+Dokumen 1909:
+- aktif: 0.6706
+- wa: 0.7418
+
+Dokumen 1910:
+- aplikasi: 0.4226
+- bantuannya: 0.7050
+- mohon: 0.5696
+
+Dokumen 1911:
+
+Dokumen 1912:
+- bagus: 1.0000
+
+Dokumen 1913:
+
+Dokumen 1914:
+- aneh: 0.3919
+- ga: 0.2747
+- instal: 0.3431
+- ko: 0.3625
+- muncul: 0.3919
+- nya: 0.2348
+- sukses: 0.4152
+- terimakasih: 0.3753
+
+Dokumen 1915:
+- terbaik: 1.0000
+
+Dokumen 1916:
+
+Dokumen 1917:
+- bermanfaat: 1.0000
+
+Dokumen 1918:
+
+Dokumen 1919:
+
+Dokumen 1920:
+
+Dokumen 1921:
+- bagus: 1.0000
+
+Dokumen 1922:
+- bagus: 1.0000
+
+Dokumen 1923:
+
+Dokumen 1924:
+- bug: 0.8066
+- update: 0.5910
+
+Dokumen 1925:
+- bgus: 1.0000
+
+Dokumen 1926:
+- ok: 1.0000
+
+Dokumen 1927:
+- bagus: 1.0000
+
+Dokumen 1928:
+- membantu: 1.0000
+
+Dokumen 1929:
+- membantu: 1.0000
+
+Dokumen 1930:
+- bagus: 1.0000
+
+Dokumen 1931:
+- bug: 0.5159
+- gabisa: 0.5773
+- mohon: 0.2580
+- nya: 0.1806
+- perbaiki: 0.2528
+- tolong: 0.2010
+- udah: 0.2439
+- update: 0.1890
+- whatsapp: 0.3193
+
+Dokumen 1932:
+- ku: 0.4815
+- pengguna: 0.6197
+- whatsapp: 0.6197
+
+Dokumen 1933:
+- biar: 0.2837
+- coba: 0.2937
+- diperbaiki: 0.3067
+- mengganggu: 0.3250
+- orang: 0.6499
+- sistem: 0.3250
+- whatsapp: 0.3250
+
+Dokumen 1934:
+- jelek: 1.0000
+
+Dokumen 1935:
+- alasan: 0.4032
+- dgn: 0.3806
+- diperbaiki: 0.3806
+- kali: 0.3520
+- kena: 0.4032
+- mengecewakan: 0.3806
+- nya: 0.2280
+- tolong: 0.2538
+
+Dokumen 1936:
+- bs: 0.5345
+- coba: 0.5846
+- make: 0.6104
+
+Dokumen 1937:
+- aplikasi: 0.5225
+- banget: 0.6062
+- keren: 0.5997
+
+Dokumen 1938:
+- meta: 1.0000
+
+Dokumen 1939:
+
+Dokumen 1940:
+- bagus: 0.2046
+- banget: 0.3811
+- cuman: 0.5171
+- sulit: 0.4953
+- whatsapp: 0.5479
+
+Dokumen 1941:
+- ok: 1.0000
+
+Dokumen 1942:
+
+Dokumen 1943:
+- ok: 1.0000
+
+Dokumen 1944:
+
+Dokumen 1945:
+
+Dokumen 1946:
+- mantap: 1.0000
+
+Dokumen 1947:
+- aplikasi: 0.2663
+- fitur: 0.4442
+- live: 0.4193
+- menarik: 0.4016
+- semoga: 0.4442
+- wa: 0.4442
+
+Dokumen 1948:
+- mantap: 1.0000
+
+Dokumen 1949:
+- jelek: 1.0000
+
+Dokumen 1950:
+- al: 1.0000
+
+Dokumen 1951:
+- bagus: 0.3337
+- biar: 0.7802
+- update: 0.5290
+
+Dokumen 1952:
+- cuman: 0.3153
+- kali: 0.2917
+- mohon: 0.2699
+- nya: 0.1889
+- parah: 0.3153
+- perbaiki: 0.2644
+- si: 0.3020
+- whatsapp: 0.6682
+
+Dokumen 1953:
+- apapun: 0.2500
+- banget: 0.3477
+- bener: 0.2359
+- emang: 0.2500
+- gak: 0.1378
+- gini: 0.2260
+- kalo: 0.1942
+- kayak: 0.2359
+- kecewa: 0.2500
+- perangkat: 0.4718
+- whatsapp: 0.4999
+
+Dokumen 1954:
+- bagus: 1.0000
+
+Dokumen 1955:
+- membatu: 1.0000
+
+Dokumen 1956:
+- mantap: 1.0000
+
+Dokumen 1957:
+- app: 0.6401
+- download: 0.3201
+- in: 0.3541
+- media: 0.3541
+- samsung: 0.3342
+- whatsapp: 0.3541
+
+Dokumen 1958:
+- ok: 1.0000
+
+Dokumen 1959:
+- terbaik: 1.0000
+
+Dokumen 1960:
+- mantap: 1.0000
+
+Dokumen 1961:
+- meta: 1.0000
+
+Dokumen 1962:
+- ok: 1.0000
+
+Dokumen 1963:
+- bagus: 0.1197
+- nama: 0.3025
+- orang: 0.3205
+- suka: 0.1988
+- tpi: 0.3025
+- ubah: 0.6410
+- wa: 0.3205
+- whatsapp: 0.3205
+- ya: 0.2101
+
+Dokumen 1964:
+
+Dokumen 1965:
+- bikin: 0.7071
+- whatsapp: 0.7071
+
+Dokumen 1966:
+
+Dokumen 1967:
+- gk: 0.4710
+- kena: 0.6917
+- perbaiki: 0.5475
+
+Dokumen 1968:
+- membantu: 0.5553
+- wa: 0.8317
+
+Dokumen 1969:
+- aplikasi: 0.4340
+- dibuka: 0.5362
+- wa: 0.7240
+
+Dokumen 1970:
+- mantab: 0.6841
+- sayang: 0.7294
+
+Dokumen 1971:
+- bug: 0.8193
+- nya: 0.5734
+
+Dokumen 1972:
+- ok: 1.0000
+
+Dokumen 1973:
+- gk: 0.4363
+- karna: 0.5176
+- meta: 0.6407
+- nya: 0.3623
+
+Dokumen 1974:
+- akun: 0.4627
+- apapun: 0.5118
+- kena: 0.5118
+- wa: 0.5118
+
+Dokumen 1975:
+- bikin: 0.2798
+- chanel: 0.5596
+- ga: 0.1851
+- jelek: 0.2017
+- langsung: 0.2798
+- pls: 0.2798
+- trus: 0.2529
+- whatsapp: 0.5596
+
+Dokumen 1976:
+- mengganggu: 0.7418
+- trus: 0.6706
+
+Dokumen 1977:
+- aja: 0.6769
+- anak: 0.1976
+- banget: 0.0760
+- berubah: 0.3280
+- biar: 0.1909
+- deh: 0.0988
+- gara: 0.1093
+- iya: 0.0988
+- kalo: 0.2548
+- nih: 0.2064
+- orang: 0.2186
+- pulang: 0.1093
+- sih: 0.2596
+- suka: 0.0678
+- ya: 0.2867
+
+Dokumen 1978:
+- fitur: 0.5774
+- orang: 0.5774
+- pls: 0.5774
+
+Dokumen 1979:
+- bagus: 1.0000
+
+Dokumen 1980:
+- good: 1.0000
+
+Dokumen 1981:
+
+Dokumen 1982:
+- mengganggu: 0.9072
+- tolong: 0.2855
+- yg: 0.3089
+
+Dokumen 1983:
+- ga: 0.4904
+- login: 0.6701
+- susah: 0.5572
+
+Dokumen 1984:
+- baguss: 1.0000
+
+Dokumen 1985:
+- gak: 0.2519
+- gini: 0.4131
+- knpa: 0.4313
+- masuk: 0.3874
+- muncul: 0.4313
+- pembaruan: 0.4131
+- update: 0.2705
+
+Dokumen 1986:
+- ok: 1.0000
+
+Dokumen 1987:
+- banget: 0.3726
+- pecah: 0.5358
+- upload: 0.5358
+- wa: 0.5358
+
+Dokumen 1988:
+- cepat: 0.7526
+- senang: 0.6584
+
+Dokumen 1989:
+
+Dokumen 1990:
+- bikin: 0.4520
+- sih: 0.3578
+- trus: 0.8171
+
+Dokumen 1991:
+
+Dokumen 1992:
+- ok: 1.0000
+
+Dokumen 1993:
+- bagus: 1.0000
+
+Dokumen 1994:
+
+Dokumen 1995:
+
+Dokumen 1996:
+- jelek: 1.0000
+
+Dokumen 1997:
+- aplikasi: 0.4462
+- membantu: 0.4970
+- wa: 0.7443
+
+Dokumen 1998:
+- mantap: 1.0000
+
+Dokumen 1999:
+

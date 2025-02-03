@@ -11,62 +11,59 @@
 
     <style>
       /* Loading Screen Style */
-#loadingScreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999; /* Ensure it's above other content */
-}
+      #loadingScreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* Ensure it's above other content */
+      }
 
-.spinner-border {
-  width: 3rem;
-  height: 3rem;
-  border-width: 0.25em;
-}
+      .spinner-border {
+        width: 3rem;
+        height: 3rem;
+        border-width: 0.25em;
+      }
 
-.spinner-border text-light {
-  color: white;
-}
+      .spinner-border.text-light {
+        color: white;
+      }
 
-#loadingScreen p {
-  color: white;
-  font-size: 1.25rem;
-  margin-top: 10px;
-  text-align: center;
-}
-
+      #loadingScreen p {
+        color: white;
+        font-size: 1.25rem;
+        margin-top: 10px;
+        text-align: center;
+      }
     </style>
 
-<div id="loadingScreen" style="display: none;">
-  
-  <p>Mengambil Review....</p>
-</div>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" style="display: none;">
+      <div class="spinner-border text-light" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <p>Mengambil Review....</p>
+    </div>
 
     <!-- Sidebar -->
     <div class="sidebar">
       <h4 class="text-center">Admin Panel</h4>
       <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
-      <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a>
+      <!-- <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a> -->
+      <a href="/tfidf_results" class="{% if active_page == 'scraping' %}active{% endif %}">TF-IDF</a>
       <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
       <a href="/data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Data Latih</a>
-      <a href="/open_data_latih" target="_blank"  class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_latih" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
       <a href="/open_data_uji" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
     </div>
 
     <!-- Content Area -->
     <div class="content">
-      <!-- Loading Screen (Spinner) -->
-
-
-      <!-- Navbar -->
-      
-
       <!-- Scraping Form -->
       <div class="container-fluid mt-5">
         <div class="row">
@@ -81,38 +78,29 @@
                     <label for="playstoreUrl">Play Store URL</label>
                     <input type="url" class="form-control" id="playstoreUrl" placeholder="Masukkan URL aplikasi dari Play Store" required>
                   </div>
-        
+
                   <div class="form-group">
                     <label for="numReviews">Jumlah Ulasan</label>
                     <input type="number" class="form-control" id="numReviews" placeholder="Masukkan jumlah ulasan yang ingin di-scrape" value="100" required>
                   </div>
-        
+
                   <div class="form-group">
                     <label for="lang">Bahasa</label>
                     <input type="text" class="form-control" id="lang" placeholder="Masukkan kode bahasa (misal: id untuk Indonesia)" value="id" required>
                   </div>
-        
+
                   <div class="form-group">
                     <label for="country">Negara</label>
                     <input type="text" class="form-control" id="country" placeholder="Masukkan kode negara (misal: id untuk Indonesia)" value="id" required>
-                  </div>
-        
-                  <div class="form-group">
-                    <label for="dataType">Jenis Data</label>
-                    <select class="form-control" id="dataType" required>
-                      <option value="latih">Data Latih</option>
-                      <option value="uji">Data Uji</option>
-                    </select>
                   </div>
 
                   <button type="submit" class="btn btn-primary btn-block">Mulai Scraping</button>
 
                   <!-- Button to delete 'latih' file -->
-                  <button class="btn btn-danger btn-block" onclick="deleteDataLatih()">Hapus Data Latih</button>
+                  <button type="button" class="btn btn-danger btn-block" onclick="deleteDataLatih()">Hapus Data Latih</button>
 
                   <!-- Button to delete 'uji' file -->
-                  <button class="btn btn-danger btn-block" onclick="deleteDataUji()">Hapus Data Uji</button>
-
+                  <button type="button" class="btn btn-danger btn-block" onclick="deleteDataUji()">Hapus Data Uji</button>
                 </form>
               </div>
             </div>
@@ -131,17 +119,15 @@
                       <th scope="col">User</th>
                       <th scope="col">Komentar</th>
                       <th scope="col">Rating</th>
-                      <th scope="col" id="labelColumn" style="display:none;">Label</th>
+                      <th scope="col">Sentimen</th>
                     </tr>
                   </thead>
-                  <tbody id="data_scarpping"></tbody>
+                  <tbody id="data_scrapping"></tbody>
                 </table>
               </div>
             </div>
           </div>
         </div>
-        
-       
       </div>
     </div>
 
@@ -150,60 +136,57 @@
     <script>
       document.getElementById('scrapeForm').addEventListener('submit', async function(event) {
         event.preventDefault();
-    
+
         const playstoreUrl = document.getElementById('playstoreUrl').value;
         const numReviews = document.getElementById('numReviews').value;
         const lang = document.getElementById('lang').value;
         const country = document.getElementById('country').value;
-        const dataType = document.getElementById('dataType').value;
-    
+
         const requestData = {
-          playstore_url: playstoreUrl,
+          url: playstoreUrl,
           num_reviews: parseInt(numReviews),
           lang: lang,
-          country: country,
-          data_type: dataType
+          country: country
         };
-    
+
         // Show loading screen
-        document.getElementById('loadingScreen').style.display = 'block';
-    
+        document.getElementById('loadingScreen').style.display = 'flex';
+
         try {
-          const response = await fetch('/scrape_reviews', {
+          const response = await fetch('/scrape-reviews', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify(requestData),
           });
-    
+
           const result = await response.json();
           const responseDiv = document.getElementById('responseMessage');
-    
+
           // Hide loading screen
           document.getElementById('loadingScreen').style.display = 'none';
-    
+
           if (response.status === 200) {
-            responseDiv.innerHTML = `<div class="alert alert-success">${result.message}</div>`;
-    
+            responseDiv.innerHTML = `<div class="alert alert-success">Scraping berhasil!</div>`;
+
             // Display scraped data in table
-            const tableBody = document.getElementById('data_scarpping');
+            const tableBody = document.getElementById('data_scrapping');
             tableBody.innerHTML = '';  // Clear previous rows
-    
-            result.head_data.forEach((row, index) => {
+
+            result.data_scraping.forEach((row, index) => {
               const tableRow = document.createElement('tr');
               tableRow.innerHTML = `
                 <th scope="row">${index + 1}</th>
                 <td>${row.user}</td>
                 <td>${row.komentar}</td>
                 <td>${row.rating}</td>
-                ${dataType === 'latih' ? `<td>${row.label}</td>` : ''}
+                <td>${row.sentimen}</td>
               `;
               tableBody.appendChild(tableRow);
             });
-    
-            // Show or hide "Label" column and Save button based on data type
-            document.getElementById('labelColumn').style.display = (dataType === 'latih') ? '' : 'none';
+
+            // Show Save button
             document.getElementById('saveButton').style.display = 'inline-block';
           } else {
             responseDiv.innerHTML = `<div class="alert alert-danger">Error: ${result.message}</div>`;
@@ -216,48 +199,42 @@
       });
 
       async function deleteDataLatih() {
-    try {
-      const response = await fetch('/delete_data_latih', {
-        method: 'GET'
-      });
+        try {
+          const response = await fetch('/delete_data_latih', {
+            method: 'GET'
+          });
 
-      const result = await response.json();
+          const result = await response.json();
 
-      if (response.status === 200) {
-        // Show alert and refresh the page
-        alert(result.message);
-        location.reload();  // Refresh the page
-      } else {
-        // Show error alert
-        alert(result.message);
+          if (response.status === 200) {
+            alert(result.message);
+            location.reload();  // Refresh the page
+          } else {
+            alert(result.message);
+          }
+        } catch (error) {
+          alert('Terjadi kesalahan: ' + error.message);
+        }
       }
-    } catch (error) {
-      alert('Terjadi kesalahan: ' + error.message);
-    }
-  }
 
-  // Function to delete the "uji" file
-  async function deleteDataUji() {
-    try {
-      const response = await fetch('/delete_data_uji', {
-        method: 'GET'
-      });
+      async function deleteDataUji() {
+        try {
+          const response = await fetch('/delete_data_uji', {
+            method: 'GET'
+          });
 
-      const result = await response.json();
+          const result = await response.json();
 
-      if (response.status === 200) {
-        // Show alert and refresh the page
-        alert(result.message);
-        location.reload();  // Refresh the page
-      } else {
-        // Show error alert
-        alert(result.message);
+          if (response.status === 200) {
+            alert(result.message);
+            location.reload();  // Refresh the page
+          } else {
+            alert(result.message);
+          }
+        } catch (error) {
+          alert('Terjadi kesalahan: ' + error.message);
+        }
       }
-    } catch (error) {
-      alert('Terjadi kesalahan: ' + error.message);
-    }
-  }
     </script>
-    
   </body>
 </html>
