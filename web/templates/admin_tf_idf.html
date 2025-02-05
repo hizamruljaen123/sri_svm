@@ -11,7 +11,8 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <h4 class="text-center">Admin Panel</h4>
-      <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Hasil Prediksi</a>
+      <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Dashboard</a>
+      <a href="/result" class="{% if active_page == 'dashboard' %}active{% endif %}">Result</a>
       <!-- <a href="/admin_scraping" class="{% if active_page == 'scraping' %}active{% endif %}">Scraping</a> -->
       <a href="/tfidf_results" class="{% if active_page == 'scraping' %}active{% endif %}">TF-IDF</a>
       <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
