@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Admin - TF-IDF Results</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h4 class="text-center">Admin Panel</h4>
+      <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">Hasil Prediksi</a>
+      <a href="/tfidf_results" class="{% if active_page == 'scraping' %}active{% endif %}">TF-IDF</a>
+      <a href="/data_komentar" class="{% if active_page == 'settings' %}active{% endif %}">Data Uji</a>
+      <a href="/data_latih" class="{% if active_page == 'settings' %}active{% endif %}">Data Latih</a>
+      <a href="/open_data_latih" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Latih</a>
+      <a href="/open_data_uji" target="_blank" class="{% if active_page == 'settings' %}active{% endif %}">Buka Data Uji</a>
+    </div>
+    <!-- Content Area -->
+    <div class="content">
+
+      <!-- TF-IDF Results -->
+      <div class="container-fluid mt-5">
+        <h2>Dashboard</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center mb-4">Hasil Prediksi Data Uji</h1>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4>Data Gotube</h4>
+                    <div id="gotube-table" class="mb-3"></div>
+                    <div id="gotube-bar-chart"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Data Youtube</h4>
+                    <div id="youtube-table" class="mb-3"></div>
+                    <div id="youtube-bar-chart"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="text-center mb-4">Data Latih</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Data Latih Gotube</h4>
+                        <div id="gotube-latih-table" class="mb-3"></div>
+                        <div id="gotube-latih-bar-chart"></div>
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Data Latih Youtube</h4>
+                        <div id="youtube-latih-table" class="mb-3"></div>
+                        <div id="youtube-latih-bar-chart"></div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          
+        </div>
+        <!-- Confusion Matrix -->
+        <!-- Confusion Matrix -->
+<div class="row">
+    <div class="col-md-12">
+      <div class="card mt-5">
+        <div class="card-body">
+          <h1 class="text-center mb-4">Confusion Matrix</h1>
+          <div class="row">
+            <!-- Gotube -->
+            <div class="col-md-6">
+              <h4>Gotube - Confusion Matrix (Latih)</h4>
+              <img id="gotube-confusion-matrix-train" class="img-fluid" />
+              <h4>Gotube - Confusion Matrix (Uji)</h4>
+              <img id="gotube-confusion-matrix-test" class="img-fluid" />
+            </div>
+            <!-- Youtube -->
+            <div class="col-md-6">
+              <h4>Youtube - Confusion Matrix (Latih)</h4>
+              <img id="youtube-confusion-matrix-train" class="img-fluid" />
+              <h4>Youtube - Confusion Matrix (Uji)</h4>
+              <img id="youtube-confusion-matrix-test" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+        
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Fetch and display prediction counts from the server
+      window.onload = async function() {
+        try {
+          // Fetch prediction counts for Gotube
+          const gotubeResponse = await fetch('/predict_svm/gotube');
+          const gotubeData = await gotubeResponse.json();
+          populateTable('gotube-table', gotubeData.data_counts);
+          generateBarChart(gotubeData.data_counts, 'gotube-bar-chart');
+
+          // Fetch prediction counts for Youtube
+          const youtubeResponse = await fetch('/predict_svm/youtube');
+          const youtubeData = await youtubeResponse.json();
+          populateTable('youtube-table', youtubeData.data_counts);
+          generateBarChart(youtubeData.data_counts, 'youtube-bar-chart');
+        } catch (error) {
+          console.error('Error fetching prediction data:', error);
+        }
+      };
+
+      function populateTable(tableId, data) {
+        const tableBody = document.getElementById(tableId);
+        const tableHtml = `
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Jenis Data</th>
+                <th>Positif</th>
+                <th>Negatif</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Data Uji</td>
+                <td>${data.positive_test}</td>
+                <td>${data.negative_test}</td>
+              </tr>
+            </tbody>
+          </table>
+        `;
+        tableBody.innerHTML = tableHtml;
+      }
+
+      function generateBarChart(dataCounts, chartId) {
+        const data = [
+          {
+            x: ['Positif', 'Negatif'],
+            y: [dataCounts.positive_test, dataCounts.negative_test],
+            type: 'bar',
+            marker: {
+              color: ['rgba(75, 192, 192, 0.6)', 'rgba(255, 99, 132, 0.6)']
+            }
+          }
+        ];
+
+        const layout = {
+          title: 'Jumlah Data Positif dan Negatif',
+          xaxis: { title: 'Sentimen' },
+          yaxis: { title: 'Jumlah' },
+          barmode: 'group'
+        };
+
+        Plotly.newPlot(chartId, data, layout);
+      }
+
+async function getDataLatihInfo() {
+    try {
+      const response = await fetch('/get_data_latih_info');
+      const data = await response.json();
+      
+      if (data.status === 'success') {
+        populateTableLatih('gotube-latih-table', data.gotube_counts);
+        generateBarChartLatih(data.gotube_counts, 'gotube-latih-bar-chart');
+        
+        populateTableLatih('youtube-latih-table', data.youtube_counts);
+        generateBarChartLatih(data.youtube_counts, 'youtube-latih-bar-chart');
+      }
+    } catch (error) {
+      console.error('Error fetching training data:', error);
+    }
+  }
+  
+    function populateTableLatih(tableId, data) {
+        const tableBody = document.getElementById(tableId);
+        const tableHtml = `
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Jenis Data</th>
+                <th>Positif</th>
+                <th>Negatif</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Data Latih</td>
+                <td>${data.positive}</td>
+                <td>${data.negative}</td>
+            </tr>
+            </tbody>
+        </table>
+        `;
+        tableBody.innerHTML = tableHtml;
+    }
+    
+    function generateBarChartLatih(dataCounts, chartId) {
+        const data = [
+        {
+            x: ['Positif', 'Negatif'],
+            y: [dataCounts.positive, dataCounts.negative],
+            type: 'bar',
+            marker: {
+            color: ['rgba(75, 192, 192, 0.6)', 'rgba(255, 99, 132, 0.6)']
+            }
+        }
+        ];
+        
+        const layout = {
+        title: 'Jumlah Data Latih Positif dan Negatif',
+        xaxis: { title: 'Sentimen' },
+        yaxis: { title: 'Jumlah' },
+        barmode: 'group'
+        };
+        
+        Plotly.newPlot(chartId, data, layout);
+    }
+    getDataLatihInfo()
+    async function fetchAndDisplayEvaluationResults() {
+    try {
+        // Fetch evaluation results from the server
+        const response = await fetch('/evaluate_model');
+        const data = await response.json();
+
+        // Display confusion matrices for Gotube and Youtube (Training and Testing)
+        displayConfusionMatrix(data.gotube_evaluation.confusion_matrix_train_path, 'gotube-confusion-matrix-train');
+        displayConfusionMatrix(data.gotube_evaluation.confusion_matrix_test_path, 'gotube-confusion-matrix-test');
+        
+        displayConfusionMatrix(data.youtube_evaluation.confusion_matrix_train_path, 'youtube-confusion-matrix-train');
+        displayConfusionMatrix(data.youtube_evaluation.confusion_matrix_test_path, 'youtube-confusion-matrix-test');
+    } catch (error) {
+        console.error('Error fetching and displaying evaluation data:', error);
+    }
+}
+
+// Function to display the confusion matrix image
+function displayConfusionMatrix(matrixPath, elementId) {
+    const imgElement = document.getElementById(elementId);
+    imgElement.src = matrixPath;  // Set the image source to the path of the confusion matrix image
+}
+
+// Call the function on page load to fetch and display evaluation results
+fetchAndDisplayEvaluationResults();
+
+    </script>
+  </body>
+</html>
