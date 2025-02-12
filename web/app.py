@@ -194,7 +194,8 @@ def show_data_latih():
 @app.route('/evaluate_model', methods=['GET'])
 def evaluate_model_route():
     """
-    Endpoint untuk mengevaluasi model SVM secara terpisah untuk data YouTube dan GoTube
+    Endpoint untuk mengevaluasi model SVM secara terpisah untuk data YouTube dan GoTube,
+    serta evaluasi pada data gabungan.
     """
     # Path ke file Excel
     gotube_train_file = "static/data/gotube/data_latih_labeled.xlsx"
@@ -290,11 +291,19 @@ def evaluate_model_route():
     youtube_test = pd.read_excel(youtube_test_file)
     youtube_results = evaluate_source_data(youtube_train, youtube_test, "YouTube")
     
-    # Return hasil evaluasi terpisah untuk kedua sumber
+    # Gabungkan data latih dan data uji dari GoTube dan YouTube
+    combined_train = pd.concat([gotube_train, youtube_train], ignore_index=True)
+    combined_test = pd.concat([gotube_test, youtube_test], ignore_index=True)
+    
+    # Evaluasi pada data gabungan
+    combined_results = evaluate_source_data(combined_train, combined_test, "Combined")
+    
+    # Return hasil evaluasi terpisah untuk kedua sumber dan data gabungan
     return jsonify({
         "status": "success",
         "gotube_evaluation": gotube_results,
-        "youtube_evaluation": youtube_results
+        "youtube_evaluation": youtube_results,
+        "combined_evaluation": combined_results
     })
 
 @app.route('/show_data_uji', methods=['GET'])

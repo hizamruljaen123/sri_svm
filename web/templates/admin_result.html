@@ -202,21 +202,29 @@
         fetchEvaluationResults();
 
         // On click of 'Prediksi Ulang' button
-        $('#predictButton').click(function() {
+        function predictSVM(namaAplikasi) {
           $('#responseMessage').html('<div class="alert alert-info">Prediksi ulang sedang berjalan...</div>');
+          
           $.ajax({
-            url: '/predict_svm',
-            type: 'GET',
-            success: function(response) {
-              $('#responseMessage').html('<div class="alert alert-success">Prediksi ulang berhasil!</div>');
-              loadData();
-            },
-            error: function(error) {
-              console.error('Error during prediction:', error);
-              $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat prediksi.</div>');
-            }
+              url: `/predict_svm/${encodeURIComponent(namaAplikasi)}`,
+              type: 'GET',
+              success: function(response) {
+                  $('#responseMessage').html('<div class="alert alert-success">Prediksi ulang berhasil!</div>');
+                  loadData();
+              },
+              error: function(error) {
+                  console.error('Error during prediction:', error);
+                  $('#responseMessage').html('<div class="alert alert-danger">Terjadi kesalahan saat prediksi.</div>');
+              }
           });
-        });
+      }
+
+      $('#predictButton').click(function() {
+          predictSVM('youtube');
+          predictSVM('gotube');
+      });
+
+        
       });
 
       // Function to fetch evaluation results
@@ -240,10 +248,10 @@
 
         // Training Data Metrics
         const trainMetrics = [
-          { label: "Accuracy", value: data.accuracy_train },
-          { label: "Precision", value: data.precision_train },
-          { label: "Recall", value: data.recall_train },
-          { label: "F1 Score", value: data.f1_train }
+          { label: "Accuracy", value: data.combined_evaluation.accuracy_train },
+          { label: "Precision", value: data.combined_evaluation.precision_train },
+          { label: "Recall", value: data.combined_evaluation.recall_train },
+          { label: "F1 Score", value: data.combined_evaluation.f1_train }
         ];
         trainMetrics.forEach(metric => {
           const row = document.createElement('tr');
@@ -253,10 +261,10 @@
 
         // Test Data Metrics
         const testMetrics = [
-          { label: "Accuracy", value: data.accuracy_test },
-          { label: "Precision", value: data.precision_test },
-          { label: "Recall", value: data.recall_test },
-          { label: "F1 Score", value: data.f1_test }
+          { label: "Accuracy", value: data.combined_evaluation.accuracy_test },
+          { label: "Precision", value: data.combined_evaluation.precision_test },
+          { label: "Recall", value: data.combined_evaluation.recall_test },
+          { label: "F1 Score", value: data.combined_evaluation.f1_test }
         ];
         testMetrics.forEach(metric => {
           const row = document.createElement('tr');
@@ -271,7 +279,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Confusion Matrix (Train)</h5>
-                <img src="${data.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
+                <img src="${data.combined_evaluation.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
               </div>
             </div>
           </div>
@@ -279,7 +287,7 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Confusion Matrix (Test)</h5>
-                <img src="${data.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
+                <img src="${data.combined_evaluation.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
               </div>
             </div>
           </div>
