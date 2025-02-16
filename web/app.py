@@ -414,7 +414,6 @@ def show_tfidf():
     return jsonify(response)
 @app.route('/train_svm_manual', methods=['GET'])
 def route_train_svm_manual():
-    
     # Path ke file Excel di kedua folder
     gotube_file = "static/data/gotube/data_latih_labeled.xlsx"
     youtube_file = "static/data/youtube/data_latih_labeled.xlsx"
@@ -436,102 +435,101 @@ def route_train_svm_manual():
             "message": f"Error membaca file Excel: {str(e)}"
         }), 500
     
-    # Gabungkan data dari kedua sumber
-    combined_data = pd.concat([gotube_data, youtube_data], ignore_index=True)
+    # Fungsi untuk melatih model SVM
+    def train_and_save_model(data, source_name):
+        # Handle NaN values dengan memberikan nilai default
+        data["komentar"] = data["komentar"].fillna("tidak ada komentar")
+        data["sentimen"] = data["sentimen"].fillna("netral")
+        
+        # Preprocessing komentar
+        data["processed_komentar"] = data["komentar"].apply(preprocess_comment)
+        
+        # Map sentiment labels to numeric values (positif = 1, negatif = -1)
+        sentimen_map = {"positif": 1, "negatif": -1, "netral": 0}
+        data["label"] = data["sentimen"].map(sentimen_map)
+        
+        # Filter out neutral sentiments for binary classification
+        filtered_data = data[data["label"] != 0].copy()
+        X = filtered_data["processed_komentar"]
+        y = filtered_data["label"]
+        
+        # Vectorization (convert text to numerical vectors)
+        vectorizer = TfidfVectorizer()
+        X_vec = vectorizer.fit_transform(X).toarray()
+        
+        # Normalize the feature vectors before applying t-SNE
+        scaler = StandardScaler()
+        X_scaled = scaler.fit_transform(X_vec)
+        
+        # Apply t-SNE to reduce to 2D (only for visualization)
+        tsne = TSNE(n_components=2, random_state=42)
+        X_tsne = tsne.fit_transform(X_scaled)
+        
+        # Train SVM model
+        svm_model = SVC(kernel='linear')
+        svm_model.fit(X_scaled, y)
+        
+        # Save the model and vectorizer
+        model_path = f"static/models/svm_model_{source_name.lower()}.pkl"
+        vectorizer_path = f"static/models/vectorizer_{source_name.lower()}.pkl"
+        with open(model_path, "wb") as f_model, open(vectorizer_path, "wb") as f_vec:
+            pickle.dump(svm_model, f_model)
+            pickle.dump(vectorizer, f_vec)
+        
+        # Visualize the results using t-SNE
+        plt.figure(figsize=(10, 6))
+        colors = ['red', 'green']
+        labels_map = ["negatif", "positif"]
+        for lbl, c in zip([-1, 1], colors):
+            plt.scatter(X_tsne[y == lbl, 0],
+                        X_tsne[y == lbl, 1],
+                        c=c,
+                        label=labels_map[int((lbl + 1)/2)],
+                        alpha=0.6)
+        
+        # Plot the SVM decision boundary and margins in the 2D t-SNE space
+        xx, yy = np.meshgrid(np.linspace(X_tsne[:, 0].min(), X_tsne[:, 0].max(), 200),
+                             np.linspace(X_tsne[:, 1].min(), X_tsne[:, 1].max(), 200))
+        grid_points = np.c_[xx.ravel(), yy.ravel()]
+        Z = svm_model.decision_function(scaler.transform(vectorizer.transform([f"{x} {y}" for x, y in grid_points]).toarray()))
+        Z = Z.reshape(xx.shape)
+        
+        # Plot the decision boundary
+        plt.contour(xx, yy, Z, levels=[0], linewidths=2, colors='black')
+        plt.contour(xx, yy, Z, levels=[-1], linewidths=1, colors='blue', linestyles='dashed')
+        plt.contour(xx, yy, Z, levels=[1], linewidths=1, colors='red', linestyles='dashed')
+        plt.title(f"Visualisasi t-SNE + SVM Decision Boundary ({source_name})")
+        plt.xlabel("t-SNE 1")
+        plt.ylabel("t-SNE 2")
+        plt.legend()
+        plt.grid(alpha=0.3)
+        
+        # Save the plot to a file
+        save_path = f"static/graph/train_svm_manual_{source_name.lower()}.png"
+        plt.savefig(save_path)
+        plt.close()
+        
+        return {
+            "model_path": model_path,
+            "vectorizer_path": vectorizer_path,
+            "graph_path": save_path,
+            "weights": svm_model.coef_.tolist(),
+            "bias": svm_model.intercept_.tolist()
+        }
     
-    # Handle NaN values dengan memberikan nilai default
-    combined_data["komentar"] = combined_data["komentar"].fillna("tidak ada komentar")
-    combined_data["sentimen"] = combined_data["sentimen"].fillna("netral")
+    # Latih model untuk GoTube
+    gotube_results = train_and_save_model(gotube_data, "GoTube")
     
-    # Preprocessing komentar
-    combined_data["processed_komentar"] = combined_data["komentar"].apply(preprocess_comment)
+    # Latih model untuk YouTube
+    youtube_results = train_and_save_model(youtube_data, "YouTube")
     
-    # Map sentiment labels to numeric values (positif = 1, negatif = -1)
-    sentimen_map = {"positif": 1, "negatif": -1, "netral": 0}
-    combined_data["label"] = combined_data["sentimen"].map(sentimen_map)
-    
-    # Filter out neutral sentiments for binary classification
-    filtered_data = combined_data[combined_data["label"] != 0].copy()
-    X = filtered_data["processed_komentar"]
-    y = filtered_data["label"]
-    
-    # Vectorization (convert text to numerical vectors)
-    vectorizer = TfidfVectorizer()
-    X_vec = vectorizer.fit_transform(X).toarray()
-    
-    # Normalize the feature vectors before applying t-SNE
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X_vec)
-    
-    # Apply t-SNE to reduce to 2D (only for visualization)
-    tsne = TSNE(n_components=2, random_state=42)
-    X_tsne = tsne.fit_transform(X_scaled)
-    
-    # Train SVM model
-    svm_model = SVC(kernel='linear')
-    svm_model.fit(X_scaled, y)
-    
-    # Visualize the results using t-SNE
-    plt.figure(figsize=(10, 6))
-    colors = ['red', 'green']
-    labels_map = ["negatif", "positif"]
-    for lbl, c in zip([-1, 1], colors):
-        plt.scatter(X_tsne[y == lbl, 0],
-                    X_tsne[y == lbl, 1],
-                    c=c,
-                    label=labels_map[int((lbl + 1)/2)],
-                    alpha=0.6)
-    
-    # Plot the SVM decision boundary and margins in the 2D t-SNE space
-    xx, yy = np.meshgrid(np.linspace(X_tsne[:, 0].min(), X_tsne[:, 0].max(), 200),
-                         np.linspace(X_tsne[:, 1].min(), X_tsne[:, 1].max(), 200))
-    grid_points = np.c_[xx.ravel(), yy.ravel()]
-    Z = svm_model.decision_function(scaler.transform(vectorizer.transform([f"{x} {y}" for x, y in grid_points]).toarray()))
-    Z = Z.reshape(xx.shape)
-    
-    # Plot the decision boundary
-    plt.contour(xx, yy, Z, levels=[0], linewidths=2, colors='black')
-    plt.contour(xx, yy, Z, levels=[-1], linewidths=1, colors='blue', linestyles='dashed')
-    plt.contour(xx, yy, Z, levels=[1], linewidths=1, colors='red', linestyles='dashed')
-    plt.title("Visualisasi t-SNE + SVM Decision Boundary")
-    plt.xlabel("t-SNE 1")
-    plt.ylabel("t-SNE 2")
-    plt.legend()
-    plt.grid(alpha=0.3)
-    
-    # Save the plot to a file
-    save_path = "static/graph/train_svm_manual.png"
-    plt.savefig(save_path)
-    plt.close()
-    
-    # Create figure for base64 encoding
-    fig = plt.figure(figsize=(10, 6))
-    for lbl, c in zip([-1, 1], colors):
-        plt.scatter(X_tsne[y == lbl, 0],
-                    X_tsne[y == lbl, 1],
-                    c=c,
-                    label=labels_map[int((lbl + 1)/2)],
-                    alpha=0.6)
-    plt.contour(xx, yy, Z, levels=[0], linewidths=2, colors='black')
-    plt.contour(xx, yy, Z, levels=[-1], linewidths=1, colors='blue', linestyles='dashed')
-    plt.contour(xx, yy, Z, levels=[1], linewidths=1, colors='red', linestyles='dashed')
-    plt.title("Visualisasi t-SNE + SVM Decision Boundary (Base64)")
-    plt.xlabel("t-SNE 1")
-    plt.ylabel("t-SNE 2")
-    plt.legend()
-    plt.grid(alpha=0.3)
-    fig_base64 = fig_to_base64(fig)
-    plt.close(fig)
-    
-    response = {
+    # Return response
+    return jsonify({
         "status": "success",
-        "message": "Training SVM Manual selesai.",
-        "graph_path": save_path,
-        "graph_base64": f"data:image/png;base64,{fig_base64}",
-        "weights": svm_model.coef_.tolist(),
-        "bias": svm_model.intercept_.tolist()
-    }
-    return jsonify(response)
+        "message": "Training SVM Manual selesai untuk GoTube dan YouTube.",
+        "gotube_results": gotube_results,
+        "youtube_results": youtube_results
+    })
 
 @app.route('/predict_svm/<app_name>', methods=['GET'])
 def route_predict_svm(app_name):
@@ -570,10 +568,21 @@ def route_predict_svm(app_name):
     
     data_test["prediksi_sentimen"] = data_test["rating"].apply(label_sentiment)
     
+    # Tentukan path model dan vectorizer berdasarkan app_name
+    model_path = f"static/models/svm_model_{app_name.lower()}.pkl"
+    vectorizer_path = f"static/models/vectorizer_{app_name.lower()}.pkl"
+    
+    # Pastikan file model dan vectorizer ada
+    if not os.path.exists(model_path) or not os.path.exists(vectorizer_path):
+        return jsonify({
+            "status": "error",
+            "message": f"Model atau vectorizer untuk aplikasi '{app_name}' tidak ditemukan."
+        }), 404
+    
     # Load model dan vectorizer
-    with open("svm_model.pkl", "rb") as f_model:
+    with open(model_path, "rb") as f_model:
         svm_model = pickle.load(f_model)
-    with open("vectorizer.pkl", "rb") as f_vec:
+    with open(vectorizer_path, "rb") as f_vec:
         vectorizer = pickle.load(f_vec)
     
     # Vectorize data uji
@@ -597,7 +606,7 @@ def route_predict_svm(app_name):
     # Hitung jumlah data berdasarkan label (positif dan negatif)
     positive_count_test = data_test[data_test['prediksi_sentimen'] == 'positif'].shape[0]
     negative_count_test = data_test[data_test['prediksi_sentimen'] == 'negatif'].shape[0]
-
+    
     # Return respons JSON
     return jsonify({
         "status": "success",

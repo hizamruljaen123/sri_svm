@@ -88,43 +88,55 @@
         </div>
         <div class="row">
           <!-- Training Data Table -->
-          <div class="col-md-6">
-            <h3>Training Data Evaluation</h3>
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>Metric</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody id="trainMetrics">
-                <!-- Training data metrics will be added here -->
-              </tbody>
-            </table>
+          <div class="col-md-12">
+              <h1 class="mb-4">Evaluation Metrics</h1>
+          
+              <!-- Training Metrics -->
+              <h2>Training Metrics</h2>
+              <table class="table table-bordered">
+                  <thead>
+                      <tr>
+                          <th>Metric</th>
+                          <th>Combined Evaluation</th>
+                          <th>YouTube Evaluation</th>
+                          <th>GoTube Evaluation</th>
+                      </tr>
+                  </thead>
+                  <tbody id="combined_evaluationTrainMetrics"></tbody>
+                  <tbody id="youtube_evaluationTrainMetrics"></tbody>
+                  <tbody id="gotube_evaluationTrainMetrics"></tbody>
+              </table>
+          
+              <!-- Test Metrics -->
+              <h2>Test Metrics</h2>
+              <table class="table table-bordered">
+                  <thead>
+                      <tr>
+                          <th>Metric</th>
+                          <th>Combined Evaluation</th>
+                          <th>YouTube Evaluation</th>
+                          <th>GoTube Evaluation</th>
+                      </tr>
+                  </thead>
+                  <tbody id="combined_evaluationTestMetrics"></tbody>
+                  <tbody id="youtube_evaluationTestMetrics"></tbody>
+                  <tbody id="gotube_evaluationTestMetrics"></tbody>
+              </table>
+          
+              <!-- Confusion Matrices -->
+              <h2>Confusion Matrices</h2>
+              <div id="confusionMatrices" class="row"></div>
+          </div>
           </div>
 
           <!-- Test Data Table -->
-          <div class="col-md-6">
-            <h3>Test Data Evaluation</h3>
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>Metric</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody id="testMetrics">
-                <!-- Test data metrics will be added here -->
-              </tbody>
-            </table>
-          </div>
+          
         </div>
         <br>
         <!-- Confusion Matrices -->
         <div class="row mt-4" id="confusionMatrices">
           <!-- Confusion matrices will be appended here -->
         </div>
-      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
@@ -242,57 +254,65 @@
       }
 
       // Function to display metrics
+      
       function displayMetrics(data) {
-        const trainMetricsContainer = document.getElementById('trainMetrics');
-        const testMetricsContainer = document.getElementById('testMetrics');
+    const trainMetricsContainer = document.getElementById('trainMetrics');
+    const testMetricsContainer = document.getElementById('testMetrics');
+    const confusionMatricesContainer = document.getElementById('confusionMatrices');
 
-        // Training Data Metrics
-        const trainMetrics = [
-          { label: "Accuracy", value: data.combined_evaluation.accuracy_train },
-          { label: "Precision", value: data.combined_evaluation.precision_train },
-          { label: "Recall", value: data.combined_evaluation.recall_train },
-          { label: "F1 Score", value: data.combined_evaluation.f1_train }
-        ];
-        trainMetrics.forEach(metric => {
-          const row = document.createElement('tr');
-          row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
-          trainMetricsContainer.appendChild(row);
+    // Fungsi untuk menambahkan metrik ke container
+    function addMetrics(metrics, containerId) {
+        const container = document.getElementById(containerId);
+        metrics.forEach(metric => {
+            const row = document.createElement('tr');
+            row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
+            container.appendChild(row);
         });
+    }
 
-        // Test Data Metrics
-        const testMetrics = [
-          { label: "Accuracy", value: data.combined_evaluation.accuracy_test },
-          { label: "Precision", value: data.combined_evaluation.precision_test },
-          { label: "Recall", value: data.combined_evaluation.recall_test },
-          { label: "F1 Score", value: data.combined_evaluation.f1_test }
-        ];
-        testMetrics.forEach(metric => {
-          const row = document.createElement('tr');
-          row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
-          testMetricsContainer.appendChild(row);
-        });
-
-        // Confusion Matrices
-        const confusionMatricesContainer = document.getElementById('confusionMatrices');
-        confusionMatricesContainer.innerHTML = `
-          <div class="col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Confusion Matrix (Train)</h5>
-                <img src="${data.combined_evaluation.confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Confusion Matrix (Test)</h5>
-                <img src="${data.combined_evaluation.confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
-              </div>
+    // Fungsi untuk menambahkan matriks kebingungan ke container
+    function addConfusionMatrix(evaluation, containerId) {
+        const container = document.getElementById(containerId);
+        const row = document.createElement('div');
+        row.className = 'col-md-6 mb-4';
+        row.innerHTML = `
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">${evaluation === 'combined_evaluation' ? 'Combined Evaluation' : (evaluation === 'youtube_evaluation' ? 'YouTube Evaluation' : 'GoTube Evaluation')}</h5>
+              <img src="${data[evaluation].confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
+              <img src="${data[evaluation].confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
             </div>
           </div>
         `;
-      }
+        container.appendChild(row);
+    }
+
+    // Array of evaluations to iterate over
+    const evaluations = ['combined_evaluation', 'youtube_evaluation', 'gotube_evaluation'];
+
+    evaluations.forEach(evaluation => {
+        // Training Data Metrics
+        const trainMetrics = [
+            { label: "Accuracy", value: data[evaluation].accuracy_train },
+            { label: "Precision", value: data[evaluation].precision_train },
+            { label: "Recall", value: data[evaluation].recall_train },
+            { label: "F1 Score", value: data[evaluation].f1_train }
+        ];
+        addMetrics(trainMetrics, `${evaluation}TrainMetrics`);
+
+        // Test Data Metrics
+        const testMetrics = [
+            { label: "Accuracy", value: data[evaluation].accuracy_test },
+            { label: "Precision", value: data[evaluation].precision_test },
+            { label: "Recall", value: data[evaluation].recall_test },
+            { label: "F1 Score", value: data[evaluation].f1_test }
+        ];
+        addMetrics(testMetrics, `${evaluation}TestMetrics`);
+
+        // Confusion Matrices
+        addConfusionMatrix(evaluation, 'confusionMatrices');
+    });
+}
 
       // Reload evaluation results
       function reloadEvaluation() {
