@@ -73,7 +73,11 @@
                   <button class="btn btn-primary btn-sm" id="trainingModel">Training Model</button>  
                 </div>
                 <div class="modelGraph">
-                  <img src="{{ url_for('static', filename='graph/train_svm_manual_tsne.png') }}" alt="SVM Hyperplane" width="100%">
+                  <center><h6>Gotube Hyperplane</h6></center>
+                  <img src="{{ url_for('static', filename='graph/train_svm_manual_gotube.png') }}" alt="SVM Hyperplane" width="100%">
+                  <br>
+                  <center><h6>Youtbe Hyperplane</h6></center>
+                  <img src="{{ url_for('static', filename='graph/train_svm_manual_youtube.png') }}" alt="SVM Hyperplane" width="100%">
                 </div>
               </div>
             </div>
@@ -89,54 +93,98 @@
         <div class="row">
           <!-- Training Data Table -->
           <div class="col-md-12">
-              <h1 class="mb-4">Evaluation Metrics</h1>
-          
-              <!-- Training Metrics -->
-              <h2>Training Metrics</h2>
-              <table class="table table-bordered">
-                  <thead>
-                      <tr>
-                          <th>Metric</th>
-                          <th>Combined Evaluation</th>
-                          <th>YouTube Evaluation</th>
-                          <th>GoTube Evaluation</th>
-                      </tr>
-                  </thead>
-                  <tbody id="combined_evaluationTrainMetrics"></tbody>
-                  <tbody id="youtube_evaluationTrainMetrics"></tbody>
-                  <tbody id="gotube_evaluationTrainMetrics"></tbody>
-              </table>
-          
-              <!-- Test Metrics -->
-              <h2>Test Metrics</h2>
-              <table class="table table-bordered">
-                  <thead>
-                      <tr>
-                          <th>Metric</th>
-                          <th>Combined Evaluation</th>
-                          <th>YouTube Evaluation</th>
-                          <th>GoTube Evaluation</th>
-                      </tr>
-                  </thead>
-                  <tbody id="combined_evaluationTestMetrics"></tbody>
-                  <tbody id="youtube_evaluationTestMetrics"></tbody>
-                  <tbody id="gotube_evaluationTestMetrics"></tbody>
-              </table>
-          
-              <!-- Confusion Matrices -->
-              <h2>Confusion Matrices</h2>
-              <div id="confusionMatrices" class="row"></div>
-          </div>
-          </div>
 
-          <!-- Test Data Table -->
+            <div id="metricsContainer">
+              <ul class="nav nav-tabs" id="metricsTab" role="tablist">
+                  <li class="nav-item">
+                      <a class="nav-link active" id="train-tab" data-toggle="tab" href="#train" role="tab">Train Metrics</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="test-tab" data-toggle="tab" href="#test" role="tab">Test Metrics</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="confusion-tab" data-toggle="tab" href="#confusion" role="tab">Confusion Matrices</a>
+                  </li>
+              </ul>
+              <div class="tab-content" id="metricsTabContent">
+                  <div class="tab-pane fade show active" id="train" role="tabpanel">
+                      <h4>Combined Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="combinedTrainMetrics"></tbody>
+                      </table>
+                      <h4>YouTube Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="youtubeTrainMetrics"></tbody>
+                      </table>
+                      <h4>GoTube Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="gotubeTrainMetrics"></tbody>
+                      </table>
+                  </div>
+                  <div class="tab-pane fade" id="test" role="tabpanel">
+                      <h4>Combined Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="combinedTestMetrics"></tbody>
+                      </table>
+                      <h4>YouTube Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="youtubeTestMetrics"></tbody>
+                      </table>
+                      <h4>GoTube Evaluation</h4>
+                      <table class="table table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Metric</th>
+                                  <th>Value</th>
+                              </tr>
+                          </thead>
+                          <tbody id="gotubeTestMetrics"></tbody>
+                      </table>
+                  </div>
+                  <div class="tab-pane fade" id="confusion" role="tabpanel">
+                      <h4>Combined Evaluation</h4>
+                      <div class="row" id="combinedConfusionMatrices"></div>
+                      <h4>YouTube Evaluation</h4>
+                      <div class="row" id="youtubeConfusionMatrices"></div>
+                      <h4>GoTube Evaluation</h4>
+                      <div class="row" id="gotubeConfusionMatrices"></div>
+                  </div>
+              </div>
+          </div>
           
-        </div>
-        <br>
-        <!-- Confusion Matrices -->
-        <div class="row mt-4" id="confusionMatrices">
-          <!-- Confusion matrices will be appended here -->
-        </div>
+            
+          </div>
+              
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.js"></script>
@@ -254,15 +302,10 @@
       }
 
       // Function to display metrics
-      
       function displayMetrics(data) {
-    const trainMetricsContainer = document.getElementById('trainMetrics');
-    const testMetricsContainer = document.getElementById('testMetrics');
-    const confusionMatricesContainer = document.getElementById('confusionMatrices');
-
-    // Fungsi untuk menambahkan metrik ke container
     function addMetrics(metrics, containerId) {
         const container = document.getElementById(containerId);
+        container.innerHTML = '';
         metrics.forEach(metric => {
             const row = document.createElement('tr');
             row.innerHTML = `<td>${metric.label}</td><td>${metric.value.toFixed(4)}</td>`;
@@ -270,49 +313,47 @@
         });
     }
 
-    // Fungsi untuk menambahkan matriks kebingungan ke container
     function addConfusionMatrix(evaluation, containerId) {
         const container = document.getElementById(containerId);
+        container.innerHTML = '';
         const row = document.createElement('div');
-        row.className = 'col-md-6 mb-4';
+        row.className = 'col-md-12';
         row.innerHTML = `
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">${evaluation === 'combined_evaluation' ? 'Combined Evaluation' : (evaluation === 'youtube_evaluation' ? 'YouTube Evaluation' : 'GoTube Evaluation')}</h5>
+              <h5 class="card-title">${evaluation.replace('_evaluation', '').toUpperCase()} Evaluation</h5>
+              <center>
               <img src="${data[evaluation].confusion_matrix_train_path}" class="img-fluid" alt="Confusion Matrix Train">
               <img src="${data[evaluation].confusion_matrix_test_path}" class="img-fluid" alt="Confusion Matrix Test">
+              <center>
             </div>
           </div>
         `;
         container.appendChild(row);
     }
-
-    // Array of evaluations to iterate over
     const evaluations = ['combined_evaluation', 'youtube_evaluation', 'gotube_evaluation'];
-
     evaluations.forEach(evaluation => {
-        // Training Data Metrics
         const trainMetrics = [
             { label: "Accuracy", value: data[evaluation].accuracy_train },
             { label: "Precision", value: data[evaluation].precision_train },
             { label: "Recall", value: data[evaluation].recall_train },
             { label: "F1 Score", value: data[evaluation].f1_train }
         ];
-        addMetrics(trainMetrics, `${evaluation}TrainMetrics`);
+        addMetrics(trainMetrics, `${evaluation.replace('_evaluation', '')}TrainMetrics`);
 
-        // Test Data Metrics
         const testMetrics = [
             { label: "Accuracy", value: data[evaluation].accuracy_test },
             { label: "Precision", value: data[evaluation].precision_test },
             { label: "Recall", value: data[evaluation].recall_test },
             { label: "F1 Score", value: data[evaluation].f1_test }
         ];
-        addMetrics(testMetrics, `${evaluation}TestMetrics`);
+        addMetrics(testMetrics, `${evaluation.replace('_evaluation', '')}TestMetrics`);
 
-        // Confusion Matrices
-        addConfusionMatrix(evaluation, 'confusionMatrices');
+        addConfusionMatrix(evaluation, `${evaluation.replace('_evaluation', '')}ConfusionMatrices`);
     });
 }
+
+
 
       // Reload evaluation results
       function reloadEvaluation() {
