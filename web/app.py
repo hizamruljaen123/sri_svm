@@ -321,24 +321,50 @@ def show_data_uji():
 
 @app.route('/show_classification_results', methods=['GET'])
 def show_classification_results():
-    filename = "classification_results.xlsx"
-    if not os.path.exists(filename):
+    # File sumber dari GoTube dan YouTube
+    gotube_train_file = "static/data/gotube/classification_results.xlsx"
+    youtube_train_file = "static/data/youtube/classification_results.xlsx"
+
+    # Periksa apakah kedua file ada
+    if not os.path.exists(gotube_train_file) or not os.path.exists(youtube_train_file):
         return jsonify({
             "status": 404,
-            "message": f"File {filename} tidak ditemukan."
+            "message": "Salah satu atau kedua file classification_results.xlsx tidak ditemukan."
         }), 404
-    df = pd.read_excel(filename)
-    results = []
-    for index, row in df.iterrows():
-        prediksi_sentimen = row["prediksi_sentimen"] if pd.notna(row["prediksi_sentimen"]) else '-'
-        results.append({
-            "komentar": row["komentar"],
-            "prediksi_sentimen": prediksi_sentimen
+
+    try:
+        # Membaca file Excel
+        gotube_df = pd.read_excel(gotube_train_file)
+        youtube_df = pd.read_excel(youtube_train_file)
+
+        # Menambahkan kolom sumber untuk identifikasi
+        gotube_df["sumber"] = "GoTube"
+        youtube_df["sumber"] = "YouTube"
+
+        # Menggabungkan kedua data
+        combined_df = pd.concat([gotube_df, youtube_df], ignore_index=True)
+
+        # Menyiapkan hasil untuk dikembalikan
+        results = []
+        for _, row in combined_df.iterrows():
+            prediksi_sentimen = row["prediksi_sentimen"] if pd.notna(row["prediksi_sentimen"]) else '-'
+            results.append({
+                "komentar": row["komentar"],
+                "prediksi_sentimen": prediksi_sentimen,
+                "sumber": row["sumber"]
+            })
+
+        return jsonify({
+            "status": 200,
+            "data_result": results
         })
-    return jsonify({
-        "status": 200,
-        "data_result": results
-    })
+
+    except Exception as e:
+        return jsonify({
+            "status": 500,
+            "message": f"Terjadi kesalahan saat membaca file: {str(e)}"
+        }), 500
+
 @app.route('/show_tfidf', methods=['GET'])
 def show_tfidf():
     
@@ -555,19 +581,18 @@ def route_predict_svm(app_name):
     
     # Load data uji
     data_test = pd.read_excel(data_test_file)
+
+    # Pastikan kolom "komentar" ada
+    if "komentar" not in data_test.columns:
+        return jsonify({
+            "status": "error",
+            "message": "Kolom 'komentar' tidak ditemukan dalam data uji."
+        }), 400
+
+    # Preprocessing komentar (menghapus NaN dan memproses teks)
+    data_test["komentar"] = data_test["komentar"].fillna("tidak ada komentar")
     data_test["processed_komentar"] = data_test["komentar"].apply(preprocess_comment)
-    
-    # Mapping rating ke sentimen
-    def label_sentiment(rating):
-        if rating in [1, 2]:
-            return "negatif"
-        elif rating in [3, 4, 5]:
-            return "positif"
-        else:
-            return "neutral"
-    
-    data_test["prediksi_sentimen"] = data_test["rating"].apply(label_sentiment)
-    
+
     # Tentukan path model dan vectorizer berdasarkan app_name
     model_path = f"static/models/svm_model_{app_name.lower()}.pkl"
     vectorizer_path = f"static/models/vectorizer_{app_name.lower()}.pkl"
@@ -587,35 +612,43 @@ def route_predict_svm(app_name):
     
     # Vectorize data uji
     X_test_unlabeled = vectorizer.transform(data_test["processed_komentar"]).toarray()
+
+    # Normalisasi data dengan StandardScaler untuk menghindari bias model
+    scaler = StandardScaler()
+    X_test_scaled = scaler.fit_transform(X_test_unlabeled)
+
+    # Gunakan decision_function untuk melihat distribusi skor prediksi
+    decision_scores = svm_model.decision_function(X_test_scaled)
+
+    # Atur ambang batas custom jika model cenderung bias
+    threshold = 0  # Default SVM threshold (bisa diatur berdasarkan distribusi data latih)
     
-    # Prediksi label
-    data_test["prediksi_label"] = svm_model.predict(X_test_unlabeled)
-    data_test["prediksi_label"] = data_test["prediksi_label"].replace(0, -1)
-    
+    # Prediksi label dengan ambang batas
+    data_test["prediksi_label"] = np.where(decision_scores > threshold, 1, -1)
+
     # Map label numerik ke string
     label_map_reverse = {1: "positif", -1: "negatif"}
     data_test["prediksi_sentimen"] = data_test["prediksi_label"].map(label_map_reverse)
-    
-    # Filter hanya sentimen positif dan negatif
-    data_test = data_test[data_test["prediksi_sentimen"].isin(["positif", "negatif"])]
     
     # Simpan hasil prediksi ke file Excel
     output_file = os.path.join(data_folder, "classification_results.xlsx")
     data_test[['komentar', 'prediksi_sentimen']].to_excel(output_file, index=False)
     
     # Hitung jumlah data berdasarkan label (positif dan negatif)
-    positive_count_test = data_test[data_test['prediksi_sentimen'] == 'positif'].shape[0]
-    negative_count_test = data_test[data_test['prediksi_sentimen'] == 'negatif'].shape[0]
+    positive_count_test = int((data_test["prediksi_label"] == 1).sum())  # Konversi ke int
+    negative_count_test = int((data_test["prediksi_label"] == -1).sum())  # Konversi ke int
     
     # Return respons JSON
     return jsonify({
         "status": "success",
-        "message": f"Prediksi dengan SVM (pickle) selesai untuk aplikasi '{app_name}'. Hasil disimpan di '{output_file}'.",
+        "message": f"Prediksi dengan SVM selesai untuk aplikasi '{app_name}'. Hasil disimpan di '{output_file}'.",
         "data_counts": {
             "positive_test": positive_count_test,
             "negative_test": negative_count_test
         }
     })
+
+
 
 def extract_app_id(playstore_url):
     parsed_url = urlparse(playstore_url)

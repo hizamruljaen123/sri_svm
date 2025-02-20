@@ -48,6 +48,7 @@
                         <th scope="col">#</th>
                         <th scope="col">Komentar</th>
                         <th scope="col">Prediksi Sentimen</th>
+                        <th scope="col">Sumber</th>
                       </tr>
                     </thead>
                     <tbody id="data_scraping">
@@ -218,37 +219,63 @@
             url: '/show_classification_results',
             type: 'GET',
             success: function(response) {
-              const sentimentFrequency = { positif: 0, negatif: 0, netral: 0 };
+              const sentimentFrequency = {
+                gotube: { positif: 0, negatif: 0 },
+                youtube: { positif: 0, negatif: 0 }
+              };
               const tableBody = $('#data_scraping');
               tableBody.empty();
+
               response.data_result.forEach((item, index) => {
                 const prediksiSentimen = item.prediksi_sentimen;
+                const sumber = item.sumber; // GoTube atau YouTube
                 const row = `
                   <tr>
                     <th scope="row">${index + 1}</th>
                     <td>${item.komentar}</td>
                     <td>${prediksiSentimen}</td>
+                    <td>${sumber}</td>
                   </tr>
                 `;
                 tableBody.append(row);
-                if (prediksiSentimen === 'positif') sentimentFrequency.positif++;
-                else if (prediksiSentimen === 'negatif') sentimentFrequency.negatif++;
+
+                // Hitung frekuensi sentimen berdasarkan sumbernya
+                if (sumber === 'GoTube') {
+                  if (prediksiSentimen === 'positif') sentimentFrequency.gotube.positif++;
+                  else if (prediksiSentimen === 'negatif') sentimentFrequency.gotube.negatif++;
+                } else if (sumber === 'YouTube') {
+                  if (prediksiSentimen === 'positif') sentimentFrequency.youtube.positif++;
+                  else if (prediksiSentimen === 'negatif') sentimentFrequency.youtube.negatif++;
+                }
               });
 
-              // Render Plotly chart
-              const sentimentData = {
-                x: ['Positive', 'Negative'],
-                y: [sentimentFrequency.positif, sentimentFrequency.negatif],
-                type: 'bar',
-                marker: { color: ['#28a745', '#dc3545'] }
-              };
+              // Render Plotly chart dengan data dari GoTube dan YouTube
+              const sentimentData = [
+                {
+                  x: ['Positif', 'Negatif'],
+                  y: [sentimentFrequency.gotube.positif, sentimentFrequency.gotube.negatif],
+                  name: 'GoTube',
+                  type: 'bar',
+                  marker: { color: ['#28a745', '#dc3545'] }
+                },
+                {
+                  x: ['Positif', 'Negatif'],
+                  y: [sentimentFrequency.youtube.positif, sentimentFrequency.youtube.negatif],
+                  name: 'YouTube',
+                  type: 'bar',
+                  marker: { color: ['#17a2b8', '#ff5733'] }
+                }
+              ];
+              
               const layout = {
-                title: 'Sentiment Frequency Distribution',
+                title: 'Distribusi Frekuensi Sentimen',
                 height: 500,
-                xaxis: { title: 'Sentiment' },
-                yaxis: { title: 'Frequency' }
+                barmode: 'group',
+                xaxis: { title: 'Sentimen' },
+                yaxis: { title: 'Frekuensi' }
               };
-              Plotly.newPlot('sentimentChart', [sentimentData], layout);
+
+              Plotly.newPlot('sentimentChart', sentimentData, layout);
             },
             error: function(error) {
               console.error('Error fetching data:', error);
@@ -256,6 +283,7 @@
             }
           });
         }
+
 
         // Initial load
         loadData();
