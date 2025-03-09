@@ -190,6 +190,84 @@ def show_data_latih():
     if "komentar" in df.columns:
         df["processed_komentar"] = df["komentar"].apply(preprocess_comment)
     return jsonify(df.to_dict(orient='records'))
+def evaluate_model_manual(X_train, y_train, X_test, y_test, model):
+    """
+    Evaluasi model secara manual untuk klasifikasi biner (positif dan negatif).
+    Menghitung akurasi, presisi, recall, dan F1-score.
+    """
+    # Prediksi label untuk data latih dan data uji
+    y_train_pred = model.predict(X_train)
+    y_test_pred = model.predict(X_test)
+    
+    # Filter hanya kelas positif (1) dan negatif (-1)
+    valid_indices_train = np.isin(y_train, [-1, 1])
+    valid_indices_test = np.isin(y_test, [-1, 1])
+    
+    y_train_filtered = y_train[valid_indices_train]
+    y_train_pred_filtered = y_train_pred[valid_indices_train]
+    
+    y_test_filtered = y_test[valid_indices_test]
+    y_test_pred_filtered = y_test_pred[valid_indices_test]
+    
+    # Fungsi untuk menghitung confusion matrix secara manual
+    def calculate_confusion_matrix(y_true, y_pred):
+        TP = sum((y_true == 1) & (y_pred == 1))  # True Positives
+        FP = sum((y_true == -1) & (y_pred == 1))  # False Positives
+        TN = sum((y_true == -1) & (y_pred == -1))  # True Negatives
+        FN = sum((y_true == 1) & (y_pred == -1))  # False Negatives
+        return TP, FP, TN, FN
+    
+    # Hitung confusion matrix untuk data latih dan data uji
+    TP_train, FP_train, TN_train, FN_train = calculate_confusion_matrix(y_train_filtered, y_train_pred_filtered)
+    TP_test, FP_test, TN_test, FN_test = calculate_confusion_matrix(y_test_filtered, y_test_pred_filtered)
+    
+    # Hitung metrik evaluasi untuk data latih
+    accuracy_train = (TP_train + TN_train) / (TP_train + FP_train + TN_train + FN_train)
+    precision_train = TP_train / (TP_train + FP_train) if (TP_train + FP_train) > 0 else 0
+    recall_train = TP_train / (TP_train + FN_train) if (TP_train + FN_train) > 0 else 0
+    f1_train = 2 * (precision_train * recall_train) / (precision_train + recall_train) if (precision_train + recall_train) > 0 else 0
+    
+    # Hitung metrik evaluasi untuk data uji
+    accuracy_test = (TP_test + TN_test) / (TP_test + FP_test + TN_test + FN_test)
+    precision_test = TP_test / (TP_test + FP_test) if (TP_test + FP_test) > 0 else 0
+    recall_test = TP_test / (TP_test + FN_test) if (TP_test + FN_test) > 0 else 0
+    f1_test = 2 * (precision_test * recall_test) / (precision_test + recall_test) if (precision_test + recall_test) > 0 else 0
+    
+    # Plot confusion matrix untuk data latih
+    cm_train = [[TN_train, FP_train], [FN_train, TP_train]]
+    plt.figure(figsize=(6, 6))
+    sns.heatmap(cm_train, annot=True, fmt='d', cmap='Blues', xticklabels=["Negatif", "Positif"], yticklabels=["Negatif", "Positif"])
+    plt.title('Confusion Matrix - Training Data')
+    plt.xlabel('Predictions')
+    plt.ylabel('Actual')
+    cm_train_img_path = 'static/graph/confusion_matrix_train.png'
+    plt.savefig(cm_train_img_path)
+    plt.close()
+    
+    # Plot confusion matrix untuk data uji
+    cm_test = [[TN_test, FP_test], [FN_test, TP_test]]
+    plt.figure(figsize=(6, 6))
+    sns.heatmap(cm_test, annot=True, fmt='d', cmap='Blues', xticklabels=["Negatif", "Positif"], yticklabels=["Negatif", "Positif"])
+    plt.title('Confusion Matrix - Testing Data')
+    plt.xlabel('Predictions')
+    plt.ylabel('Actual')
+    cm_test_img_path = 'static/graph/confusion_matrix_test.png'
+    plt.savefig(cm_test_img_path)
+    plt.close()
+    
+    # Return evaluation metrics and confusion matrix image paths
+    return {
+        "accuracy_train": accuracy_train,
+        "precision_train": precision_train,
+        "recall_train": recall_train,
+        "f1_train": f1_train,
+        "accuracy_test": accuracy_test,
+        "precision_test": precision_test,
+        "recall_test": recall_test,
+        "f1_test": f1_test,
+        "confusion_matrix_train_path": cm_train_img_path,
+        "confusion_matrix_test_path": cm_test_img_path
+    }
 
 @app.route('/evaluate_model', methods=['GET'])
 def evaluate_model_route():
@@ -306,6 +384,179 @@ def evaluate_model_route():
         "combined_evaluation": combined_results
     })
 
+
+def evaluate_model_manual_all(X_train, y_train, X_test, y_test, model):
+    """
+    Evaluasi model secara manual untuk klasifikasi biner (positif dan negatif).
+    Menghitung akurasi, presisi, recall, dan F1-score.
+    """
+    # Prediksi label untuk data latih dan data uji
+    y_train_pred = model.predict(X_train)
+    y_test_pred = model.predict(X_test)
+    
+    # Filter hanya kelas positif (1) dan negatif (-1)
+    valid_indices_train = np.isin(y_train, [-1, 1])
+    valid_indices_test = np.isin(y_test, [-1, 1])
+    
+    y_train_filtered = y_train[valid_indices_train]
+    y_train_pred_filtered = y_train_pred[valid_indices_train]
+    
+    y_test_filtered = y_test[valid_indices_test]
+    y_test_pred_filtered = y_test_pred[valid_indices_test]
+    
+    # Fungsi untuk menghitung confusion matrix secara manual
+    def calculate_confusion_matrix(y_true, y_pred):
+        TP = sum((y_true == 1) & (y_pred == 1))  # True Positives
+        FP = sum((y_true == -1) & (y_pred == 1))  # False Positives
+        TN = sum((y_true == -1) & (y_pred == -1))  # True Negatives
+        FN = sum((y_true == 1) & (y_pred == -1))  # False Negatives
+        return TP, FP, TN, FN
+    
+    # Hitung confusion matrix untuk data latih dan data uji
+    TP_train, FP_train, TN_train, FN_train = calculate_confusion_matrix(y_train_filtered, y_train_pred_filtered)
+    TP_test, FP_test, TN_test, FN_test = calculate_confusion_matrix(y_test_filtered, y_test_pred_filtered)
+    
+    # Hitung metrik evaluasi untuk data latih
+    accuracy_train = (TP_train + TN_train) / (TP_train + FP_train + TN_train + FN_train)
+    precision_train = TP_train / (TP_train + FP_train) if (TP_train + FP_train) > 0 else 0
+    recall_train = TP_train / (TP_train + FN_train) if (TP_train + FN_train) > 0 else 0
+    f1_train = 2 * (precision_train * recall_train) / (precision_train + recall_train) if (precision_train + recall_train) > 0 else 0
+    
+    # Hitung metrik evaluasi untuk data uji
+    accuracy_test = (TP_test + TN_test) / (TP_test + FP_test + TN_test + FN_test)
+    precision_test = TP_test / (TP_test + FP_test) if (TP_test + FP_test) > 0 else 0
+    recall_test = TP_test / (TP_test + FN_test) if (TP_test + FN_test) > 0 else 0
+    f1_test = 2 * (precision_test * recall_test) / (precision_test + recall_test) if (precision_test + recall_test) > 0 else 0
+    
+    # Return evaluation metrics
+    return {
+        "accuracy_train": accuracy_train,
+        "precision_train": precision_train,
+        "recall_train": recall_train,
+        "f1_train": f1_train,
+        "accuracy_test": accuracy_test,
+        "precision_test": precision_test,
+        "recall_test": recall_test,
+        "f1_test": f1_test,
+        "confusion_matrix_train": [[TN_train, FP_train], [FN_train, TP_train]],
+        "confusion_matrix_test": [[TN_test, FP_test], [FN_test, TP_test]]
+    }
+
+@app.route('/evaluate_model_all', methods=['GET'])
+def evaluate_model_route_1():
+    """
+    Endpoint untuk mengevaluasi model SVM secara terpisah untuk data YouTube dan GoTube,
+    serta evaluasi pada data gabungan.
+    """
+    # Path ke file Excel
+    gotube_train_file = "static/data/gotube/data_latih_labeled.xlsx"
+    gotube_test_file = "static/data/gotube/data_uji_test.xlsx"
+    youtube_train_file = "static/data/youtube/data_latih_labeled.xlsx"
+    youtube_test_file = "static/data/youtube/data_uji_test.xlsx"
+    
+    # Pastikan semua file ada
+    if not all(os.path.exists(file) for file in [gotube_train_file, gotube_test_file, youtube_train_file, youtube_test_file]):
+        return jsonify({
+            "status": "error",
+            "message": "Beberapa file tidak ditemukan di folder gotube atau youtube."
+        }), 404
+
+    def evaluate_source_data(train_data, test_data, source_name):
+        """Helper function untuk evaluasi data dari satu sumber"""
+        # Preprocessing data training
+        train_data["processed_komentar"] = train_data["komentar"].apply(preprocess_comment)
+        y_train = train_data["label"].map({"positif": 1, "negatif": -1}).fillna(-1)
+        
+        # Preprocessing data testing
+        test_data["processed_komentar"] = test_data["komentar"].apply(preprocess_comment)
+        
+        # Mapping rating ke sentimen untuk data testing
+        def map_rating_to_sentiment(rating):
+            if rating in [1, 2]:
+                return -1  # negatif
+            elif rating in [3, 4, 5]:
+                return 1   # positif
+            return 0  # netral
+        
+        y_test = test_data["rating"].apply(map_rating_to_sentiment)
+        y_test = y_test.fillna(-1)
+        
+        # Load vectorizer dan model berdasarkan sumber
+        model_path = f"static/models/svm_model_{source_name.lower()}.pkl"
+        vectorizer_path = f"static/models/vectorizer_{source_name.lower()}.pkl"
+        
+        with open(vectorizer_path, "rb") as f_vec:
+            vectorizer = pickle.load(f_vec)
+        with open(model_path, "rb") as f_model:
+            svm_model = pickle.load(f_model)
+        
+        # Vectorize data
+        X_train_vec = vectorizer.transform(train_data["processed_komentar"]).toarray()
+        X_test_vec = vectorizer.transform(test_data["processed_komentar"]).toarray()
+        
+        # Evaluasi
+        evaluation_results = evaluate_model_manual_all(X_train_vec, y_train, X_test_vec, y_test, svm_model)
+        
+        return evaluation_results
+    
+    # Load dan evaluasi data GoTube
+    gotube_train = pd.read_excel(gotube_train_file)
+    gotube_test = pd.read_excel(gotube_test_file)
+    gotube_results = evaluate_source_data(gotube_train, gotube_test, "GoTube")
+    
+    # Load dan evaluasi data YouTube
+    youtube_train = pd.read_excel(youtube_train_file)
+    youtube_test = pd.read_excel(youtube_test_file)
+    youtube_results = evaluate_source_data(youtube_train, youtube_test, "YouTube")
+    
+    # Gabungkan data latih dan data uji dari GoTube dan YouTube
+    combined_train = pd.concat([gotube_train, youtube_train], ignore_index=True)
+    combined_test = pd.concat([gotube_test, youtube_test], ignore_index=True)
+    
+    # Evaluasi pada data gabungan
+    combined_results = evaluate_source_data(combined_train, combined_test, "Combined")
+    
+    # Gabungkan semua confusion matrix dalam satu heatmap besar
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+    
+    # Plot confusion matrix untuk GoTube
+    sns.heatmap(gotube_results["confusion_matrix_test"], annot=True, fmt='d', cmap='Greys',
+                xticklabels=["Negatif", "Positif"], yticklabels=["Negatif", "Positif"],
+                ax=axes[0], cbar=False)
+    axes[0].set_title('Confusion Matrix - GoTube')
+    axes[0].set_xlabel('Predictions')
+    axes[0].set_ylabel('Actual')
+    
+    # Plot confusion matrix untuk YouTube
+    sns.heatmap(youtube_results["confusion_matrix_test"], annot=True, fmt='d', cmap='Greys',
+                xticklabels=["Negatif", "Positif"], yticklabels=["Negatif", "Positif"],
+                ax=axes[1], cbar=False)
+    axes[1].set_title('Confusion Matrix - YouTube')
+    axes[1].set_xlabel('Predictions')
+    axes[1].set_ylabel('Actual')
+    
+    # Plot confusion matrix untuk Combined
+    sns.heatmap(combined_results["confusion_matrix_test"], annot=True, fmt='d', cmap='Greys',
+                xticklabels=["Negatif", "Positif"], yticklabels=["Negatif", "Positif"],
+                ax=axes[2], cbar=False)
+    axes[2].set_title('Confusion Matrix - Combined')
+    axes[2].set_xlabel('Predictions')
+    axes[2].set_ylabel('Actual')
+    
+    # Simpan heatmap gabungan
+    combined_heatmap_path = 'static/graph/combined_confusion_matrix.png'
+    plt.tight_layout()
+    plt.savefig(combined_heatmap_path)
+    plt.close()
+    
+    # Return hasil evaluasi terpisah untuk kedua sumber dan data gabungan
+    return jsonify({
+        "status": "success",
+        "gotube_evaluation": gotube_results,
+        "youtube_evaluation": youtube_results,
+        "combined_evaluation": combined_results,
+        "combined_heatmap_path": combined_heatmap_path
+    })
 @app.route('/show_data_uji', methods=['GET'])
 def show_data_uji():
     filename = "data_uji_test.xlsx"
@@ -436,8 +687,7 @@ def show_tfidf():
     }
     
     return jsonify(response)
-    
-    return jsonify(response)
+
 @app.route('/train_svm_manual', methods=['GET'])
 def route_train_svm_manual():
     # Path ke file Excel di kedua folder
@@ -480,55 +730,90 @@ def route_train_svm_manual():
         y = filtered_data["label"]
         
         # Vectorization (convert text to numerical vectors)
-        vectorizer = TfidfVectorizer()
-        X_vec = vectorizer.fit_transform(X).toarray()
+        vectorizer_path = f"static/models/vectorizer_{source_name.lower()}.pkl"
+        model_path = f"static/models/svm_model_{source_name.lower()}.pkl"
         
-        # Normalize the feature vectors before applying t-SNE
+        # Pastikan file model dan vectorizer ada
+        if not os.path.exists(model_path) or not os.path.exists(vectorizer_path):
+            return {
+                "status": "error",
+                "message": f"Model atau vectorizer untuk aplikasi '{source_name}' tidak ditemukan."
+            }
+        
+        # Load vectorizer dan model yang sudah ada
+        with open(vectorizer_path, "rb") as f_vec:
+            vectorizer = pickle.load(f_vec)
+        with open(model_path, "rb") as f_model:
+            svm_model = pickle.load(f_model)
+        
+        # Vectorize data
+        X_vec = vectorizer.transform(X).toarray()
+        
+        # Normalize the feature vectors
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(X_vec)
         
-        # Apply t-SNE to reduce to 2D (only for visualization)
+        # Apply t-SNE to reduce to 2D
         tsne = TSNE(n_components=2, random_state=42)
         X_tsne = tsne.fit_transform(X_scaled)
         
-        # Train SVM model
-        svm_model = SVC(kernel='linear')
-        svm_model.fit(X_scaled, y)
+        # Normalisasi hasil t-SNE
+        tsne_scaler = StandardScaler()
+        X_tsne_normalized = tsne_scaler.fit_transform(X_tsne)
         
-        # Save the model and vectorizer
-        model_path = f"static/models/svm_model_{source_name.lower()}.pkl"
-        vectorizer_path = f"static/models/vectorizer_{source_name.lower()}.pkl"
-        with open(model_path, "wb") as f_model, open(vectorizer_path, "wb") as f_vec:
-            pickle.dump(svm_model, f_model)
-            pickle.dump(vectorizer, f_vec)
-        
-        # Visualize the results using t-SNE
+        # Visualize the results using normalized t-SNE with hyperplane and margins
         plt.figure(figsize=(10, 6))
         colors = ['red', 'green']
         labels_map = ["negatif", "positif"]
         for lbl, c in zip([-1, 1], colors):
-            plt.scatter(X_tsne[y == lbl, 0],
-                        X_tsne[y == lbl, 1],
+            plt.scatter(X_tsne_normalized[y == lbl, 0],
+                        X_tsne_normalized[y == lbl, 1],
                         c=c,
                         label=labels_map[int((lbl + 1)/2)],
                         alpha=0.6)
         
-        # Plot the SVM decision boundary and margins in the 2D t-SNE space
-        xx, yy = np.meshgrid(np.linspace(X_tsne[:, 0].min(), X_tsne[:, 0].max(), 200),
-                             np.linspace(X_tsne[:, 1].min(), X_tsne[:, 1].max(), 200))
-        grid_points = np.c_[xx.ravel(), yy.ravel()]
-        Z = svm_model.decision_function(scaler.transform(vectorizer.transform([f"{x} {y}" for x, y in grid_points]).toarray()))
+        # Create grid points in normalized t-SNE space
+        x_min, x_max = X_tsne_normalized[:, 0].min() - 0.5, X_tsne_normalized[:, 0].max() + 0.5
+        y_min, y_max = X_tsne_normalized[:, 1].min() - 0.5, X_tsne_normalized[:, 1].max() + 0.5
+        xx, yy = np.meshgrid(np.linspace(x_min, x_max, 200),
+                             np.linspace(y_min, y_max, 200))
+        grid_points_tsne_normalized = np.c_[xx.ravel(), yy.ravel()]
+        
+        # Transform grid points back to original t-SNE space
+        grid_points_tsne = tsne_scaler.inverse_transform(grid_points_tsne_normalized)
+        
+
+        grid_points_full = np.zeros((grid_points_tsne.shape[0], X_scaled.shape[1]))
+        for i, point in enumerate(grid_points_tsne):
+            # Find the nearest point in X_tsne to the grid point
+            distances = np.linalg.norm(X_tsne - point, axis=1)
+            nearest_idx = np.argmin(distances)
+            # Use the corresponding point in the original space
+            grid_points_full[i] = X_scaled[nearest_idx]
+        
+        # Hitung decision function menggunakan model SVM yang sudah ada
+        Z = svm_model.decision_function(grid_points_full)
+        
+        # Reshape Z ke bentuk 2D yang sesuai dengan grid
         Z = Z.reshape(xx.shape)
         
-        # Plot the decision boundary
-        plt.contour(xx, yy, Z, levels=[0], linewidths=2, colors='black')
-        plt.contour(xx, yy, Z, levels=[-1], linewidths=1, colors='blue', linestyles='dashed')
-        plt.contour(xx, yy, Z, levels=[1], linewidths=1, colors='red', linestyles='dashed')
-        plt.title(f"Visualisasi t-SNE + SVM Decision Boundary ({source_name})")
-        plt.xlabel("t-SNE 1")
-        plt.ylabel("t-SNE 2")
+        # Normalisasi nilai Z
+        z_scaler = StandardScaler()
+        Z_normalized = z_scaler.fit_transform(Z.reshape(-1, 1)).reshape(xx.shape)
+        
+        # Plot the decision boundary and margins
+        plt.contour(xx, yy, Z_normalized, levels=[0], linewidths=2, colors='black')  # Hyperplane
+        plt.contour(xx, yy, Z_normalized, levels=[-1], linewidths=1, colors='blue', linestyles='dashed')  # Margin negatif
+        plt.contour(xx, yy, Z_normalized, levels=[1], linewidths=1, colors='red', linestyles='dashed')   # Margin positif
+        
+        plt.title(f"Visualisasi t-SNE + SVM Hyperplane ({source_name})")
+        plt.xlabel("t-SNE 1 (Normalized)")
+        plt.ylabel("t-SNE 2 (Normalized)")
         plt.legend()
         plt.grid(alpha=0.3)
+        
+        # Adjust the layout to prevent overlap
+        plt.tight_layout()
         
         # Save the plot to a file
         save_path = f"static/graph/train_svm_manual_{source_name.lower()}.png"
@@ -545,18 +830,21 @@ def route_train_svm_manual():
     
     # Latih model untuk GoTube
     gotube_results = train_and_save_model(gotube_data, "GoTube")
+    if "status" in gotube_results and gotube_results["status"] == "error":
+        return jsonify(gotube_results), 404
     
     # Latih model untuk YouTube
     youtube_results = train_and_save_model(youtube_data, "YouTube")
+    if "status" in youtube_results and youtube_results["status"] == "error":
+        return jsonify(youtube_results), 404
     
     # Return response
     return jsonify({
         "status": "success",
-        "message": "Training SVM Manual selesai untuk GoTube dan YouTube.",
+        "message": "Visualisasi SVM dengan t-SNE selesai untuk GoTube dan YouTube.",
         "gotube_results": gotube_results,
         "youtube_results": youtube_results
     })
-
 @app.route('/predict_svm/<app_name>', methods=['GET'])
 def route_predict_svm(app_name):
     # Tentukan folder data berdasarkan app_name
