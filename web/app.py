@@ -180,16 +180,37 @@ def fig_to_base64(fig):
 
 @app.route('/show_data_latih', methods=['GET'])
 def show_data_latih():
-    filename = "data_latih_labeled.xlsx"
-    if not os.path.exists(filename):
+    gotube_train_file = "static/data/gotube/data_latih_labeled.xlsx"
+    youtube_train_file = "static/data/youtube/data_latih_labeled.xlsx"
+    # Pastikan kedua file ada
+    if not os.path.exists(gotube_train_file) or not os.path.exists(youtube_train_file):
+        missing_files = []
+        if not os.path.exists(gotube_train_file):
+            missing_files.append(gotube_train_file)
+        if not os.path.exists(youtube_train_file):
+            missing_files.append(youtube_train_file)
         return jsonify({
             "status": "error",
-            "message": f"File {filename} tidak ditemukan."
+            "message": f"File berikut tidak ditemukan: {', '.join(missing_files)}"
         }), 404
-    df = pd.read_excel(filename)
-    if "komentar" in df.columns:
-        df["processed_komentar"] = df["komentar"].apply(preprocess_comment)
-    return jsonify(df.to_dict(orient='records'))
+    
+    # Baca data dari kedua file
+    gotube_df = pd.read_excel(gotube_train_file)
+    youtube_df = pd.read_excel(youtube_train_file)
+    
+    # Tambahkan kolom "sumber" untuk identifikasi
+    gotube_df["sumber"] = "GoTube"
+    youtube_df["sumber"] = "YouTube"
+    
+    # Gabungkan data dari GoTube dan YouTube
+    combined_df = pd.concat([gotube_df, youtube_df], ignore_index=True)
+    
+    # Preprocessing kolom "komentar" jika ada
+    if "komentar" in combined_df.columns:
+        combined_df["processed_komentar"] = combined_df["komentar"].apply(preprocess_comment)
+    
+    # Kembalikan data dalam format JSON
+    return jsonify(combined_df.to_dict(orient='records'))
 def evaluate_model_manual(X_train, y_train, X_test, y_test, model):
     """
     Evaluasi model secara manual untuk klasifikasi biner (positif dan negatif).
@@ -559,16 +580,39 @@ def evaluate_model_route_1():
     })
 @app.route('/show_data_uji', methods=['GET'])
 def show_data_uji():
-    filename = "data_uji_test.xlsx"
-    if not os.path.exists(filename):
+    # Definisikan path ke file data uji dari GoTube dan YouTube
+    gotube_test_file = "static/data/gotube/data_uji_test.xlsx"
+    youtube_test_file = "static/data/youtube/data_uji_test.xlsx"
+    
+    # Pastikan kedua file ada
+    if not os.path.exists(gotube_test_file) or not os.path.exists(youtube_test_file):
+        missing_files = []
+        if not os.path.exists(gotube_test_file):
+            missing_files.append(gotube_test_file)
+        if not os.path.exists(youtube_test_file):
+            missing_files.append(youtube_test_file)
         return jsonify({
             "status": "error",
-            "message": f"File {filename} tidak ditemukan."
+            "message": f"File berikut tidak ditemukan: {', '.join(missing_files)}"
         }), 404
-    df = pd.read_excel(filename)
-    if "komentar" in df.columns:
-        df["processed_komentar"] = df["komentar"].apply(preprocess_comment)
-    return jsonify(df.to_dict(orient='records'))
+    
+    # Baca data dari kedua file
+    gotube_df = pd.read_excel(gotube_test_file)
+    youtube_df = pd.read_excel(youtube_test_file)
+    
+    # Tambahkan kolom "sumber" untuk identifikasi
+    gotube_df["sumber"] = "GoTube"
+    youtube_df["sumber"] = "YouTube"
+    
+    # Gabungkan data dari GoTube dan YouTube
+    combined_df = pd.concat([gotube_df, youtube_df], ignore_index=True)
+    
+    # Preprocessing kolom "komentar" jika ada
+    if "komentar" in combined_df.columns:
+        combined_df["processed_komentar"] = combined_df["komentar"].apply(preprocess_comment)
+    
+    # Kembalikan data dalam format JSON
+    return jsonify(combined_df.to_dict(orient='records'))
 
 @app.route('/show_classification_results', methods=['GET'])
 def show_classification_results():

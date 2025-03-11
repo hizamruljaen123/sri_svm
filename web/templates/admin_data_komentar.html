@@ -37,7 +37,7 @@
               <div class="card-body">
                 <h1 class="text-center mb-4">Data Uji</h1>
                 <div class="text-right">
-                  <button class="btn btn-primary">Simpan</button>
+                  <!-- <button class="btn btn-primary">Simpan</button> -->
                 </div>
                 <table class="table custom-table">
                   <thead>
@@ -46,6 +46,7 @@
                       <th scope="col">User</th>
                       <th scope="col">Komentar</th>
                       <th scope="col">Rating</th>
+                      <th scope="col">Sumber+</th>
                       
                     </tr>
                   </thead>
@@ -71,20 +72,31 @@
           const response = await fetch('/show_data_uji');
           const data = await response.json();
 
+          // Jika respons mengandung "status": "error", tampilkan pesan error
+          if (data.status === "error") {
+            console.error(data.message);
+            const tableBody = document.getElementById('data_scraping');
+            tableBody.innerHTML = `<tr><td colspan="5">${data.message}</td></tr>`;
+            return;
+          }
+
           // Populate table with API data
           const tableBody = document.getElementById('data_scraping');
           data.forEach((item, index) => {
             const row = document.createElement('tr');
             row.innerHTML = `
               <th scope="row">${index + 1}</th>
-              <td>${item.user}</td>
-              <td>${item.komentar}</td>
-              <td>${item.rating}</td>
+              <td>${item.user || '-'}</td>
+              <td>${item.komentar || '-'}</td>
+              <td>${item.rating || '-'}</td>
+              <td>${item.sumber || '-'}</td>
             `;
             tableBody.appendChild(row);
           });
         } catch (error) {
           console.error('Error fetching data:', error);
+          const tableBody = document.getElementById('data_scraping');
+          tableBody.innerHTML = `<tr><td colspan="5">Terjadi kesalahan saat mengambil data</td></tr>`;
         }
       };
     </script>

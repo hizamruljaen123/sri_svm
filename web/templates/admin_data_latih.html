@@ -54,6 +54,7 @@
                           <th scope="col">Komentar</th>
                           <th scope="col">Rating</th>
                           <th scope="col">Sentimen</th>
+                          <th scope="col">Sumber</th>
                         </tr>
                       </thead>
                       <tbody id="data_scraping">
@@ -80,66 +81,76 @@
     <script>
       // Fetching data from /show_data_latih API
       window.onload = async function() {
-        try {
-          const response = await fetch('/show_data_latih');
-          const data = await response.json();
+  try {
+    const response = await fetch('/show_data_latih');
+    const data = await response.json();
 
-          // Initialize an object to hold sentiment frequencies
-          const sentimentFrequency = {
-            positive: 0,
-            negative: 0,
-            neutral: 0
-          };
+    // Jika respons mengandung "status": "error", tampilkan pesan error
+    if (data.status === "error") {
+      console.error(data.message);
+      const tableBody = document.getElementById('data_scraping');
+      tableBody.innerHTML = `<tr><td colspan="6">${data.message}</td></tr>`;
+      return;
+    }
 
-          // Populate table with API data
-          const tableBody = document.getElementById('data_scraping');
-          data.forEach((item, index) => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-              <th scope="row">${index + 1}</th>
-              <td>${item.user}</td>
-              <td>${item.komentar}</td>
-              <td>${item.rating}</td>
-              <td>${item.sentimen}</td>
-            `;
-            tableBody.appendChild(row);
+    // Initialize an object to hold sentiment frequencies
+    const sentimentFrequency = {
+      positive: 0,
+      negative: 0,
+      neutral: 0
+    };
 
-            // Count sentiment frequency
-            if (item.sentimen === 'positif') {
-              sentimentFrequency.positive++;
-            } else if (item.sentimen === 'negatif') {
-              sentimentFrequency.negative++;
-            } 
-          });
+    // Populate table with API data
+    const tableBody = document.getElementById('data_scraping');
+    data.forEach((item, index) => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <th scope="row">${index + 1}</th>
+        <td>${item.user || '-'}</td>
+        <td width="30%">${item.komentar || '-'}</td>
+        <td>${item.rating || '-'}</td>
+        <td>${item.sentimen || '-'}</td>
+        <td>${item.sumber || '-'}</td>
+      `;
+      tableBody.appendChild(row);
 
-          // Render Plotly chart for sentiment frequency
-            const sentimentData = {
-            x: ['Positive', 'Negative'], // Sentiment labels
-            y: [sentimentFrequency.positive, sentimentFrequency.negative, sentimentFrequency.neutral], // Frequency of each sentiment
-            type: 'bar', // Change from 'pie' to 'bar' for bar chart
-            marker: {
-                color: ['#28a745', '#dc3545'] // Optional: Color for each bar
-            }
-            };
+      // Count sentiment frequency
+      if (item.sentimen === 'positif') {
+        sentimentFrequency.positive++;
+      } else if (item.sentimen === 'negatif') {
+        sentimentFrequency.negative++;
+      } 
+    });
 
-            const layout = {
-            title: 'Sentiment Frequency Distribution',
-            height: 500,
-            xaxis: {
-                title: 'Sentiment'
-            },
-            yaxis: {
-                title: 'Frequency'
-            }
-            };
+    // Render Plotly chart for sentiment frequency
+    const sentimentData = {
+      x: ['Positive', 'Negative'], // Sentiment labels
+      y: [sentimentFrequency.positive, sentimentFrequency.negative], // Frequency of each sentiment
+      type: 'bar', // Bar chart
+      marker: {
+        color: ['#28a745', '#dc3545', '#ffc107'] // Colors for Positive, Negative, Neutral
+      }
+    };
 
-            Plotly.newPlot('sentimentChart', [sentimentData], layout);
+    const layout = {
+      title: 'Sentiment Frequency Distribution',
+      height: 500,
+      xaxis: {
+        title: 'Sentiment'
+      },
+      yaxis: {
+        title: 'Frequency'
+      }
+    };
 
+    Plotly.newPlot('sentimentChart', [sentimentData], layout);
 
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      };
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    const tableBody = document.getElementById('data_scraping');
+    tableBody.innerHTML = `<tr><td colspan="6">Terjadi kesalahan saat mengambil data</td></tr>`;
+  }
+};
     </script>
 
   </body>
